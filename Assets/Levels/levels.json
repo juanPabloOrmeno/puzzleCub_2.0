@@ -1,0 +1,3374 @@
+{
+    "levels": [
+        {
+            "level": 1,
+            "width": 6,
+            "height": 9,
+            "borderSize": 0.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 3,
+                    "y": 5
+                },
+                {
+                    "type": "Yellow",
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 5,
+                    "y": 1
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 4
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "width": 3,
+            "height": 7,
+            "borderSize": 1.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Yellow",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "type": "Cyan",
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "type": "Cyan",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "type": "Red",
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "type": "Yellow",
+                    "x": 0,
+                    "y": 5
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 4
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "width": 3,
+            "height": 7,
+            "borderSize": 1.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Green",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "type": "Cyan",
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "type": "Green",
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "type": "Cyan",
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "type": "Red",
+                    "x": 2,
+                    "y": 4
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "width": 6,
+            "height": 9,
+            "borderSize": 0.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "type": "Cyan",
+                    "x": 5,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 3,
+                    "y": 5
+                },
+                {
+                    "type": "Yellow",
+                    "x": 3,
+                    "y": 6
+                },
+                {
+                    "type": "Cyan",
+                    "x": 3,
+                    "y": 7
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 1
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "width": 6,
+            "height": 9,
+            "borderSize": 0.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "type": "Green",
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "type": "Orange",
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "type": "Orange",
+                    "x": 4,
+                    "y": 2
+                },
+                {
+                    "type": "Red",
+                    "x": 3,
+                    "y": 5
+                },
+                {
+                    "type": "Cyan",
+                    "x": 3,
+                    "y": 8
+                },
+                {
+                    "type": "Green",
+                    "x": 3,
+                    "y": 6
+                },
+                {
+                    "type": "Orange",
+                    "x": 3,
+                    "y": 7
+                },
+                {
+                    "type": "Yellow",
+                    "x": 5,
+                    "y": 5
+                },
+                {
+                    "type": "Cyan",
+                    "x": 5,
+                    "y": 1
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 4
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "width": 5,
+            "height": 8,
+            "borderSize": 0.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Green",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 3,
+                    "y": 7
+                },
+                {
+                    "type": "Green",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "type": "Cyan",
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "type": "Cyan",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "type": "Cyan",
+                    "x": 3,
+                    "y": 5
+                },
+                {
+                    "type": "Green",
+                    "x": 3,
+                    "y": 6
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 4
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "width": 5,
+            "height": 8,
+            "borderSize": 0.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Cyan",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "type": "Green",
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 5
+                },
+                {
+                    "type": "Green",
+                    "x": 4,
+                    "y": 5
+                },
+                {
+                    "type": "Cyan",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "type": "Yellow",
+                    "x": 4,
+                    "y": 6
+                },
+                {
+                    "type": "Yellow",
+                    "x": 0,
+                    "y": 7
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 4
+                }
+            ]
+        },
+        {
+            "level": 8,
+            "width": 4,
+            "height": 5,
+            "borderSize": 0.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Cyan",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Green",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "type": "Green",
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "type": "Yellow",
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "type": "Cyan",
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "type": "Red",
+                    "x": 1,
+                    "y": 4
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "level": 9,
+            "width": 7,
+            "height": 10,
+            "borderSize": 0.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Cyan",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Orange",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "type": "Orange",
+                    "x": 4,
+                    "y": 2
+                },
+                {
+                    "type": "Yellow",
+                    "x": 0,
+                    "y": 5
+                },
+                {
+                    "type": "Green",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "type": "Cyan",
+                    "x": 6,
+                    "y": 7
+                },
+                {
+                    "type": "Red",
+                    "x": 6,
+                    "y": 8
+                },
+                {
+                    "type": "Green",
+                    "x": 6,
+                    "y": 9
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 6,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 6,
+                    "y": 6
+                }
+            ]
+        },
+        {
+            "level": 10,
+            "width": 8,
+            "height": 10,
+            "borderSize": 0.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Cyan",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Cyan",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "type": "Magenta",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "type": "Indigo",
+                    "x": 6,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "type": "Magenta",
+                    "x": 6,
+                    "y": 2
+                },
+                {
+                    "type": "Orange",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "type": "Yellow",
+                    "x": 2,
+                    "y": 9
+                },
+                {
+                    "type": "Red",
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "type": "Green",
+                    "x": 2,
+                    "y": 7
+                },
+                {
+                    "type": "Indigo",
+                    "x": 5,
+                    "y": 7
+                },
+                {
+                    "type": "Orange",
+                    "x": 6,
+                    "y": 7
+                },
+                {
+                    "type": "Green",
+                    "x": 7,
+                    "y": 7
+                },
+                {
+                    "type": "Cyan",
+                    "x": 2,
+                    "y": 8
+                },
+                {
+                    "type": "Yellow",
+                    "x": 7,
+                    "y": 8
+                },
+                {
+                    "type": "Magenta",
+                    "x": 7,
+                    "y": 9
+                },
+                {
+                    "type": "Red",
+                    "x": 6,
+                    "y": 8
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 6,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 7,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 2
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 6
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 6
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 6,
+                    "y": 6
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 7,
+                    "y": 6
+                }
+            ]
+        },
+        {
+            "level": 11,
+            "width": 8,
+            "height": 9,
+            "borderSize": 0.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Magenta",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Green",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 5,
+                    "y": 1
+                },
+                {
+                    "type": "Cyan",
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "type": "Orange",
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "type": "Orange",
+                    "x": 4,
+                    "y": 2
+                },
+                {
+                    "type": "Yellow",
+                    "x": 5,
+                    "y": 2
+                },
+                {
+                    "type": "Green",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "type": "Cyan",
+                    "x": 4,
+                    "y": 3
+                },
+                {
+                    "type": "Orange",
+                    "x": 3,
+                    "y": 5
+                },
+                {
+                    "type": "Yellow",
+                    "x": 3,
+                    "y": 6
+                },
+                {
+                    "type": "Cyan",
+                    "x": 3,
+                    "y": 7
+                },
+                {
+                    "type": "Red",
+                    "x": 3,
+                    "y": 8
+                },
+                {
+                    "type": "Magenta",
+                    "x": 1,
+                    "y": 3
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 2
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 7,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "level": 12,
+            "width": 8,
+            "height": 10,
+            "borderSize": 0.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Green",
+                    "x": 0,
+                    "y": 9
+                },
+                {
+                    "type": "Green",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 7,
+                    "y": 1
+                },
+                {
+                    "type": "Cyan",
+                    "x": 0,
+                    "y": 5
+                },
+                {
+                    "type": "Red",
+                    "x": 2,
+                    "y": 5
+                },
+                {
+                    "type": "Cyan",
+                    "x": 3,
+                    "y": 5
+                },
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 8
+                },
+                {
+                    "type": "Orange",
+                    "x": 2,
+                    "y": 9
+                },
+                {
+                    "type": "Orange",
+                    "x": 2,
+                    "y": 6
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 7,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 7
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 8
+                }
+            ]
+        },
+        {
+            "level": 13,
+            "width": 7,
+            "height": 8,
+            "borderSize": 0.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Green",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Cyan",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "type": "Orange",
+                    "x": 6,
+                    "y": 1
+                },
+                {
+                    "type": "Orange",
+                    "x": 4,
+                    "y": 2
+                },
+                {
+                    "type": "Cyan",
+                    "x": 4,
+                    "y": 3
+                },
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 5
+                },
+                {
+                    "type": "Red",
+                    "x": 2,
+                    "y": 5
+                },
+                {
+                    "type": "Orange",
+                    "x": 6,
+                    "y": 5
+                },
+                {
+                    "type": "Green",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "type": "Cyan",
+                    "x": 3,
+                    "y": 6
+                },
+                {
+                    "type": "Yellow",
+                    "x": 0,
+                    "y": 7
+                },
+                {
+                    "type": "Yellow",
+                    "x": 3,
+                    "y": 7
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 6,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 6,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 5
+                }
+            ]
+        },
+        {
+            "level": 14,
+            "width": 7,
+            "height": 10,
+            "borderSize": 0.5,
+            "time": 150,
+            "pieces": [
+                {
+                    "type": "Green",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 5,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 1,
+                    "y": 5
+                },
+                {
+                    "type": "Yellow",
+                    "x": 2,
+                    "y": 5
+                },
+                {
+                    "type": "Yellow",
+                    "x": 1,
+                    "y": 6
+                },
+                {
+                    "type": "Magenta",
+                    "x": 6,
+                    "y": 6
+                },
+                {
+                    "type": "Green",
+                    "x": 1,
+                    "y": 7
+                },
+                {
+                    "type": "Cyan",
+                    "x": 0,
+                    "y": 9
+                },
+                {
+                    "type": "Yellow",
+                    "x": 1,
+                    "y": 9
+                },
+                {
+                    "type": "Red",
+                    "x": 2,
+                    "y": 9
+                },
+                {
+                    "type": "Cyan",
+                    "x": 3,
+                    "y": 9
+                },
+                {
+                    "type": "Magenta",
+                    "x": 4,
+                    "y": 9
+                },
+                {
+                    "type": "Red",
+                    "x": 6,
+                    "y": 7
+                },
+                {
+                    "type": "Green",
+                    "x": 6,
+                    "y": 8
+                },
+                {
+                    "type": "Cyan",
+                    "x": 6,
+                    "y": 9
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 6
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 6,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 2
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 2
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 6,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 6
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 8
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 8
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 8
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 8
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 8
+                }
+            ]
+        },
+        {
+            "level": 15,
+            "width": 6,
+            "height": 11,
+            "borderSize": 1.0,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Green",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Cyan",
+                    "x": 0,
+                    "y": 5
+                },
+                {
+                    "type": "Orange",
+                    "x": 4,
+                    "y": 5
+                },
+                {
+                    "type": "Red",
+                    "x": 4,
+                    "y": 7
+                },
+                {
+                    "type": "Cyan",
+                    "x": 5,
+                    "y": 7
+                },
+                {
+                    "type": "Yellow",
+                    "x": 4,
+                    "y": 8
+                },
+                {
+                    "type": "Green",
+                    "x": 5,
+                    "y": 8
+                },
+                {
+                    "type": "Yellow",
+                    "x": 5,
+                    "y": 9
+                },
+                {
+                    "type": "Cyan",
+                    "x": 0,
+                    "y": 10
+                },
+                {
+                    "type": "Orange",
+                    "x": 2,
+                    "y": 1
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 6
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 6
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 6
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 9
+                }
+            ]
+        },
+        {
+            "level": 16,
+            "width": 7,
+            "height": 8,
+            "borderSize": 0.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Yellow",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Teal",
+                    "x": 6,
+                    "y": 1
+                },
+                {
+                    "type": "Cyan",
+                    "x": 3,
+                    "y": 5
+                },
+                {
+                    "type": "Teal",
+                    "x": 3,
+                    "y": 6
+                },
+                {
+                    "type": "Yellow",
+                    "x": 6,
+                    "y": 5
+                },
+                {
+                    "type": "Cyan",
+                    "x": 6,
+                    "y": 6
+                },
+                {
+                    "type": "Orange",
+                    "x": 2,
+                    "y": 5
+                },
+                {
+                    "type": "Magenta",
+                    "x": 4,
+                    "y": 5
+                },
+                {
+                    "type": "Magenta",
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "type": "Orange",
+                    "x": 6,
+                    "y": 7
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 6,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 1
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 6,
+                    "y": 4
+                }
+            ]
+        },
+        {
+            "level": 17,
+            "width": 7,
+            "height": 8,
+            "borderSize": 0.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Yellow",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Orange",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Orange",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "type": "Yellow",
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "type": "Teal",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "type": "Green",
+                    "x": 5,
+                    "y": 1
+                },
+                {
+                    "type": "Magenta",
+                    "x": 4,
+                    "y": 2
+                },
+                {
+                    "type": "Yellow",
+                    "x": 2,
+                    "y": 4
+                },
+                {
+                    "type": "Magenta",
+                    "x": 4,
+                    "y": 4
+                },
+                {
+                    "type": "Red",
+                    "x": 5,
+                    "y": 4
+                },
+                {
+                    "type": "Yellow",
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "type": "Magenta",
+                    "x": 3,
+                    "y": 6
+                },
+                {
+                    "type": "Red",
+                    "x": 4,
+                    "y": 6
+                },
+                {
+                    "type": "Teal",
+                    "x": 3,
+                    "y": 7
+                },
+                {
+                    "type": "Green",
+                    "x": 4,
+                    "y": 7
+                },
+                {
+                    "type": "Red",
+                    "x": 5,
+                    "y": 2
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 6,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 2
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 5
+                }
+            ]
+        },
+        {
+            "level": 18,
+            "width": 6,
+            "height": 7,
+            "borderSize": 1.0,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Indigo",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Teal",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 5,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "type": "Indigo",
+                    "x": 4,
+                    "y": 3
+                },
+                {
+                    "type": "Teal",
+                    "x": 5,
+                    "y": 3
+                },
+                {
+                    "type": "Red",
+                    "x": 4,
+                    "y": 4
+                },
+                {
+                    "type": "Indigo",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "type": "Red",
+                    "x": 1,
+                    "y": 6
+                },
+                {
+                    "type": "Yellow",
+                    "x": 2,
+                    "y": 6
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 2
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 2
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 5
+                }
+            ]
+        },
+        {
+            "level": 19,
+            "width": 6,
+            "height": 10,
+            "borderSize": 1.0,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Teal",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Cyan",
+                    "x": 5,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "type": "Cyan",
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "type": "Cyan",
+                    "x": 4,
+                    "y": 7
+                },
+                {
+                    "type": "Teal",
+                    "x": 5,
+                    "y": 7
+                },
+                {
+                    "type": "Red",
+                    "x": 5,
+                    "y": 8
+                },
+                {
+                    "type": "Yellow",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 5,
+                    "y": 2
+                },
+                {
+                    "type": "Indigo",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "type": "Indigo",
+                    "x": 3,
+                    "y": 7
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 6
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 6
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 6
+                }
+            ]
+        },
+        {
+            "level": 20,
+            "width": 6,
+            "height": 11,
+            "borderSize": 1.0,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Yellow",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "type": "Cyan",
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "type": "Indigo",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "type": "Orange",
+                    "x": 3,
+                    "y": 2
+                },
+                {
+                    "type": "Teal",
+                    "x": 4,
+                    "y": 2
+                },
+                {
+                    "type": "Indigo",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "type": "Cyan",
+                    "x": 1,
+                    "y": 6
+                },
+                {
+                    "type": "Orange",
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "type": "Teal",
+                    "x": 0,
+                    "y": 7
+                },
+                {
+                    "type": "Orange",
+                    "x": 1,
+                    "y": 7
+                },
+                {
+                    "type": "Yellow",
+                    "x": 2,
+                    "y": 7
+                },
+                {
+                    "type": "Red",
+                    "x": 4,
+                    "y": 9
+                },
+                {
+                    "type": "Yellow",
+                    "x": 5,
+                    "y": 9
+                },
+                {
+                    "type": "Cyan",
+                    "x": 5,
+                    "y": 10
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 8
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 8
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 8
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 8
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 8
+                }
+            ]
+        },
+        {
+            "level": 21,
+            "width": 5,
+            "height": 8,
+            "borderSize": 1.0,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Yellow",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Teal",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "type": "Magenta",
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "type": "Yellow",
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 5
+                },
+                {
+                    "type": "Magenta",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "type": "Red",
+                    "x": 3,
+                    "y": 6
+                },
+                {
+                    "type": "Teal",
+                    "x": 4,
+                    "y": 6
+                },
+                {
+                    "type": "Magenta",
+                    "x": 3,
+                    "y": 7
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 2
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 5
+                }
+            ]
+        },
+        {
+            "level": 22,
+            "width": 7,
+            "height": 8,
+            "borderSize": 0.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Yellow",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Magenta",
+                    "x": 5,
+                    "y": 1
+                },
+                {
+                    "type": "Teal",
+                    "x": 6,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "type": "Yellow",
+                    "x": 0,
+                    "y": 6
+                },
+                {
+                    "type": "Teal",
+                    "x": 1,
+                    "y": 6
+                },
+                {
+                    "type": "Orange",
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "type": "Orange",
+                    "x": 6,
+                    "y": 6
+                },
+                {
+                    "type": "Magenta",
+                    "x": 0,
+                    "y": 7
+                },
+                {
+                    "type": "Red",
+                    "x": 1,
+                    "y": 7
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 6,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 2
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 6,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                }
+            ]
+        },
+        {
+            "level": 23,
+            "width": 8,
+            "height": 10,
+            "borderSize": 0.30000001192092898,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Orange",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Magenta",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Orange",
+                    "x": 5,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 7,
+                    "y": 1
+                },
+                {
+                    "type": "Magenta",
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "type": "Magenta",
+                    "x": 7,
+                    "y": 2
+                },
+                {
+                    "type": "Yellow",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "type": "Red",
+                    "x": 7,
+                    "y": 3
+                },
+                {
+                    "type": "Indigo",
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "type": "Orange",
+                    "x": 2,
+                    "y": 7
+                },
+                {
+                    "type": "Red",
+                    "x": 5,
+                    "y": 7
+                },
+                {
+                    "type": "Red",
+                    "x": 2,
+                    "y": 8
+                },
+                {
+                    "type": "Teal",
+                    "x": 5,
+                    "y": 8
+                },
+                {
+                    "type": "Teal",
+                    "x": 2,
+                    "y": 9
+                },
+                {
+                    "type": "Indigo",
+                    "x": 5,
+                    "y": 9
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 7,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 2
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 5
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 6
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 6
+                }
+            ]
+        },
+        {
+            "level": 24,
+            "width": 8,
+            "height": 11,
+            "borderSize": 0.30000001192092898,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Cyan",
+                    "x": 3,
+                    "y": 10
+                },
+                {
+                    "type": "Teal",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "type": "Teal",
+                    "x": 2,
+                    "y": 4
+                },
+                {
+                    "type": "Red",
+                    "x": 1,
+                    "y": 5
+                },
+                {
+                    "type": "Cyan",
+                    "x": 1,
+                    "y": 8
+                },
+                {
+                    "type": "Yellow",
+                    "x": 2,
+                    "y": 8
+                },
+                {
+                    "type": "Red",
+                    "x": 4,
+                    "y": 8
+                },
+                {
+                    "type": "Yellow",
+                    "x": 3,
+                    "y": 9
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 8
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 6,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 7,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 3
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 4
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 7
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 7
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 7
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 7
+                }
+            ]
+        },
+        {
+            "level": 25,
+            "width": 7,
+            "height": 6,
+            "borderSize": 0.5,
+            "time": 100,
+            "pieces": [
+                {
+                    "type": "Teal",
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "type": "Cyan",
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "type": "Yellow",
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "type": "Orange",
+                    "x": 3,
+                    "y": 1
+                },
+                {
+                    "type": "Blanc",
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 2
+                },
+                {
+                    "type": "Indigo",
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "type": "Orange",
+                    "x": 2,
+                    "y": 2
+                },
+                {
+                    "type": "Indigo",
+                    "x": 3,
+                    "y": 2
+                },
+                {
+                    "type": "Teal",
+                    "x": 0,
+                    "y": 3
+                },
+                {
+                    "type": "Cyan",
+                    "x": 1,
+                    "y": 3
+                },
+                {
+                    "type": "Yellow",
+                    "x": 2,
+                    "y": 3
+                },
+                {
+                    "type": "Red",
+                    "x": 0,
+                    "y": 4
+                },
+                {
+                    "type": "Indigo",
+                    "x": 1,
+                    "y": 4
+                },
+                {
+                    "type": "Teal",
+                    "x": 0,
+                    "y": 5
+                },
+                {
+                    "type": "Blanc",
+                    "x": 6,
+                    "y": 1
+                }
+            ],
+            "tiles": [
+                {
+                    "type": "Obstacle",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 4,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 5,
+                    "y": 0
+                },
+                {
+                    "type": "Obstacle",
+                    "x": 6,
+                    "y": 0
+                }
+            ]
+        }
+    ]
+}

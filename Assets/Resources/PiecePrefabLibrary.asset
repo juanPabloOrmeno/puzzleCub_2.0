@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f0f5607b8b43f187208f0d92dfd1db, type: 3}
+  m_Name: PiecePrefabLibrary
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 100100000, guid: fd8b0b71c2436f34397c11540b6d9d88, type: 3}
+  - {fileID: 100100000, guid: d5213cbf423464b198a8ea0635b2c83a, type: 3}
+  - {fileID: 100100000, guid: c19eda07692854268abdcc1f9f23e66f, type: 3}
+  - {fileID: 100100000, guid: 45665c8734f314c9ca4496e11d7f9682, type: 3}
+  - {fileID: 100100000, guid: 37d845b51eba4482b9f81557f91a97fe, type: 3}
+  - {fileID: 100100000, guid: b6d1543d5ad4948aaae26e1e7570e386, type: 3}
+  - {fileID: 100100000, guid: 8f62ee363864149f4bb7981086aa48ef, type: 3}
+  - {fileID: 100100000, guid: 95454e5be78a342319764fff00f2b5c2, type: 3}
+  - {fileID: 100100000, guid: ce0cdf7a8a6c543fb9d96817d1d2f3f6, type: 3}

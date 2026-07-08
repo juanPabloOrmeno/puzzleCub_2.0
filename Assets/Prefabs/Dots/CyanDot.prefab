@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2219822465283363487}
   - component: {fileID: 7164242992628808122}
   - component: {fileID: 7498652087751875703}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: CyanDot
   m_TagString: Untagged
   m_Icon: {fileID: 0}

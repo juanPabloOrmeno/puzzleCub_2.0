@@ -8,6 +8,9 @@ using UnityEngine.UI;
 
 public class Board : MonoBehaviour
 {
+    private const int TileSortingOrder = 0;
+    private const int GamePieceSortingOrder = 10;
+
     [Header("Tablero")]
     public int width;
     public int height;
@@ -221,6 +224,7 @@ public class Board : MonoBehaviour
 
         tile.name = "Tile (" + x + "," + y + ")";
         tile.transform.parent = transform;
+        SetSpriteRenderers(tile, TileSortingOrder, false);
         tileComponent.Init(x, y, this);
         m_allTiles[x, y] = tileComponent;
     }
@@ -374,12 +378,29 @@ public class Board : MonoBehaviour
 
         gamePiece.transform.position = new Vector3(x, y, 0);
         gamePiece.transform.rotation = Quaternion.identity;
+        SetSpriteRenderers(gamePiece.gameObject, GamePieceSortingOrder, true);
 
         if (IsWithinBounds(x, y))
         {
             m_allGamePieces[x, y] = gamePiece;
         }
         gamePiece.SetCoord(x, y);
+    }
+
+    private void SetSpriteRenderers(GameObject target, int sortingOrder, bool forceOpaque)
+    {
+        SpriteRenderer[] spriteRenderers = target.GetComponentsInChildren<SpriteRenderer>();
+        foreach (SpriteRenderer spriteRenderer in spriteRenderers)
+        {
+            spriteRenderer.sortingOrder = sortingOrder;
+
+            if (forceOpaque)
+            {
+                Color color = spriteRenderer.color;
+                color.a = 1f;
+                spriteRenderer.color = color;
+            }
+        }
     }
 
     private GamePiece GetGamePieceAt(int x, int y)

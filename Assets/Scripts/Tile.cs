@@ -15,6 +15,20 @@ public class Tile : MonoBehaviour
     public InterpType interpolation = InterpType.SmootherStep;
 
     private Board m_board;
+    private Color m_defaultColor = Color.white;
+    private Vector3 m_defaultScale = Vector3.one;
+    private SpriteRenderer m_spriteRenderer;
+
+    private void Awake()
+    {
+        m_spriteRenderer = GetComponent<SpriteRenderer>();
+        if (m_spriteRenderer != null)
+        {
+            m_defaultColor = m_spriteRenderer.color;
+        }
+
+        m_defaultScale = transform.localScale;
+    }
 
     public enum InterpType
     {
@@ -63,15 +77,14 @@ public class Tile : MonoBehaviour
 
     public void tileColorN()
     {
-        ApplyVisualStyle(new Color32(149, 154, 180, 119), Vector3.one);
+        ApplyVisualStyle(m_defaultColor, m_defaultScale);
     }
 
-    private void ApplyVisualStyle(Color32 color, Vector3 scale)
+    private void ApplyVisualStyle(Color color, Vector3 scale)
     {
-        SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
-        if (spriteRenderer != null)
+        if (m_spriteRenderer != null)
         {
-            spriteRenderer.color = color;
+            m_spriteRenderer.color = color;
         }
 
         transform.localScale = scale;

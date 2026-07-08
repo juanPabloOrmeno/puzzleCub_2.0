@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7457088756597362443}
   - component: {fileID: 2219822465283363487}
   - component: {fileID: 7164242992628808122}
-  m_Layer: 0
+  m_Layer: 4
   m_Name: BlancDot
   m_TagString: Untagged
   m_Icon: {fileID: 0}

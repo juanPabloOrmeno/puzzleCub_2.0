@@ -1,0 +1,48 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+
+
+IL2CPP_EXTERN_C const RuntimeMethod* SkinDeformBatchedJob_1_CopyBuffer_m80F94597588E1FBBEEFE1FF4523670C0B4582B3D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* SkinDeformBatchedJob_1_CopyBuffer_mD4E5196A2A34BA57BB5014D8DA93DDBF28CDD848_RuntimeMethod_var;
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SkinDeformBatchedJob_1_CopyBuffer_m80F94597588E1FBBEEFE1FF4523670C0B4582B3D_inline (uint8_t* ___0_currentPosStart, uint8_t* ___1_previousPosStart, int32_t ___2_streamSize, int32_t ___3_vertexCount, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SkinDeformBatchedJob_1_CopyBuffer_mD4E5196A2A34BA57BB5014D8DA93DDBF28CDD848_inline (uint8_t* ___0_currentPosStart, uint8_t* ___1_previousPosStart, int32_t ___2_streamSize, int32_t ___3_vertexCount, const RuntimeMethod* method) ;
+
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SkinDeformBatchedJob_1_CopyBuffer_m80F94597588E1FBBEEFE1FF4523670C0B4582B3D_inline (uint8_t* ___0_currentPosStart, uint8_t* ___1_previousPosStart, int32_t ___2_streamSize, int32_t ___3_vertexCount, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void SkinDeformBatchedJob_1_CopyBuffer_mD4E5196A2A34BA57BB5014D8DA93DDBF28CDD848_inline (uint8_t* ___0_currentPosStart, uint8_t* ___1_previousPosStart, int32_t ___2_streamSize, int32_t ___3_vertexCount, const RuntimeMethod* method) ;
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_SkinDeformBatchedJob_1_CopyBuffer_m80F94597588E1FBBEEFE1FF4523670C0B4582B3D(uint8_t* ___0_currentPosStart, uint8_t* ___1_previousPosStart, int32_t ___2_streamSize, int32_t ___3_vertexCount)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SkinDeformBatchedJob_1_CopyBuffer_m80F94597588E1FBBEEFE1FF4523670C0B4582B3D_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	SkinDeformBatchedJob_1_CopyBuffer_m80F94597588E1FBBEEFE1FF4523670C0B4582B3D_inline(___0_currentPosStart, ___1_previousPosStart, ___2_streamSize, ___3_vertexCount, SkinDeformBatchedJob_1_CopyBuffer_m80F94597588E1FBBEEFE1FF4523670C0B4582B3D_RuntimeMethod_var);
+
+}
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_SkinDeformBatchedJob_1_CopyBuffer_mD4E5196A2A34BA57BB5014D8DA93DDBF28CDD848(uint8_t* ___0_currentPosStart, uint8_t* ___1_previousPosStart, int32_t ___2_streamSize, int32_t ___3_vertexCount)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SkinDeformBatchedJob_1_CopyBuffer_mD4E5196A2A34BA57BB5014D8DA93DDBF28CDD848_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	il2cpp::vm::ScopedThreadAttacher _vmThreadHelper;
+
+	SkinDeformBatchedJob_1_CopyBuffer_mD4E5196A2A34BA57BB5014D8DA93DDBF28CDD848_inline(___0_currentPosStart, ___1_previousPosStart, ___2_streamSize, ___3_vertexCount, SkinDeformBatchedJob_1_CopyBuffer_mD4E5196A2A34BA57BB5014D8DA93DDBF28CDD848_RuntimeMethod_var);
+
+}

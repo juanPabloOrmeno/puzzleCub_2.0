@@ -192,7 +192,7 @@ MonoBehaviour:
   Red: {fileID: 0}
   Teal: {fileID: 0}
   Yellow: {fileID: 0}
-  Level: 4
+  Level: 7
   m_playerInputEnabled: 1
 --- !u!1 &1383252635
 GameObject:

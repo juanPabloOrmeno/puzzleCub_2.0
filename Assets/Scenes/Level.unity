@@ -432,8 +432,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CanvasParallax
   mountainLayer: {fileID: 3547929}
   randomBackgrounds:
-  - {fileID: -7841535987243693378, guid: 3eb72e94cfbd142a2986135e91d57883, type: 3}
   - {fileID: -5990481838232061151, guid: aebe04e90143c4e05815056f52e0482b, type: 3}
+  - {fileID: -7841535987243693378, guid: 3eb72e94cfbd142a2986135e91d57883, type: 3}
+  - {fileID: -5892804080813010510, guid: c7f745ee6063a47ec9f136139152619d, type: 3}
+  - {fileID: -86247922081128073, guid: e797c4933a6ce40d1a4cc844f16bed02, type: 3}
   strength: 20
   smooth: 5
   autoSpeed: 0.2

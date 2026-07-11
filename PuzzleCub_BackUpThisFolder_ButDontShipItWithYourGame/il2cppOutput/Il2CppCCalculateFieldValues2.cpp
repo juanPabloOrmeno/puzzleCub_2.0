@@ -32358,6 +32358,7 @@ struct Bone_t1AADF9954DE3F719C877A348AB25E110690822C9  : public MonoBehaviour_t5
 struct CanvasParallax_t7B000DA83BC9C8408FF5528A7453BF756560E199  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	RectTransform_t6C5DA5E41A89E0F488B001E45E58963480E543A5* ___mountainLayer;
+	SpriteU5BU5D_tCEE379E10CAD9DBFA770B331480592548ED0EA1B* ___randomBackgrounds;
 	float ___strength;
 	float ___smooth;
 	float ___autoSpeed;
@@ -42244,9 +42245,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8693[35] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8694[3] = 
 {
 	static_cast<int32_t>(offsetof(BoardCameraSetup_tFC8BE50DFB475675C5AFFD1C6AE4DBEF2BD4441D, ___topScreenPadding)),static_cast<int32_t>(offsetof(BoardCameraSetup_tFC8BE50DFB475675C5AFFD1C6AE4DBEF2BD4441D, ___bottomScreenPadding)),static_cast<int32_t>(offsetof(BoardCameraSetup_tFC8BE50DFB475675C5AFFD1C6AE4DBEF2BD4441D, ___horizontalScreenPadding)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8695[7] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8695[8] = 
 {
-	static_cast<int32_t>(offsetof(CanvasParallax_t7B000DA83BC9C8408FF5528A7453BF756560E199, ___mountainLayer)),static_cast<int32_t>(offsetof(CanvasParallax_t7B000DA83BC9C8408FF5528A7453BF756560E199, ___strength)),static_cast<int32_t>(offsetof(CanvasParallax_t7B000DA83BC9C8408FF5528A7453BF756560E199, ___smooth)),static_cast<int32_t>(offsetof(CanvasParallax_t7B000DA83BC9C8408FF5528A7453BF756560E199, ___autoSpeed)),static_cast<int32_t>(offsetof(CanvasParallax_t7B000DA83BC9C8408FF5528A7453BF756560E199, ___extraSize)),static_cast<int32_t>(offsetof(CanvasParallax_t7B000DA83BC9C8408FF5528A7453BF756560E199, ___startPosition)),static_cast<int32_t>(offsetof(CanvasParallax_t7B000DA83BC9C8408FF5528A7453BF756560E199, ___lastViewportSize)),};
+	static_cast<int32_t>(offsetof(CanvasParallax_t7B000DA83BC9C8408FF5528A7453BF756560E199, ___mountainLayer)),static_cast<int32_t>(offsetof(CanvasParallax_t7B000DA83BC9C8408FF5528A7453BF756560E199, ___randomBackgrounds)),static_cast<int32_t>(offsetof(CanvasParallax_t7B000DA83BC9C8408FF5528A7453BF756560E199, ___strength)),static_cast<int32_t>(offsetof(CanvasParallax_t7B000DA83BC9C8408FF5528A7453BF756560E199, ___smooth)),static_cast<int32_t>(offsetof(CanvasParallax_t7B000DA83BC9C8408FF5528A7453BF756560E199, ___autoSpeed)),static_cast<int32_t>(offsetof(CanvasParallax_t7B000DA83BC9C8408FF5528A7453BF756560E199, ___extraSize)),static_cast<int32_t>(offsetof(CanvasParallax_t7B000DA83BC9C8408FF5528A7453BF756560E199, ___startPosition)),static_cast<int32_t>(offsetof(CanvasParallax_t7B000DA83BC9C8408FF5528A7453BF756560E199, ___lastViewportSize)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable8697[6] = 
 {
 	static_cast<int32_t>(sizeof(RuntimeObject)),0,0,0,0,0,};

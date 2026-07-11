@@ -78,6 +78,7 @@ extern void U3CSwitchTilesRoutineU3Ed__56_System_Collections_IEnumerator_get_Cur
 extern void BoardCameraSetup_SetupCamera_mEF47C825587C911104B9803EE98CFFB9B1918EC6 (void);
 extern void BoardCameraSetup__ctor_mFF62A1A4B3361481ADA256BC116EFD77FE750BA9 (void);
 extern void CanvasParallax_Awake_m478CD5EBDB21A4438186F774AAFD0DDEF0FE178B (void);
+extern void CanvasParallax_RandomizeBackground_m8EFCA57579EE6DD8A7D88202DDE60CA78F61558D (void);
 extern void CanvasParallax_Update_mC884EC08111ECE0E987FAE5869D6CB3D5A6195EF (void);
 extern void CanvasParallax_FitMountainLayerToCanvas_mAE14ED4213B8958418FD8005D0541DF43477208E (void);
 extern void CanvasParallax_GetViewportRect_m62315E1E87C905F7E6A357AA6F9A5565FD74331A (void);
@@ -122,7 +123,7 @@ extern void Tile_ApplyVisualStyle_m78096F5BAE728ADD97C3EBEB3B79B4642CA4BDF2 (voi
 extern void Tile__ctor_mB2C904B47040471552C938AE751AC0BF80B369E7 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[118] = 
+static Il2CppMethodPointer s_methodPointers[119] = 
 {
 	Board_Start_mC0218DF7CEDE96BC18A9523A9A290041B16F5126,
 	Board_LoadLevel_m581168AEEBB9E607519462F84CD00214F492A1D2,
@@ -195,6 +196,7 @@ static Il2CppMethodPointer s_methodPointers[118] =
 	BoardCameraSetup_SetupCamera_mEF47C825587C911104B9803EE98CFFB9B1918EC6,
 	BoardCameraSetup__ctor_mFF62A1A4B3361481ADA256BC116EFD77FE750BA9,
 	CanvasParallax_Awake_m478CD5EBDB21A4438186F774AAFD0DDEF0FE178B,
+	CanvasParallax_RandomizeBackground_m8EFCA57579EE6DD8A7D88202DDE60CA78F61558D,
 	CanvasParallax_Update_mC884EC08111ECE0E987FAE5869D6CB3D5A6195EF,
 	CanvasParallax_FitMountainLayerToCanvas_mAE14ED4213B8958418FD8005D0541DF43477208E,
 	CanvasParallax_GetViewportRect_m62315E1E87C905F7E6A357AA6F9A5565FD74331A,
@@ -247,7 +249,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	118,
+	119,
 	s_methodPointers,
 	0,
 	NULL,

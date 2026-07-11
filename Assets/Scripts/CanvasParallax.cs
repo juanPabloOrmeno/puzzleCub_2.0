@@ -5,6 +5,7 @@ using UnityEngine.UI;
 public class CanvasParallax : MonoBehaviour
 {
     [SerializeField] private RectTransform mountainLayer;
+    [SerializeField] private Sprite[] randomBackgrounds;
     [SerializeField] private float strength = 20f;
     [SerializeField] private float smooth = 5f;
     [SerializeField] private float autoSpeed = 0.2f;
@@ -15,10 +16,32 @@ public class CanvasParallax : MonoBehaviour
 
     private void Awake()
     {
+        if (Application.isPlaying)
+        {
+            RandomizeBackground();
+        }
+
         if (mountainLayer != null)
         {
             FitMountainLayerToCanvas();
         }
+    }
+
+    private void RandomizeBackground()
+    {
+        if (mountainLayer == null || randomBackgrounds == null || randomBackgrounds.Length == 0)
+        {
+            return;
+        }
+
+        Image image = mountainLayer.GetComponent<Image>();
+        if (image == null)
+        {
+            return;
+        }
+
+        image.sprite = randomBackgrounds[Random.Range(0, randomBackgrounds.Length)];
+        lastViewportSize = Vector2.zero;
     }
 
     private void Update()
@@ -54,6 +77,8 @@ public class CanvasParallax : MonoBehaviour
             return;
         }
 
+        mountainLayer.SetAsFirstSibling();
+
         Vector2 viewportSize = viewport.rect.size;
         if (viewportSize == lastViewportSize)
         {
@@ -66,6 +91,11 @@ public class CanvasParallax : MonoBehaviour
         mountainLayer.pivot = new Vector2(0.5f, 0.5f);
 
         Image image = mountainLayer.GetComponent<Image>();
+        if (image != null)
+        {
+            image.raycastTarget = false;
+        }
+
         Sprite sprite = image != null ? image.sprite : null;
         if (sprite == null)
         {

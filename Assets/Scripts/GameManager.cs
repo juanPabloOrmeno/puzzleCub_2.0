@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : Singleton<GameManager>
 {
@@ -6,7 +7,18 @@ public class GameManager : Singleton<GameManager>
 
     public void ganar()
     {
-        LevelDatabase.CompleteLevel(LevelDatabase.SelectedLevel);
+        int completedLevel = LevelDatabase.SelectedLevel;
+        LevelDatabase.CompleteLevel(completedLevel);
         Debug.Log("Nivel completado");
+
+        int nextLevel = LevelDatabase.GetNextLevel(completedLevel);
+        if (nextLevel > 0)
+        {
+            LevelDatabase.SelectLevel(nextLevel);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            return;
+        }
+
+        SceneManager.LoadScene("SelectNivel");
     }
 }

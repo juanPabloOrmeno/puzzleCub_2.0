@@ -54,9 +54,11 @@ public class Board : MonoBehaviour
     private int m_lastScreenWidth;
     private int m_lastScreenHeight;
     private Rect m_lastSafeArea;
+    public ParticleManager m_particleManager;
 
     void Start()
     {
+        m_particleManager = FindAnyObjectByType<ParticleManager>();
         LoadLevel(LevelDatabase.SelectedLevel);
     }
 
@@ -491,6 +493,11 @@ public class Board : MonoBehaviour
         }
 
         m_allGamePieces[x, y] = null;
+        if (m_particleManager != null)
+        {
+            m_particleManager.ClearPieceFXAt(x, y, -1);
+        }
+
         pieceToClear.ScorePoints();
         Destroy(pieceToClear.gameObject);
     }

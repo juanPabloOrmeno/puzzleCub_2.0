@@ -69,21 +69,27 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioClip",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Level.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
           {
             "name": "AudioListener",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -96,8 +102,16 @@
           },
           {
             "name": "AudioResource",
+            "scenes": [
+              "Assets/Scenes/Level.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "AudioSource",
             "scenes": [],
-            "dependencyType": 1,
+            "dependencyType": 0,
             "icon": null
           },
           {
@@ -154,7 +168,9 @@
           {
             "name": "Camera",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -168,7 +184,7 @@
           {
             "name": "ComputeShader",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -176,7 +192,9 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -196,7 +214,9 @@
           {
             "name": "EditorExtension",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -210,7 +230,9 @@
           {
             "name": "GameObject",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -242,7 +264,9 @@
           {
             "name": "LevelGameManager",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -274,7 +298,9 @@
           {
             "name": "LightmapSettings",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -296,7 +322,7 @@
           {
             "name": "Mesh",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -316,7 +342,9 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -330,7 +358,9 @@
           {
             "name": "MonoScript",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -338,7 +368,9 @@
           {
             "name": "NamedObject",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -370,7 +402,7 @@
           {
             "name": "RayTracingShader",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -378,7 +410,9 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -392,7 +426,9 @@
           {
             "name": "RenderSettings",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -426,6 +462,7 @@
           {
             "name": "Shader",
             "scenes": [
+              "Assets/Scenes/Inicio.unity",
               "Assets/Scenes/Level.unity"
             ],
             "dependencyType": 0,
@@ -452,7 +489,9 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1721,7 +1760,9 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1735,7 +1776,9 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 0,
             "icon": null

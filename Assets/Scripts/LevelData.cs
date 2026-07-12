@@ -95,6 +95,26 @@ public static class LevelDatabase
         return null;
     }
 
+    public static int GetNextLevel(int currentLevel)
+    {
+        LevelCollection collection = LoadCollection();
+        if (collection == null || collection.levels == null)
+        {
+            return 0;
+        }
+
+        int nextLevel = int.MaxValue;
+        foreach (LevelData levelData in collection.levels)
+        {
+            if (levelData != null && levelData.level > currentLevel && levelData.level < nextLevel)
+            {
+                nextLevel = levelData.level;
+            }
+        }
+
+        return nextLevel == int.MaxValue ? 0 : nextLevel;
+    }
+
     private static LevelCollection LoadCollection()
     {
         if (s_collection != null)

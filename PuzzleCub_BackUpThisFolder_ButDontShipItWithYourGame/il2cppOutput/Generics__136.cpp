@@ -28106,7 +28106,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ShortEnumEqualityComparer_1_GetHashCo
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 57152
+// Method Definition Index: 56662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Il2CppSharedGenericObject* Singleton_1_get_Instance_m9ED2E3FB84B685A73840F5EF704CE7B3CC03E245_gshared (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28167,7 +28167,7 @@ IL_004c:
 		return L_10;
 	}
 }
-// Method Definition Index: 57153
+// Method Definition Index: 56663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Singleton_1_Awake_m2BBB0FDF0810B58F4689D4971168435A1F313D44_gshared (Singleton_1_tEEAE98BF61390BDD26BECD7F31E52B629AE05B47* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -28204,7 +28204,7 @@ IL_0023:
 		return;
 	}
 }
-// Method Definition Index: 57154
+// Method Definition Index: 56664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Singleton_1__ctor_mF25AA283CAFDD9BCB491D71102BA3868A34993BA_gshared (Singleton_1_tEEAE98BF61390BDD26BECD7F31E52B629AE05B47* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>

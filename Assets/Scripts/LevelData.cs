@@ -39,6 +39,7 @@ public class LevelTileData
 public static class LevelDatabase
 {
     public const string SelectedLevelKey = "SelectedLevel";
+    public const string HighestCompletedLevelKey = "HighestCompletedLevel";
     public const string ResourcePath = "Levels/levels";
 
     private static LevelCollection s_collection;
@@ -48,9 +49,25 @@ public static class LevelDatabase
         get { return PlayerPrefs.GetInt(SelectedLevelKey, 1); }
     }
 
+    public static int HighestCompletedLevel
+    {
+        get { return PlayerPrefs.GetInt(HighestCompletedLevelKey, 0); }
+    }
+
     public static void SelectLevel(int level)
     {
         PlayerPrefs.SetInt(SelectedLevelKey, level);
+        PlayerPrefs.Save();
+    }
+
+    public static void CompleteLevel(int level)
+    {
+        if (level <= HighestCompletedLevel)
+        {
+            return;
+        }
+
+        PlayerPrefs.SetInt(HighestCompletedLevelKey, level);
         PlayerPrefs.Save();
     }
 

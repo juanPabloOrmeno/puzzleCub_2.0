@@ -57,7 +57,7 @@ public class Board : MonoBehaviour
 
     void Start()
     {
-        LoadLevel(Level);
+        LoadLevel(LevelDatabase.SelectedLevel);
     }
 
     public void LoadLevel(int level)

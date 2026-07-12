@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 1676971377}
   - component: {fileID: 1676971376}
   - component: {fileID: 1676971375}
+  - component: {fileID: 1676971381}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -246,7 +247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -299,12 +300,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 600, y: 1000}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -353,6 +354,31 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1676971381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676971374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d75fe90aab048b1848c792c94f16e81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelSelectChestGrid
+  chestSprite: {fileID: -6813626394116026668, guid: dac857f495cfe4b1ab0a3b9bb138dc89, type: 3}
+  currentLevelSprite: {fileID: -6813626394116026668, guid: dac857f495cfe4b1ab0a3b9bb138dc89, type: 3}
+  completedLevelSprite: {fileID: 6535277335616342648, guid: cc9ce12baab144cacb845b659a2174ae, type: 3}
+  lockedLevelSprite: {fileID: -9039407239781990205, guid: 703c93247d6394447810806b3933fa7d, type: 3}
+  gameplaySceneName: Level
+  columns: 4
+  horizontalMargin: 0.06
+  verticalMargin: 0.14
+  chestScale: 0.88
+  horizontalSpacingRatio: 0.08
+  verticalSpacingRatio: 0.16
+  gridOffset: {x: 0, y: 0}
+  numberColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

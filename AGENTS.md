@@ -14,10 +14,11 @@
 - Runtime level loading uses `Resources.Load<TextAsset>("Levels/levels")`, so the authoritative level JSON for gameplay is `Assets/Resources/Levels/levels.json`.
 - `Assets/Levels/levels.json` is a duplicate/non-runtime copy unless code is changed to load it.
 - Level selection is stored in `PlayerPrefs` key `SelectedLevel`; `LevelDatabase.GetSelectedLevelData()` reads that key.
+- Completed progress is stored in `PlayerPrefs` key `HighestCompletedLevel`; `GameManager.ganar()` updates it.
 - Level JSON schema is defined by `Assets/Scripts/LevelData.cs`: `levels[]` with `level`, `width`, `height`, `borderSize`, `time`, `pieces[]`, and `tiles[]`.
 
 ## Gameplay Wiring
-- `Board.Start()` calls `LoadLevel(Level)` and currently loads the serialized `Board.Level` value, not `LevelDatabase.SelectedLevel`.
+- `Board.Start()` calls `LoadLevel(LevelDatabase.SelectedLevel)`, so level select must set `PlayerPrefs` via `LevelDatabase.SelectLevel(level)` before loading `Level`.
 - `Board.ApplyLevelData()` converts JSON piece/tile strings into inspector/prefab references, then `SetupBoard()` creates tiles, camera, and pieces.
 - Piece prefab lookup order is direct `Board` fields, then `gamePiecePrefabs`, then `Resources/PiecePrefabLibrary.asset`.
 - Tile type compatibility includes legacy misspellings: `Obtacle`, `TileObtacle`, `ObtacleMovil`, and `TileObtacleMovil`.

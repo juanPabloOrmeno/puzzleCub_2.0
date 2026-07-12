@@ -6,6 +6,7 @@ public class GameManager : Singleton<GameManager>
 
     public void ganar()
     {
+        LevelDatabase.CompleteLevel(LevelDatabase.SelectedLevel);
         Debug.Log("Nivel completado");
     }
 }

@@ -52,6 +52,14 @@ public class GamePiece : MonoBehaviour
         yIndex = y;
     }
 
+    public void SnapTo(int x, int y)
+    {
+        StopAllCoroutines();
+        m_isMoving = false;
+        transform.position = new Vector3(x, y, 0f);
+        SetCoord(x, y);
+    }
+
     public void ScorePoints()
     {
         // Punto de extensión para sumar score, sonido o efectos al limpiar una pieza.

@@ -360,7 +360,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint16_t ProfilerCategory_op_Impl
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 58010
+// Method Definition Index: 58011
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tE95DC430A9F878B2ABF62D1CBF7B7A09B00A6554 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m28FF396DB958671D96B37083EE88F6CCF88D9851 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -395,7 +395,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tE95DC430A9F878B2ABF62D1CBF7B7
 		return L_6;
 	}
 }
-// Method Definition Index: 58011
+// Method Definition Index: 58012
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE6A542ED2B09789663298340C2208BAD62976F9E (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t67AF0372FA999BF814904807120AD236826A6908* __this, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -482,7 +482,7 @@ IL2CPP_EXTERN_C void MonoScriptData_tE95DC430A9F878B2ABF62D1CBF7B7A09B00A6554_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 58012
+// Method Definition Index: 58013
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animation2DProfilerMarkers__cctor_m745512911A1BF6F6519A909DA6532407B295B1F2 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -571,7 +571,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animation2DProfilerMarkers__cctor_m74551
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 58013
+// Method Definition Index: 58014
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SpriteSkinProfilerFrameData_GetSpriteSkinTypeName_m8ABCA585B92C4EEF444AB0C95687D49939AFA98D (int32_t ___0_type, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -678,7 +678,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerMarker__ctor_m595826
 		return;
 	}
 }
-// Method Definition Index: 57956
+// Method Definition Index: 57957
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ProfilerCounterValue_1__ctor_mAE7E1C99FD4CC68319C5BA7AC7176C810C2993DC_fshared_inline (ProfilerCounterValue_1_t83A85DB82AFFCFD2CF3AEF7012D7794FEDC031D7* __this, ProfilerCategory_tA55212CD512C618AF6D2147791F20319896592AC ___0_category, String_t* ___1_name, uint8_t ___2_dataUnit, uint16_t ___3_counterOptions, const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>

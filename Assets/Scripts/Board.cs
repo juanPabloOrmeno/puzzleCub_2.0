@@ -31,8 +31,6 @@ public class Board : MonoBehaviour
     public float borderSize;
     BoardCameraSetup m_cameraSetup;
 
-    private readonly int fillYOffset = 20;
-
     [Header("Piezas")]
     public GameObject Blanc;
     public GameObject Cyan;
@@ -332,13 +330,7 @@ public class Board : MonoBehaviour
 
         gamePiece.Init(this);
         PlaceGamePiece(gamePiece, x, y);
-
-        // Las piezas aparecen desde arriba para conservar la animación de caída inicial.
-        if (fillYOffset != 0)
-        {
-            prefab.transform.position = new Vector3(x, y + fillYOffset, 0);
-            gamePiece.Move(x, y, moveTime);
-        }
+        gamePiece.SnapTo(x, y);
 
         prefab.transform.parent = transform;
     }

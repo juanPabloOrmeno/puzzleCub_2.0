@@ -154,7 +154,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 853.5045, y: 1768.3671}
+  m_SizeDelta: {x: 1031.1926, y: 1771.0093}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3547930
 MonoBehaviour:
@@ -553,7 +553,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: f6c7d075c520749d2916c4a57b9d9911, type: 3}
   gambareSound:
   - {fileID: 8300000, guid: 1ac4741894e914b4aac34915860e466a, type: 3}
-  pieceSound: []
+  pieceSound:
+  - {fileID: 8300000, guid: e6529ce48b2654df6ba704769182000b, type: 3}
 --- !u!4 &802025944
 Transform:
   m_ObjectHideFlags: 0

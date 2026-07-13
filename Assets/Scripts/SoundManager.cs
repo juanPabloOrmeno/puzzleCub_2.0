@@ -3,26 +3,20 @@
 public class SoundManager : Singleton<SoundManager>
 {
     public AudioClip[] musicClips;
-   
-
     [Range(0, 1)]
     public float musicVolume = 0.5f;
-
     [Range(0, 1)]
     public float fxVolume = 1.0f;
-
     public float lowPitch = 0.95f;
     public float highPitch = 1.05f;
-
     AudioSource source;
+
+    public AudioClip[] winSound;
 
     void Start()
     {
         source = GetComponent<AudioSource>();
-        if (source == null)
-        {
-            source = gameObject.AddComponent<AudioSource>();
-        }
+        source ??= gameObject.AddComponent<AudioSource>();
         PlayRandomMusic();
     }
 
@@ -39,6 +33,7 @@ public class SoundManager : Singleton<SoundManager>
             float randomPitch = Random.Range(lowPitch, highPitch);
             source.pitch = randomPitch;
             source.loop = false;
+            source.spatialBlend = 0f;
 
             source.volume = volume;
             source.Play();
@@ -64,6 +59,7 @@ public class SoundManager : Singleton<SoundManager>
             float randomPitch = Random.Range(lowPitch, highPitch);
             source.pitch = randomPitch;
             source.loop = true;
+            source.spatialBlend = 0f;
 
             source.volume = volume;
             source.Play();
@@ -116,6 +112,29 @@ public class SoundManager : Singleton<SoundManager>
     {
         PlayRandom(musicClips, Vector3.zero, musicVolume);
 
+    }
+
+
+    public void PlaySoundWinner()
+    {
+        AudioClip clip = GetRandomClip(winSound);
+        if (clip == null)
+        {
+            Debug.LogWarning("No hay sonido de victoria asignado en SoundManager.winSound.");
+            return;
+        }
+
+        PlayClipAtPoint(clip, Vector3.zero, fxVolume);
+    }
+
+    private AudioClip GetRandomClip(AudioClip[] clips)
+    {
+        if (clips == null || clips.Length == 0)
+        {
+            return null;
+        }
+
+        return clips[Random.Range(0, clips.Length)];
     }
 
 }

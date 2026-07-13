@@ -1017,6 +1017,10 @@ UnityEngine.ObjectDispatcher::EnableTransformTracking
 UnityEngine.ObjectDispatcher::EnableTypeTracking
 UnityEngine.ObjectGUIState::Internal_Create
 UnityEngine.ObjectGUIState::Internal_Destroy
+UnityEngine.ParticleSystem::Emit_Internal_Injected
+UnityEngine.ParticleSystem::Play_Injected
+UnityEngine.ParticleSystem::Stop_Injected
+UnityEngine.ParticleSystemRenderer::GetMeshes_Injected
 UnityEngine.Physics::get_invokeCollisionCallbacks
 UnityEngine.Physics::get_reuseCollisionCallbacks
 UnityEngine.Physics::GetBodyByInstanceID_Injected

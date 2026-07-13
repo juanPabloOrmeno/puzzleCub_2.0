@@ -28649,7 +28649,7 @@ IL_0006:
 		return L_3;
 	}
 }
-// Method Definition Index: 56719
+// Method Definition Index: 56724
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtilityInternal_SizeOf_TisRecord_tD4D528E1BFF948E92C590DCE7A010BA356D50049_m92F3882B997A850AB04B100FBF85A3DC04968E61_inline (const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>
@@ -28658,7 +28658,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtilityInternal_Siz
 		return (int32_t)L_0;
 	}
 }
-// Method Definition Index: 56720
+// Method Definition Index: 56725
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtilityInternal_AlignOf_TisRecord_tD4D528E1BFF948E92C590DCE7A010BA356D50049_m15AA2D94568F42841B3F08022E3CDD8BB5598438_inline (const RuntimeMethod* method) 
 {
 	il2cpp_rgctx_method_init(method);
@@ -28705,7 +28705,7 @@ IL_001f:
 		return;
 	}
 }
-// Method Definition Index: 56719
+// Method Definition Index: 56724
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t UnsafeUtilityInternal_SizeOf_TisAlignOfHelper_1_tF3BE46799C9154EF803DCD63D69F4B58ED868E0D_m317D600E2FD43C8C80FD29AD1F42C9822B3BA535_inline (const RuntimeMethod* method) 
 {
 	//<source_info:<no-source>:1>

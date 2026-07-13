@@ -30,7 +30,15 @@ public class GameManager : Singleton<GameManager>
 
     void Start()
     {
-      
+        if (sonido == null)
+        {
+            sonido = SoundManager.Instance;
+        }
+
+        if (sonido != null)
+        {
+            sonido.PlaySoundGambare();
+        }
     }
   
 
@@ -55,11 +63,21 @@ public class GameManager : Singleton<GameManager>
 
         if (sonido != null)
         {
+            sonido.stopMusic();
+        }
+
+        if (sonido != null && winner)
+        {
             sonido.PlaySoundWinner();
         }
 
         if (!winner)
         {
+            if (sonido != null)
+            {
+                sonido.PlaySoundLoser();
+            }
+
             return;
         }
 

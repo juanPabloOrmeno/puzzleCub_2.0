@@ -17,6 +17,11 @@ public class GamePiece : MonoBehaviour
     private Board m_board;
     private bool m_isMoving;
 
+    public bool IsMoving
+    {
+        get { return m_isMoving; }
+    }
+
     public enum InterpType
     {
         Linear,

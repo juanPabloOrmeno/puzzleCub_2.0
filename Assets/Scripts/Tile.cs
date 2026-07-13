@@ -72,7 +72,7 @@ public class Tile : MonoBehaviour
 
     public void tileColor()
     {
-        ApplyVisualStyle(new Color32(219, 197, 86, 162), new Vector3(0.9f, 0.9f, 1f));
+        ApplyVisualStyle(new Color32(255, 211, 64, 255), m_defaultScale);
     }
 
     public void tileColorN()

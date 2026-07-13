@@ -12,6 +12,9 @@ public class SoundManager : Singleton<SoundManager>
     AudioSource source;
 
     public AudioClip[] winSound;
+    public AudioClip[] loseSound;
+    public AudioClip[] gambareSound;
+    public AudioClip[] pieceSound;
 
     void Start()
     {
@@ -86,6 +89,16 @@ public class SoundManager : Singleton<SoundManager>
     }
 
 
+    public void stopSound(AudioSource audioSource)
+    {
+        if (audioSource != null)
+        {
+            audioSource.Stop();
+            Destroy(audioSource.gameObject);
+        }
+    }
+
+
 
     public AudioSource PlayRandom(AudioClip[] clips, Vector3 position, float volume = 1f)
     {
@@ -121,6 +134,42 @@ public class SoundManager : Singleton<SoundManager>
         if (clip == null)
         {
             Debug.LogWarning("No hay sonido de victoria asignado en SoundManager.winSound.");
+            return;
+        }
+
+        PlayClipAtPoint(clip, Vector3.zero, fxVolume);
+    }
+
+    public void PlaySoundLoser()
+    {
+        AudioClip clip = GetRandomClip(loseSound);
+        if (clip == null)
+        {
+            Debug.LogWarning("No hay sonido de derrota asignado en SoundManager.loseSound.");
+            return;
+        }
+
+        PlayClipAtPoint(clip, Vector3.zero, fxVolume);
+    }
+
+    public void PlaySoundGambare()
+    {
+        AudioClip clip = GetRandomClip(gambareSound);
+        if (clip == null)
+        {
+            Debug.LogWarning("No hay sonido de gambare asignado en SoundManager.gambareSound.");
+            return;
+        }
+
+        PlayClipAtPoint(clip, Vector3.zero, fxVolume);
+    }
+
+    public void PlaySoundPiece()
+    {
+        AudioClip clip = GetRandomClip(pieceSound);
+        if (clip == null)
+        {
+            Debug.LogWarning("No hay sonido de pieza asignado en SoundManager.pieceSound.");
             return;
         }
 

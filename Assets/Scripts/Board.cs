@@ -49,16 +49,19 @@ public class Board : MonoBehaviour
     private readonly float swapTime = 0.15f;
     private Tile m_clickedTile;
     private Tile m_targetTile;
+    private readonly HashSet<Vector2Int> m_validMoveTargets = new HashSet<Vector2Int>();
     private int m_rightMoveLimit;
     private int m_leftMoveLimit;
     private int m_lastScreenWidth;
     private int m_lastScreenHeight;
     private Rect m_lastSafeArea;
     public ParticleManager m_particleManager;
+    private SoundManager m_soundManager;
 
     void Start()
     {
         m_particleManager = FindAnyObjectByType<ParticleManager>();
+        m_soundManager = SoundManager.Instance;
         LoadLevel(LevelDatabase.SelectedLevel);
     }
 
@@ -127,7 +130,7 @@ public class Board : MonoBehaviour
             return;
         }
 
-        if (IsNextTo(tile, m_clickedTile))
+        if (IsValidMoveTarget(tile))
         {
             m_targetTile = tile;
         }
@@ -137,7 +140,7 @@ public class Board : MonoBehaviour
     {
         ResetTileColors();
 
-        if (m_clickedTile != null && m_targetTile != null && m_targetTile.tileType == TileType.Normal)
+        if (m_clickedTile != null && m_targetTile != null && IsValidMoveTarget(m_targetTile))
         {
             // La mecánica original permite mover piezas solo en horizontal.
             if (m_clickedTile.yIndex == m_targetTile.yIndex)
@@ -148,6 +151,7 @@ public class Board : MonoBehaviour
 
         m_clickedTile = null;
         m_targetTile = null;
+        m_validMoveTargets.Clear();
     }
 
     private void UpdateDragTargetFromPointer()
@@ -440,12 +444,7 @@ public class Board : MonoBehaviour
         {
             m_playerInputEnabled = false;
             yield return StartCoroutine(ClearAndCollapseRoutine(matches));
-
-            matches = FindAllMatches();
-            for (int i = 0; i < width; i++)
-            {
-                CollapseColumn(i);
-            }
+            yield return StartCoroutine(CollapseBoardRoutine());
 
             matches = FindAllMatches();
             yield return null;
@@ -461,6 +460,11 @@ public class Board : MonoBehaviour
         if (gamePieces == null || gamePieces.Count == 0)
         {
             yield break;
+        }
+
+        if (m_soundManager != null)
+        {
+            m_soundManager.PlaySoundPiece();
         }
 
         yield return new WaitForSeconds(0.15f);
@@ -513,11 +517,25 @@ public class Board : MonoBehaviour
         }
     }
 
+    private IEnumerator CollapseBoardRoutine()
+    {
+        List<GamePiece> movingPieces = new List<GamePiece>();
+        for (int i = 0; i < width; i++)
+        {
+            movingPieces = movingPieces.Union(CollapseColumn(i)).ToList();
+        }
+
+        while (!IsCollapsed(movingPieces))
+        {
+            yield return null;
+        }
+    }
+
     private bool IsCollapsed(List<GamePiece> gamePieces)
     {
         foreach (GamePiece piece in gamePieces)
         {
-            if (piece != null && piece.transform.position.y - piece.yIndex > 0.001f)
+            if (piece != null && (piece.IsMoving || Vector3.Distance(piece.transform.position, new Vector3(piece.xIndex, piece.yIndex, 0f)) > 0.001f))
             {
                 return false;
             }
@@ -577,6 +595,7 @@ public class Board : MonoBehaviour
 
     private void HighlightAvailableMoves(Tile startTile)
     {
+        m_validMoveTargets.Clear();
         m_rightMoveLimit = HighlightDirection(startTile, 1);
         m_leftMoveLimit = HighlightDirection(startTile, -1);
     }
@@ -584,18 +603,26 @@ public class Board : MonoBehaviour
     private int HighlightDirection(Tile startTile, int direction)
     {
         int count = 0;
+        GamePiece movingPiece = GetGamePieceAt(startTile.xIndex, startTile.yIndex);
 
         for (int x = startTile.xIndex + direction; x >= 0 && x < width; x += direction)
         {
             bool isEmptyNormalTile = GetGamePieceAt(x, startTile.yIndex) == null && m_allTiles[x, startTile.yIndex].tileType == TileType.Normal;
-            bool hasBlockedFloorBelow = startTile.yIndex != 0 && GetGamePieceAt(x, startTile.yIndex - 1) == null && m_allTiles[x, startTile.yIndex - 1].tileType == TileType.Obstacle;
+            bool hasSupportBelow = HasSupportBelow(x, startTile.yIndex);
+            bool hasMatchingPieceBelow = HasMatchingPieceBelow(x, startTile.yIndex, movingPiece);
 
             if (isEmptyNormalTile)
             {
                 m_allTiles[x, startTile.yIndex].tileColor();
+                m_validMoveTargets.Add(new Vector2Int(x, startTile.yIndex));
             }
 
-            if (isEmptyNormalTile && hasBlockedFloorBelow)
+            if (isEmptyNormalTile && hasMatchingPieceBelow)
+            {
+                return count + 1;
+            }
+
+            if (isEmptyNormalTile && hasSupportBelow)
             {
                 count++;
                 continue;
@@ -605,6 +632,37 @@ public class Board : MonoBehaviour
         }
 
         return count + 1;
+    }
+
+    private bool HasMatchingPieceBelow(int x, int y, GamePiece movingPiece)
+    {
+        if (movingPiece == null || y <= 0 || !IsWithinBounds(x, y - 1))
+        {
+            return false;
+        }
+
+        GamePiece supportPiece = GetGamePieceAt(x, y - 1);
+        return supportPiece != null && supportPiece.matchValue == movingPiece.matchValue;
+    }
+
+    private bool IsValidMoveTarget(Tile tile)
+    {
+        return tile != null && m_validMoveTargets.Contains(new Vector2Int(tile.xIndex, tile.yIndex));
+    }
+
+    private bool HasSupportBelow(int x, int y)
+    {
+        if (y <= 0)
+        {
+            return true;
+        }
+
+        if (!IsWithinBounds(x, y - 1))
+        {
+            return false;
+        }
+
+        return GetGamePieceAt(x, y - 1) != null || m_allTiles[x, y - 1].tileType == TileType.Obstacle;
     }
 
     private void ResetTileColors()
@@ -628,7 +686,7 @@ public class Board : MonoBehaviour
             return false;
         }
 
-        int limit = start.xIndex > end.xIndex ? m_rightMoveLimit : m_leftMoveLimit;
+        int limit = end.xIndex > start.xIndex ? m_rightMoveLimit : m_leftMoveLimit;
         return Mathf.Abs(start.xIndex - end.xIndex) <= limit;
     }
 

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.Analytics;
 using UnityEngine.Networking;
@@ -84,6 +85,62 @@ public class GameManager : Singleton<GameManager>
         }
 
         m_winScreen = Instantiate(winScreenPrefab);
+        ConfigureWinScreen(m_winScreen);
+    }
+
+    private void ConfigureWinScreen(GameObject winScreen)
+    {
+        Canvas canvas = winScreen.GetComponent<Canvas>();
+        if (canvas != null)
+        {
+            canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+            canvas.overrideSorting = true;
+            canvas.sortingOrder = short.MaxValue;
+        }
+
+        CanvasScaler scaler = winScreen.GetComponent<CanvasScaler>();
+        if (scaler != null)
+        {
+            scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
+            scaler.referenceResolution = new Vector2(1080f, 1920f);
+            scaler.screenMatchMode = CanvasScaler.ScreenMatchMode.MatchWidthOrHeight;
+            scaler.matchWidthOrHeight = 0.5f;
+        }
+
+        RectTransform root = winScreen.GetComponent<RectTransform>();
+        if (root == null)
+        {
+            return;
+        }
+
+        root.anchorMin = Vector2.zero;
+        root.anchorMax = Vector2.one;
+        root.offsetMin = Vector2.zero;
+        root.offsetMax = Vector2.zero;
+        root.localScale = Vector3.one;
+
+        CreateWinButtonZone(root, "MenuButtonZone", new Vector2(0.02f, 0.025f), new Vector2(0.255f, 0.095f), GoToLevelSelect);
+        CreateWinButtonZone(root, "NextButtonZone", new Vector2(0.285f, 0.025f), new Vector2(0.705f, 0.095f), LoadNextLevel);
+        CreateWinButtonZone(root, "RetryButtonZone", new Vector2(0.73f, 0.025f), new Vector2(0.98f, 0.095f), RestartCurrentLevel);
+    }
+
+    private void CreateWinButtonZone(RectTransform parent, string name, Vector2 anchorMin, Vector2 anchorMax, UnityEngine.Events.UnityAction action)
+    {
+        GameObject buttonObject = new GameObject(name, typeof(RectTransform), typeof(CanvasRenderer), typeof(Image), typeof(Button));
+        RectTransform rect = buttonObject.GetComponent<RectTransform>();
+        rect.SetParent(parent, false);
+        rect.anchorMin = anchorMin;
+        rect.anchorMax = anchorMax;
+        rect.offsetMin = Vector2.zero;
+        rect.offsetMax = Vector2.zero;
+
+        Image image = buttonObject.GetComponent<Image>();
+        image.color = new Color(1f, 1f, 1f, 0f);
+        image.raycastTarget = true;
+
+        Button button = buttonObject.GetComponent<Button>();
+        button.targetGraphic = image;
+        button.onClick.AddListener(action);
     }
 
     public void LoadNextLevel()

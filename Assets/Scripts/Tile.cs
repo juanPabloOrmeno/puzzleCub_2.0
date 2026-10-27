@@ -46,30 +46,6 @@ public class Tile : MonoBehaviour
         m_board = board;
     }
 
-    void OnMouseDown()
-    {
-        if (m_board != null)
-        {
-            m_board.ClickTile(this);
-        }
-    }
-
-    void OnMouseEnter()
-    {
-        if (m_board != null)
-        {
-            m_board.DragToTile(this);
-        }
-    }
-
-    void OnMouseUp()
-    {
-        if (m_board != null)
-        {
-            m_board.ReleaseTile();
-        }
-    }
-
     public void tileColor()
     {
         ApplyVisualStyle(new Color32(255, 211, 64, 255), m_defaultScale);

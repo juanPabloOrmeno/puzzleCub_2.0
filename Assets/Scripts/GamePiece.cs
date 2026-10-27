@@ -81,22 +81,6 @@ public class GamePiece : MonoBehaviour
         StartCoroutine(MoveRoutine(new Vector3(destX, destY, 0f), timeToMove));
     }
 
-    void OnMouseDown()
-    {
-        if (m_board != null)
-        {
-            m_board.ClickGamePiece(this);
-        }
-    }
-
-    void OnMouseUp()
-    {
-        if (m_board != null)
-        {
-            m_board.ReleaseTile();
-        }
-    }
-
     private IEnumerator MoveRoutine(Vector3 destination, float timeToMove)
     {
         if (timeToMove <= 0f)

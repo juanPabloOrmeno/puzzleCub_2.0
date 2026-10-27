@@ -46,6 +46,12 @@ public class Board : MonoBehaviour
     public int Level = 1;
     public bool m_playerInputEnabled = true;
 
+    /// <summary>Raised after a move and its resulting matches and falls have resolved.</summary>
+    public event Action MoveResolved;
+
+    /// <summary>Optional standalone practice data, assigned before Start.</summary>
+    public LevelData PracticeLevel { get; set; }
+
     private readonly float swapTime = 0.15f;
     private Tile m_clickedTile;
     private Tile m_targetTile;
@@ -62,7 +68,16 @@ public class Board : MonoBehaviour
     {
         m_particleManager = FindAnyObjectByType<ParticleManager>();
         m_soundManager = SoundManager.Instance;
-        LoadLevel(LevelDatabase.SelectedLevel);
+        if (PracticeLevel != null)
+        {
+            ApplyLevelData(PracticeLevel);
+            InitializeBoardArrays();
+            SetupBoard();
+        }
+        else
+        {
+            LoadLevel(LevelDatabase.SelectedLevel);
+        }
     }
 
     public void LoadLevel(int level)
@@ -94,12 +109,7 @@ public class Board : MonoBehaviour
             SetupCamera();
         }
 
-        UpdateDragTargetFromPointer();
-
-        if (m_clickedTile != null && Mouse.current != null && Mouse.current.leftButton.wasReleasedThisFrame)
-        {
-            ReleaseTile();
-        }
+        UpdatePointerInput();
     }
 
     private void InitializeBoardArrays()
@@ -163,39 +173,75 @@ public class Board : MonoBehaviour
             }
         }
 
+        CancelSelection();
+    }
+
+    /// <summary>Clears the current selection without moving a piece.</summary>
+    public void CancelSelection()
+    {
+        ResetTileColors();
         m_clickedTile = null;
         m_targetTile = null;
         m_validMoveTargets.Clear();
     }
 
-    private void UpdateDragTargetFromPointer()
+    private void UpdatePointerInput()
     {
-        if (m_clickedTile == null || Mouse.current == null || !Mouse.current.leftButton.isPressed || Camera.main == null)
+        if (!m_playerInputEnabled || Camera.main == null || m_allTiles == null)
         {
             return;
         }
 
-        Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
-        RaycastHit2D hit = Physics2D.GetRayIntersection(ray);
-        if (hit.collider == null)
+        Vector2 position;
+        bool pressed, held, released;
+        var touch = Touchscreen.current?.primaryTouch;
+        if (touch != null && (touch.press.isPressed || touch.press.wasReleasedThisFrame))
         {
+            position = touch.position.ReadValue();
+            pressed = touch.press.wasPressedThisFrame;
+            held = touch.press.isPressed;
+            released = touch.press.wasReleasedThisFrame;
+        }
+        else if (Mouse.current != null)
+        {
+            position = Mouse.current.position.ReadValue();
+            pressed = Mouse.current.leftButton.wasPressedThisFrame;
+            held = Mouse.current.leftButton.isPressed;
+            released = Mouse.current.leftButton.wasReleasedThisFrame;
+        }
+        else return;
+
+        var tutorial = GetComponent<PuzzleTutorial>();
+        if (tutorial != null && tutorial.BlocksPointer(position))
+        {
+            CancelSelection();
             return;
         }
 
-        Tile tile = hit.collider.GetComponent<Tile>();
-        if (tile == null)
+        Tile tile = null;
+        if (Camera.main.pixelRect.Contains(position))
         {
-            GamePiece piece = hit.collider.GetComponent<GamePiece>();
-            if (piece != null && IsWithinBounds(piece.xIndex, piece.yIndex))
+            Ray ray = Camera.main.ScreenPointToRay(position);
+            if (new Plane(Vector3.forward, Vector3.zero).Raycast(ray, out float distance))
             {
-                tile = m_allTiles[piece.xIndex, piece.yIndex];
+                Vector3 point = ray.GetPoint(distance);
+                int x = Mathf.RoundToInt(point.x);
+                int y = Mathf.RoundToInt(point.y);
+                if (IsWithinBounds(x, y)) tile = m_allTiles[x, y];
             }
         }
 
-        if (tile != null)
+        if (pressed)
         {
+            CancelSelection();
+            ClickTile(tile);
+        }
+        if ((held || released) && m_clickedTile != null)
+        {
+            m_targetTile = null;
             DragToTile(tile);
         }
+        if (released) ReleaseTile();
     }
 
     private void SetupTiles()
@@ -439,6 +485,7 @@ public class Board : MonoBehaviour
             yield break;
         }
 
+        m_playerInputEnabled = false;
         clickedPiece.Move(targetTile.xIndex, targetTile.yIndex, swapTime);
         m_allGamePieces[clickedTile.xIndex, clickedTile.yIndex] = null;
         m_allGamePieces[targetTile.xIndex, targetTile.yIndex] = clickedPiece;
@@ -448,6 +495,7 @@ public class Board : MonoBehaviour
 
         List<GamePiece> matches = FindMatchesAt(targetTile.xIndex, targetTile.yIndex);
         yield return StartCoroutine(ClearAndRefillBoardRoutine(matches));
+        MoveResolved?.Invoke();
     }
 
     private IEnumerator ClearAndRefillBoardRoutine(List<GamePiece> gamePieces)
@@ -805,7 +853,7 @@ public class Board : MonoBehaviour
             }
         }
 
-        GameManager gameManager = GameManager.Instance;
+        GameManager gameManager = PracticeLevel == null ? GameManager.Instance : null;
         if (gameManager != null)
         {
             gameManager.ganar();

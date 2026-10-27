@@ -9,16 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4f0f5607b8b43f187208f0d92dfd1db, type: 3}
+  m_Script: {fileID: 11500000, guid: edeffe12960a54b598b19422fafb45a6, type: 3}
   m_Name: PiecePrefabLibrary
   m_EditorClassIdentifier: 
   prefabs:
-  - {fileID: 100100000, guid: fd8b0b71c2436f34397c11540b6d9d88, type: 3}
-  - {fileID: 100100000, guid: d5213cbf423464b198a8ea0635b2c83a, type: 3}
-  - {fileID: 100100000, guid: c19eda07692854268abdcc1f9f23e66f, type: 3}
-  - {fileID: 100100000, guid: 45665c8734f314c9ca4496e11d7f9682, type: 3}
-  - {fileID: 100100000, guid: 37d845b51eba4482b9f81557f91a97fe, type: 3}
-  - {fileID: 100100000, guid: b6d1543d5ad4948aaae26e1e7570e386, type: 3}
-  - {fileID: 100100000, guid: 8f62ee363864149f4bb7981086aa48ef, type: 3}
-  - {fileID: 100100000, guid: 95454e5be78a342319764fff00f2b5c2, type: 3}
-  - {fileID: 100100000, guid: ce0cdf7a8a6c543fb9d96817d1d2f3f6, type: 3}
+  - {fileID: 6757383969652466528, guid: 07d5fe5df043a43239e1485df3e70e3e, type: 3}
+  - {fileID: 6757383969652466528, guid: 9a9677aded6a74c84892baea2119aafa, type: 3}
+  - {fileID: 6757383969652466528, guid: 6647bc4725f40472a962590ba5a8dd69, type: 3}
+  - {fileID: 6757383969652466528, guid: b5a800004563f46f28b6458b84aeb0f1, type: 3}
+  - {fileID: 6757383969652466528, guid: 3ff1e63416bc7487abdf1aad85f17799, type: 3}
+  - {fileID: 6757383969652466528, guid: b7ff0657f0b0d40419c5c8783bbb6d99, type: 3}
+  - {fileID: 6757383969652466528, guid: 2ff31458d4eb1418e89b2c909b601253, type: 3}
+  - {fileID: 6757383969652466528, guid: 533ca3971761d4ab2a7d646448638ccc, type: 3}
+  - {fileID: 6757383969652466528, guid: 280f1812e9b21481ea78742c40c14d95, type: 3}

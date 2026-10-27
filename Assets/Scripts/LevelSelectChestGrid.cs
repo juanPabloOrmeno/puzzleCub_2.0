@@ -7,41 +7,83 @@ using UnityEngine.UI;
 [RequireComponent(typeof(RectTransform))]
 public class LevelSelectChestGrid : MonoBehaviour
 {
+    private const int LayoutVersion = 14;
+
     [SerializeField] private Sprite chestSprite;
     [SerializeField] private Sprite currentLevelSprite;
     [SerializeField] private Sprite completedLevelSprite;
     [SerializeField] private Sprite lockedLevelSprite;
+    [SerializeField] private Sprite levelPanelSprite;
+    [SerializeField] private Sprite arrowSprite;
+    [SerializeField] private Texture2D chestTexture;
+    [SerializeField] private Texture2D currentLevelChestTexture;
+    [SerializeField] private Texture2D completedChestTexture;
+    [SerializeField] private Texture2D lockedChestTexture;
+    [SerializeField] private Texture2D levelPanelTexture;
+    [SerializeField] private Texture2D arrowTexture;
+    [SerializeField] private Texture2D actionPanelTexture;
     [SerializeField] private string gameplaySceneName = "Level";
-    [SerializeField] private int columns = 4;
-    [SerializeField, Range(0.02f, 0.25f)] private float horizontalMargin = 0.06f;
-    [SerializeField, Range(0.02f, 0.25f)] private float verticalMargin = 0.14f;
-    [SerializeField, Range(0.25f, 1f)] private float chestScale = 0.88f;
-    [SerializeField, Range(0f, 0.3f)] private float horizontalSpacingRatio = 0.08f;
-    [SerializeField, Range(-0.45f, 0.3f)] private float verticalSpacingRatio = 0.16f;
-    [SerializeField] private Vector2 gridOffset;
+    [SerializeField] private string tutorialSceneName = "Tutorial";
     [SerializeField] private Color numberColor = Color.white;
+    [SerializeField] private Color arrowColor = Color.white;
+    [SerializeField] private Color disabledArrowColor = new Color(1f, 1f, 1f, 0.3f);
+    [SerializeField] private int layoutVersion;
 
-    private readonly List<ChestButton> m_chests = new List<ChestButton>();
+    private readonly List<int> m_levels = new List<int>();
     private RectTransform m_rectTransform;
     private Canvas m_canvas;
-    private Vector2 m_cellSize;
-
-    private class ChestButton
-    {
-        public int level;
-        public bool unlocked;
-        public RectTransform rectTransform;
-    }
+    private RectTransform m_chestRect;
+    private RectTransform m_previousArrowRect;
+    private RectTransform m_nextArrowRect;
+    private RectTransform m_actionPanelRect;
+    private RectTransform m_playActionRect;
+    private RectTransform m_tutorialActionRect;
+    private RectTransform m_exitActionRect;
+    private RawImage m_chestImage;
+    private RawImage m_levelPanelImage;
+    private RawImage m_previousArrowImage;
+    private RawImage m_nextArrowImage;
+    private Text m_titleText;
+    private Text m_levelLabelText;
+    private Text m_instructionText;
+    private int m_selectedIndex;
 
     private void Awake()
     {
         m_rectTransform = GetComponent<RectTransform>();
         m_canvas = GetComponentInParent<Canvas>();
-        BuildGrid();
+    }
+
+    private void OnEnable()
+    {
+        BuildSelector();
+        layoutVersion = LayoutVersion;
     }
 
     private void Update()
     {
+        if (layoutVersion != LayoutVersion)
+        {
+            BuildSelector();
+            layoutVersion = LayoutVersion;
+        }
+
+        if (Keyboard.current != null)
+        {
+            if (Keyboard.current.leftArrowKey.wasPressedThisFrame)
+            {
+                ChangeSelectedLevel(-1);
+            }
+            else if (Keyboard.current.rightArrowKey.wasPressedThisFrame)
+            {
+                ChangeSelectedLevel(1);
+            }
+            else if (Keyboard.current.enterKey.wasPressedThisFrame || Keyboard.current.spaceKey.wasPressedThisFrame)
+            {
+                PlaySelectedLevel();
+            }
+        }
+
         if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
         {
             HandlePress(Mouse.current.position.ReadValue());
@@ -54,50 +96,196 @@ public class LevelSelectChestGrid : MonoBehaviour
         }
     }
 
-    private void BuildGrid()
+    private void BuildSelector()
     {
-        ClearGeneratedChests();
-
-        List<int> levels = GetLevelNumbers();
-        if (levels.Count == 0)
+        ClearGeneratedControls();
+        LevelDatabase.ResetProgressIfOutOfRange();
+        m_levels.Clear();
+        m_levels.AddRange(GetLevelNumbers());
+        if (m_levels.Count == 0)
         {
             return;
         }
 
         int highestCompletedLevel = LevelDatabase.HighestCompletedLevel;
-        int rowCount = Mathf.CeilToInt(levels.Count / (float)columns);
-        CalculateGridMetrics(rowCount, out Vector2 spacing, out Vector2 firstCellPosition);
-
-        for (int i = 0; i < levels.Count; i++)
+        m_selectedIndex = m_levels.FindIndex(level => level > highestCompletedLevel);
+        if (m_selectedIndex < 0)
         {
-            int row = i / columns;
-            int column = i % columns;
-            float x = firstCellPosition.x + column * (m_cellSize.x + spacing.x);
-            float y = firstCellPosition.y - row * (m_cellSize.y + spacing.y);
-            bool unlocked = levels[i] <= highestCompletedLevel + 1;
-            CreateChest(levels[i], unlocked, new Vector2(x, y), GetSpriteForLevel(levels[i], highestCompletedLevel));
+            m_selectedIndex = m_levels.Count - 1;
         }
+
+        float chestSize = Mathf.Clamp(Mathf.Min(m_rectTransform.rect.width * 0.58f, m_rectTransform.rect.height * 0.29f), 200f, 320f);
+        float selectorY = -m_rectTransform.rect.height * 0.13f;
+
+        m_titleText = CreateTextControl("Title", transform, new Vector2(0f, m_rectTransform.rect.height * 0.45f), new Vector2(m_rectTransform.rect.width * 0.9f, chestSize * 0.24f), new Color(1f, 0.79f, 0.28f), Mathf.RoundToInt(chestSize * 0.12f), TextAnchor.MiddleCenter);
+
+        Vector2 levelPanelPosition = new Vector2(0f, m_rectTransform.rect.height * 0.34f);
+        Vector2 levelPanelSize = new Vector2(m_rectTransform.rect.width * 0.65f, m_rectTransform.rect.height * 0.25f);
+        CreateImageControl("LevelPanel", levelPanelPosition, levelPanelSize, levelPanelTexture, out m_levelPanelImage);
+
+        m_levelLabelText = CreateTextControl("LevelLabel", transform, levelPanelPosition + new Vector2(0f, -levelPanelSize.y * 0.12f), new Vector2(levelPanelSize.x * 0.65f, levelPanelSize.y * 0.32f), numberColor, Mathf.RoundToInt(chestSize * 0.13f), TextAnchor.MiddleCenter);
+        m_levelLabelText.text = "";
+
+        m_titleText.rectTransform.anchoredPosition = levelPanelPosition + new Vector2(0f, -levelPanelSize.y * 0.12f);
+        m_titleText.rectTransform.sizeDelta = new Vector2(levelPanelSize.x * 0.65f, levelPanelSize.y * 0.32f);
+        m_titleText.fontSize = Mathf.RoundToInt(chestSize * 0.13f);
+        m_titleText.color = numberColor;
+        m_titleText.gameObject.SetActive(false);
+        m_levelLabelText.gameObject.SetActive(false);
+
+        m_chestRect = CreateImageControl("SelectedLevelChest", new Vector2(0f, selectorY), new Vector2(chestSize, chestSize), chestTexture, out m_chestImage);
+
+        float arrowSize = Mathf.Clamp(chestSize * 0.28f, 76f, 130f);
+        float arrowOffset = chestSize * 0.62f;
+        m_previousArrowRect = CreateArrow("PreviousLevel", -arrowOffset, selectorY, arrowSize, false, out m_previousArrowImage);
+        m_nextArrowRect = CreateArrow("NextLevel", arrowOffset, selectorY, arrowSize, true, out m_nextArrowImage);
+
+        m_instructionText = CreateTextControl("Instruction", transform, new Vector2(0f, -m_rectTransform.rect.height * 0.32f), new Vector2(m_rectTransform.rect.width * 0.86f, chestSize * 0.14f), new Color(0.78f, 0.59f, 1f), Mathf.RoundToInt(chestSize * 0.07f), TextAnchor.MiddleCenter);
+        m_instructionText.rectTransform.anchoredPosition = levelPanelPosition + new Vector2(0f, -levelPanelSize.y * 0.12f);
+        m_instructionText.rectTransform.sizeDelta = new Vector2(levelPanelSize.x * 0.65f, levelPanelSize.y * 0.32f);
+        m_instructionText.fontSize = Mathf.RoundToInt(chestSize * 0.2f);
+        m_instructionText.color = new Color(1f, 0.86f, 0.24f);
+        m_instructionText.transform.SetAsLastSibling();
+
+        m_actionPanelRect = CreateImageControl(
+            "ActionPanel",
+            new Vector2(0f, -m_rectTransform.rect.height * 0.38f),
+            new Vector2(m_rectTransform.rect.width * 0.96f, m_rectTransform.rect.height * 0.42f),
+            actionPanelTexture,
+            out RawImage actionPanelImage);
+        actionPanelImage.raycastTarget = false;
+
+        m_tutorialActionRect = CreateActionZone("TutorialAction", m_actionPanelRect, new Vector2(-m_actionPanelRect.rect.width * 0.27f, 0f), new Vector2(m_actionPanelRect.rect.width * 0.26f, m_actionPanelRect.rect.height * 0.36f));
+        m_playActionRect = CreateActionZone("PlayAction", m_actionPanelRect, new Vector2(0f, -m_actionPanelRect.rect.height * 0.12f), new Vector2(m_actionPanelRect.rect.width * 0.3f, m_actionPanelRect.rect.height * 0.34f));
+        m_exitActionRect = CreateActionZone("ExitAction", m_actionPanelRect, new Vector2(m_actionPanelRect.rect.width * 0.27f, 0f), new Vector2(m_actionPanelRect.rect.width * 0.26f, m_actionPanelRect.rect.height * 0.36f));
+
+        RefreshSelector();
     }
 
-    private void CalculateGridMetrics(int rowCount, out Vector2 spacing, out Vector2 firstCellPosition)
+    private RectTransform CreateActionZone(string name, Transform parent, Vector2 position, Vector2 size)
     {
-        Rect canvasRect = m_rectTransform.rect;
-        float availableWidth = canvasRect.width * (1f - horizontalMargin * 2f);
-        float availableHeight = canvasRect.height * (1f - verticalMargin * 2f);
-        float widthDenominator = columns + (columns - 1) * horizontalSpacingRatio;
-        float heightDenominator = rowCount + (rowCount - 1) * verticalSpacingRatio;
-        float cell = Mathf.Min(availableWidth / widthDenominator, availableHeight / heightDenominator);
+        GameObject zone = new GameObject(name, typeof(RectTransform));
+        zone.transform.SetParent(parent, false);
 
-       
-        m_cellSize = new Vector2(cell, cell);
-        spacing = new Vector2(cell * horizontalSpacingRatio, cell * verticalSpacingRatio);
+        RectTransform rectTransform = zone.GetComponent<RectTransform>();
+        rectTransform.anchorMin = new Vector2(0.5f, 0.5f);
+        rectTransform.anchorMax = new Vector2(0.5f, 0.5f);
+        rectTransform.pivot = new Vector2(0.5f, 0.5f);
+        rectTransform.anchoredPosition = position;
+        rectTransform.sizeDelta = size;
+        return rectTransform;
+    }
 
-        float totalWidth = columns * m_cellSize.x + (columns - 1) * spacing.x;
-        float totalHeight = rowCount * m_cellSize.y + (rowCount - 1) * spacing.y;
-        firstCellPosition = new Vector2(
-            -totalWidth * 0.5f + m_cellSize.x * 0.5f + gridOffset.x,
-            totalHeight * 0.5f - m_cellSize.y * 0.5f + gridOffset.y
-        );
+    private RectTransform CreateImageControl(string name, Vector2 position, Vector2 size, Texture texture, out RawImage image)
+    {
+        GameObject control = new GameObject(name, typeof(RectTransform), typeof(CanvasRenderer), typeof(RawImage));
+        control.transform.SetParent(transform, false);
+
+        RectTransform rectTransform = control.GetComponent<RectTransform>();
+        rectTransform.anchorMin = new Vector2(0.5f, 0.5f);
+        rectTransform.anchorMax = new Vector2(0.5f, 0.5f);
+        rectTransform.pivot = new Vector2(0.5f, 0.5f);
+        rectTransform.anchoredPosition = position;
+        rectTransform.sizeDelta = FitSize(size, texture);
+
+        image = control.GetComponent<RawImage>();
+        image.texture = texture;
+        image.raycastTarget = false;
+
+        return rectTransform;
+    }
+
+    private RectTransform CreateArrow(string name, float xPosition, float yPosition, float size, bool flipHorizontally, out RawImage image)
+    {
+        GameObject control = new GameObject(name, typeof(RectTransform), typeof(CanvasRenderer), typeof(RawImage));
+        control.transform.SetParent(transform, false);
+
+        RectTransform rectTransform = control.GetComponent<RectTransform>();
+        rectTransform.anchorMin = new Vector2(0.5f, 0.5f);
+        rectTransform.anchorMax = new Vector2(0.5f, 0.5f);
+        rectTransform.pivot = new Vector2(0.5f, 0.5f);
+        rectTransform.anchoredPosition = new Vector2(xPosition, yPosition);
+        rectTransform.sizeDelta = FitSize(new Vector2(size, size), arrowTexture);
+
+        image = control.GetComponent<RawImage>();
+        image.texture = arrowTexture;
+        image.raycastTarget = false;
+        image.enabled = arrowTexture != null;
+
+        if (flipHorizontally)
+        {
+            image.rectTransform.localRotation = Quaternion.Euler(0f, 0f, 180f);
+        }
+
+        return rectTransform;
+    }
+
+    private Vector2 FitSize(Vector2 maximumSize, Texture texture)
+    {
+        if (texture == null || texture.height == 0)
+        {
+            return maximumSize;
+        }
+
+        float aspectRatio = (float)texture.width / texture.height;
+        if (aspectRatio >= 1f)
+        {
+            float height = maximumSize.x / aspectRatio;
+            return height <= maximumSize.y
+                ? new Vector2(maximumSize.x, height)
+                : new Vector2(maximumSize.y * aspectRatio, maximumSize.y);
+        }
+
+        float width = maximumSize.y * aspectRatio;
+        return width <= maximumSize.x
+            ? new Vector2(width, maximumSize.y)
+            : new Vector2(maximumSize.x, maximumSize.x / aspectRatio);
+    }
+
+    private Text CreateTextControl(string name, Transform parent, Vector2 position, Vector2 size, Color color, int fontSize, TextAnchor alignment)
+    {
+        GameObject textObject = new GameObject(name, typeof(RectTransform), typeof(CanvasRenderer), typeof(Text));
+        textObject.transform.SetParent(parent, false);
+
+        RectTransform textRect = textObject.GetComponent<RectTransform>();
+        textRect.anchorMin = new Vector2(0.5f, 0.5f);
+        textRect.anchorMax = new Vector2(0.5f, 0.5f);
+        textRect.pivot = new Vector2(0.5f, 0.5f);
+        textRect.anchoredPosition = position;
+        textRect.sizeDelta = size;
+
+        Text text = textObject.GetComponent<Text>();
+        text.alignment = alignment;
+        text.color = color;
+        text.fontSize = fontSize;
+        text.fontStyle = FontStyle.Bold;
+        text.raycastTarget = false;
+        text.font = GetBuiltinFont("LegacyRuntime.ttf") ?? GetBuiltinFont("Arial.ttf");
+        AddTextShadow(textObject);
+        return text;
+    }
+
+    private void RefreshSelector()
+    {
+        int level = m_levels[m_selectedIndex];
+        int highestCompletedLevel = LevelDatabase.HighestCompletedLevel;
+        if (level <= highestCompletedLevel && completedChestTexture != null)
+        {
+            m_chestImage.texture = completedChestTexture;
+        }
+        else if (level == highestCompletedLevel + 1 && currentLevelChestTexture != null)
+        {
+            m_chestImage.texture = currentLevelChestTexture;
+        }
+        else
+        {
+            m_chestImage.texture = lockedChestTexture != null ? lockedChestTexture : chestTexture;
+        }
+        bool isUnlocked = level <= highestCompletedLevel + 1;
+        m_chestImage.color = isUnlocked ? Color.white : new Color(0.55f, 0.55f, 0.68f, 0.85f);
+        m_instructionText.text = level.ToString("00");
+        m_previousArrowImage.color = m_selectedIndex > 0 ? arrowColor : disabledArrowColor;
+        m_nextArrowImage.color = m_selectedIndex < m_levels.Count - 1 ? arrowColor : disabledArrowColor;
     }
 
     private List<int> GetLevelNumbers()
@@ -128,67 +316,75 @@ public class LevelSelectChestGrid : MonoBehaviour
         return levels;
     }
 
-    private Sprite GetSpriteForLevel(int level, int highestCompletedLevel)
+    private void HandlePress(Vector2 screenPosition)
     {
-        if (level <= highestCompletedLevel && completedLevelSprite != null)
+        if (ContainsScreenPoint(m_previousArrowRect, screenPosition))
         {
-            return completedLevelSprite;
+            ChangeSelectedLevel(-1);
         }
-
-        if (level == highestCompletedLevel + 1 && currentLevelSprite != null)
+        else if (ContainsScreenPoint(m_nextArrowRect, screenPosition))
         {
-            return currentLevelSprite;
+            ChangeSelectedLevel(1);
         }
-
-        return lockedLevelSprite != null ? lockedLevelSprite : chestSprite;
+        else if (ContainsScreenPoint(m_chestRect, screenPosition))
+        {
+            PlaySelectedLevel();
+        }
+        else if (ContainsScreenPoint(m_playActionRect, screenPosition))
+        {
+            PlaySelectedLevel();
+        }
+        else if (ContainsScreenPoint(m_tutorialActionRect, screenPosition))
+        {
+            OpenTutorial();
+        }
+        else if (ContainsScreenPoint(m_exitActionRect, screenPosition))
+        {
+            ExitGame();
+        }
     }
 
-    private void CreateChest(int level, bool unlocked, Vector2 anchoredPosition, Sprite sprite)
+    private bool ContainsScreenPoint(RectTransform rectTransform, Vector2 screenPosition)
     {
-        GameObject chest = new GameObject("LevelChest_" + level, typeof(RectTransform), typeof(CanvasRenderer), typeof(Image));
-        chest.transform.SetParent(transform, false);
-
-        RectTransform chestRect = chest.GetComponent<RectTransform>();
-        chestRect.anchorMin = new Vector2(0.5f, 0.5f);
-        chestRect.anchorMax = new Vector2(0.5f, 0.5f);
-        chestRect.pivot = new Vector2(0.5f, 0.5f);
-        chestRect.anchoredPosition = anchoredPosition;
-        chestRect.sizeDelta = m_cellSize * chestScale;
-
-        Image image = chest.GetComponent<Image>();
-        image.sprite = sprite;
-        image.preserveAspect = true;
-        image.raycastTarget = false;
-
-        CreateLevelText(level, chest.transform);
-        m_chests.Add(new ChestButton { level = level, unlocked = unlocked, rectTransform = chestRect });
+        Camera canvasCamera = m_canvas != null && m_canvas.renderMode != RenderMode.ScreenSpaceOverlay ? m_canvas.worldCamera : null;
+        return RectTransformUtility.RectangleContainsScreenPoint(rectTransform, screenPosition, canvasCamera);
     }
 
-    private void CreateLevelText(int level, Transform parent)
+    private void ChangeSelectedLevel(int direction)
     {
-        GameObject textObject = new GameObject("LevelText", typeof(RectTransform), typeof(CanvasRenderer), typeof(Text));
-        textObject.transform.SetParent(parent, false);
-
-        RectTransform textRect = textObject.GetComponent<RectTransform>();
-        textRect.anchorMin = new Vector2(0.5f, 0.5f);
-        textRect.anchorMax = new Vector2(0.5f, 0.5f);
-        textRect.pivot = new Vector2(0.5f, 0.5f);
-        Vector2 visualSize = m_cellSize * chestScale;
-        textRect.anchoredPosition = new Vector2(0f, -visualSize.y * 0.34f);
-        textRect.sizeDelta = new Vector2(visualSize.x, visualSize.y * 0.25f);
-
-        Text text = textObject.GetComponent<Text>();
-        text.text = level.ToString();
-        text.alignment = TextAnchor.MiddleCenter;
-        text.color = numberColor;
-        text.fontSize = Mathf.RoundToInt(visualSize.y * 0.2f);
-        text.fontStyle = FontStyle.Bold;
-        text.raycastTarget = false;
-        Font font = GetBuiltinFont("LegacyRuntime.ttf") ?? GetBuiltinFont("Arial.ttf");
-        if (font != null)
+        int nextIndex = Mathf.Clamp(m_selectedIndex + direction, 0, m_levels.Count - 1);
+        if (nextIndex == m_selectedIndex)
         {
-            text.font = font;
+            return;
         }
+
+        m_selectedIndex = nextIndex;
+        RefreshSelector();
+    }
+
+    private void PlaySelectedLevel()
+    {
+        int level = m_levels[m_selectedIndex];
+        if (level > LevelDatabase.HighestCompletedLevel + 1)
+        {
+            return;
+        }
+
+        LevelDatabase.SelectLevel(level);
+        SceneManager.LoadScene(gameplaySceneName);
+    }
+
+    private void OpenTutorial()
+    {
+        if (Application.CanStreamedLevelBeLoaded(tutorialSceneName))
+        {
+            SceneManager.LoadScene(tutorialSceneName);
+        }
+    }
+
+    private void ExitGame()
+    {
+        Application.Quit();
     }
 
     private Font GetBuiltinFont(string fontName)
@@ -203,34 +399,15 @@ public class LevelSelectChestGrid : MonoBehaviour
         }
     }
 
-    private void HandlePress(Vector2 screenPosition)
+    private void AddTextShadow(GameObject textObject)
     {
-        Camera canvasCamera = m_canvas != null && m_canvas.renderMode != RenderMode.ScreenSpaceOverlay ? m_canvas.worldCamera : null;
-        foreach (ChestButton chest in m_chests)
-        {
-            Vector2 localPoint;
-            if (RectTransformUtility.ScreenPointToLocalPointInRectangle(chest.rectTransform, screenPosition, canvasCamera, out localPoint) &&
-                chest.rectTransform.rect.Contains(localPoint))
-            {
-                if (chest.unlocked)
-                {
-                    SelectLevel(chest.level);
-                }
-
-                return;
-            }
-        }
+        Shadow shadow = textObject.AddComponent<Shadow>();
+        shadow.effectColor = new Color(0.08f, 0.02f, 0.12f, 0.9f);
+        shadow.effectDistance = new Vector2(3f, -3f);
     }
 
-    private void SelectLevel(int level)
+    private void ClearGeneratedControls()
     {
-        LevelDatabase.SelectLevel(level);
-        SceneManager.LoadScene(gameplaySceneName);
-    }
-
-    private void ClearGeneratedChests()
-    {
-        m_chests.Clear();
         for (int i = transform.childCount - 1; i >= 0; i--)
         {
             Destroy(transform.GetChild(i).gameObject);

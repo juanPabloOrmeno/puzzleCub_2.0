@@ -71,6 +71,19 @@ public static class LevelDatabase
         PlayerPrefs.Save();
     }
 
+    public static void ResetProgressIfOutOfRange()
+    {
+        int highestLevel = GetHighestLevelNumber();
+        if (highestLevel <= 0 || HighestCompletedLevel <= highestLevel)
+        {
+            return;
+        }
+
+        PlayerPrefs.SetInt(HighestCompletedLevelKey, 0);
+        PlayerPrefs.SetInt(SelectedLevelKey, GetFirstLevelNumber());
+        PlayerPrefs.Save();
+    }
+
     public static LevelData GetSelectedLevelData()
     {
         return GetLevelData(SelectedLevel);
@@ -113,6 +126,41 @@ public static class LevelDatabase
         }
 
         return nextLevel == int.MaxValue ? 0 : nextLevel;
+    }
+
+    public static int GetFirstLevelNumber()
+    {
+        return GetBoundaryLevelNumber(int.MaxValue, true);
+    }
+
+    public static int GetHighestLevelNumber()
+    {
+        return GetBoundaryLevelNumber(int.MinValue, false);
+    }
+
+    private static int GetBoundaryLevelNumber(int initialValue, bool findLowest)
+    {
+        LevelCollection collection = LoadCollection();
+        if (collection == null || collection.levels == null)
+        {
+            return 0;
+        }
+
+        int boundaryLevel = initialValue;
+        foreach (LevelData levelData in collection.levels)
+        {
+            if (levelData == null)
+            {
+                continue;
+            }
+
+            if ((findLowest && levelData.level < boundaryLevel) || (!findLowest && levelData.level > boundaryLevel))
+            {
+                boundaryLevel = levelData.level;
+            }
+        }
+
+        return boundaryLevel == initialValue ? 0 : boundaryLevel;
     }
 
     private static LevelCollection LoadCollection()

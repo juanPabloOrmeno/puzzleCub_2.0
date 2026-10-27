@@ -119,6 +119,38 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &53939361
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 53939362}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &53939362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 53939361}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2077315502}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1605695468
 GameObject:
   m_ObjectHideFlags: 0
@@ -253,7 +285,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 5387567155437495307, guid: 0cfc4f244a1134293ba8a71923fd262a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b0df9d95e7994d538a9eea9b47763d10, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -366,10 +398,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d75fe90aab048b1848c792c94f16e81, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelSelectChestGrid
-  chestSprite: {fileID: -6813626394116026668, guid: dac857f495cfe4b1ab0a3b9bb138dc89, type: 3}
-  currentLevelSprite: {fileID: -6813626394116026668, guid: dac857f495cfe4b1ab0a3b9bb138dc89, type: 3}
-  completedLevelSprite: {fileID: 6535277335616342648, guid: cc9ce12baab144cacb845b659a2174ae, type: 3}
-  lockedLevelSprite: {fileID: -9039407239781990205, guid: 703c93247d6394447810806b3933fa7d, type: 3}
+  chestSprite: {fileID: 21300000, guid: 596d482658f24daa824a946fb0261dd8, type: 3}
+  currentLevelSprite: {fileID: 21300000, guid: 596d482658f24daa824a946fb0261dd8, type: 3}
+  completedLevelSprite: {fileID: 21300000, guid: 596d482658f24daa824a946fb0261dd8, type: 3}
+  lockedLevelSprite: {fileID: 21300000, guid: 596d482658f24daa824a946fb0261dd8, type: 3}
+  levelPanelSprite: {fileID: 21300000, guid: c4116809eb8a48e680518a5464f56177, type: 3}
+  arrowSprite: {fileID: 21300000, guid: f54da0c9c41c49e4910c40a2e1e0b276, type: 3}
+  chestTexture: {fileID: 2800000, guid: 596d482658f24daa824a946fb0261dd8, type: 3}
+  currentLevelChestTexture: {fileID: 2800000, guid: 3f465c127fd441cfbf260a1f6ef0bf8a, type: 3}
+  completedChestTexture: {fileID: 2800000, guid: 9d42e2a9dc1042ecb522dc78bd28d6f7, type: 3}
+  lockedChestTexture: {fileID: 2800000, guid: 2b9c86e2348b4a8db18602b030fb69b5, type: 3}
+  levelPanelTexture: {fileID: 2800000, guid: c4116809eb8a48e680518a5464f56177, type: 3}
+  arrowTexture: {fileID: 2800000, guid: f54da0c9c41c49e4910c40a2e1e0b276, type: 3}
+  actionPanelTexture: {fileID: 2800000, guid: e9c5f3ab7a084eef98ca22df1af0062c, type: 3}
+  tutorialSceneName: Tutorial
   gameplaySceneName: Level
   columns: 4
   horizontalMargin: 0.06
@@ -379,9 +421,60 @@ MonoBehaviour:
   verticalSpacingRatio: 0.16
   gridOffset: {x: 0, y: 0}
   numberColor: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &2077315501
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2077315502}
+  - component: {fileID: 2077315503}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2077315502
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077315501}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 53939362}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2077315503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077315501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 908580725384c43bc816cc7568be1294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SimpleSoundManager
+  musicClips:
+  - {fileID: 8300000, guid: 1cbbf4f7e8cff784185872b3d839e557, type: 3}
+  musicVolume: 0.5
+  fxVolume: 1
+  lowPitch: 0.95
+  highPitch: 1.05
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1605695471}
+  - {fileID: 53939362}
   - {fileID: 1676971380}

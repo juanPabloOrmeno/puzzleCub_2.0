@@ -154,7 +154,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1031.1926, y: 1771.0093}
+  m_SizeDelta: {x: 397.06424, y: 608.44037}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3547930
 MonoBehaviour:
@@ -395,7 +395,7 @@ MonoBehaviour:
   piezasComienzo: []
   gamePiecePrefabs:
   - {fileID: 6757383969652466528, guid: 07d5fe5df043a43239e1485df3e70e3e, type: 3}
-  - {fileID: 6757383969652466528, guid: 564921699f6c14e949ec3a3d57afb753, type: 3}
+  - {fileID: 6757383969652466528, guid: 280f1812e9b21481ea78742c40c14d95, type: 3}
   - {fileID: 6757383969652466528, guid: 9a9677aded6a74c84892baea2119aafa, type: 3}
   - {fileID: 6757383969652466528, guid: 6647bc4725f40472a962590ba5a8dd69, type: 3}
   - {fileID: 6757383969652466528, guid: b5a800004563f46f28b6458b84aeb0f1, type: 3}
@@ -403,7 +403,6 @@ MonoBehaviour:
   - {fileID: 6757383969652466528, guid: b7ff0657f0b0d40419c5c8783bbb6d99, type: 3}
   - {fileID: 6757383969652466528, guid: 2ff31458d4eb1418e89b2c909b601253, type: 3}
   - {fileID: 6757383969652466528, guid: 533ca3971761d4ab2a7d646448638ccc, type: 3}
-  - {fileID: 6757383969652466528, guid: 280f1812e9b21481ea78742c40c14d95, type: 3}
   borderSize: 0
   Blanc: {fileID: 0}
   Cyan: {fileID: 0}
@@ -414,7 +413,7 @@ MonoBehaviour:
   Red: {fileID: 0}
   Teal: {fileID: 0}
   Yellow: {fileID: 0}
-  Level: 3
+  Level: 400
   m_playerInputEnabled: 1
   m_particleManager: {fileID: 0}
 --- !u!1 &434852627
@@ -543,6 +542,16 @@ MonoBehaviour:
   - {fileID: 8300000, guid: bfb7a2c59a1a54880a53858849b24f6e, type: 3}
   - {fileID: 8300000, guid: 6e8c1b91259154b2baf8903610ae47b0, type: 3}
   - {fileID: 8300000, guid: 286af9175c8ff484e82031c6d34b7043, type: 3}
+  - {fileID: 8300000, guid: 2afb25ee7f99ec04fb4f5d3fdfaca3a2, type: 3}
+  - {fileID: 8300000, guid: 0326fd6e2b34aff44ae06f70213218c9, type: 3}
+  - {fileID: 8300000, guid: ab471d012221ae84d84cab6439692aa2, type: 3}
+  - {fileID: 8300000, guid: 6ada577b5483ce84aa61caa17a4b3975, type: 3}
+  - {fileID: 8300000, guid: 843627a0cb2fe56478e4c43615b6d984, type: 3}
+  - {fileID: 8300000, guid: 4dbe6ab97f4079a479be89c2c9f5c913, type: 3}
+  - {fileID: 8300000, guid: c8744f1594c91e94aa2bdf6fbc41816b, type: 3}
+  - {fileID: 8300000, guid: 9bbf9a08a8896ee45a87ac71750baeac, type: 3}
+  - {fileID: 8300000, guid: d87812a72fc9df0448d58dd627df8896, type: 3}
+  - {fileID: 8300000, guid: 1cbbf4f7e8cff784185872b3d839e557, type: 3}
   musicVolume: 0.5
   fxVolume: 1
   lowPitch: 0.95
@@ -1231,7 +1240,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2075092891}
   m_Layer: 0
-  m_Name: SoudManager
+  m_Name: SoundManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -67,8 +67,22 @@ public class Board : MonoBehaviour
 
     public void LoadLevel(int level)
     {
-        Level = level;
-        ApplyLevelData(LevelDatabase.GetLevelData(Level));
+        LevelData levelData = LevelDatabase.GetLevelData(level);
+        if (levelData == null)
+        {
+            int firstLevel = LevelDatabase.GetFirstLevelNumber();
+            levelData = LevelDatabase.GetLevelData(firstLevel);
+            if (levelData == null)
+            {
+                Debug.LogError("No hay niveles válidos para cargar.");
+                return;
+            }
+
+            LevelDatabase.SelectLevel(firstLevel);
+        }
+
+        Level = levelData.level;
+        ApplyLevelData(levelData);
         InitializeBoardArrays();
         SetupBoard();
     }

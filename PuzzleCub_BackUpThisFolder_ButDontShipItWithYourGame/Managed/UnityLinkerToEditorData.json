@@ -79,7 +79,9 @@
           {
             "name": "AudioClip",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -103,7 +105,9 @@
           {
             "name": "AudioResource",
             "scenes": [
-              "Assets/Scenes/Level.unity"
+              "Assets/Scenes/Inicio.unity",
+              "Assets/Scenes/Level.unity",
+              "Assets/Scenes/SelectNivel.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -216,7 +220,8 @@
             "scenes": [
               "Assets/Scenes/Inicio.unity",
               "Assets/Scenes/Level.unity",
-              "Assets/Scenes/SelectNivel.unity"
+              "Assets/Scenes/SelectNivel.unity",
+              "Assets/Scenes/tutorial.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -232,7 +237,8 @@
             "scenes": [
               "Assets/Scenes/Inicio.unity",
               "Assets/Scenes/Level.unity",
-              "Assets/Scenes/SelectNivel.unity"
+              "Assets/Scenes/SelectNivel.unity",
+              "Assets/Scenes/tutorial.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -266,7 +272,8 @@
             "scenes": [
               "Assets/Scenes/Inicio.unity",
               "Assets/Scenes/Level.unity",
-              "Assets/Scenes/SelectNivel.unity"
+              "Assets/Scenes/SelectNivel.unity",
+              "Assets/Scenes/tutorial.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -300,7 +307,8 @@
             "scenes": [
               "Assets/Scenes/Inicio.unity",
               "Assets/Scenes/Level.unity",
-              "Assets/Scenes/SelectNivel.unity"
+              "Assets/Scenes/SelectNivel.unity",
+              "Assets/Scenes/tutorial.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -344,7 +352,8 @@
             "scenes": [
               "Assets/Scenes/Inicio.unity",
               "Assets/Scenes/Level.unity",
-              "Assets/Scenes/SelectNivel.unity"
+              "Assets/Scenes/SelectNivel.unity",
+              "Assets/Scenes/tutorial.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -360,7 +369,8 @@
             "scenes": [
               "Assets/Scenes/Inicio.unity",
               "Assets/Scenes/Level.unity",
-              "Assets/Scenes/SelectNivel.unity"
+              "Assets/Scenes/SelectNivel.unity",
+              "Assets/Scenes/tutorial.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -370,7 +380,8 @@
             "scenes": [
               "Assets/Scenes/Inicio.unity",
               "Assets/Scenes/Level.unity",
-              "Assets/Scenes/SelectNivel.unity"
+              "Assets/Scenes/SelectNivel.unity",
+              "Assets/Scenes/tutorial.unity"
             ],
             "dependencyType": 1,
             "icon": null
@@ -412,7 +423,8 @@
             "scenes": [
               "Assets/Scenes/Inicio.unity",
               "Assets/Scenes/Level.unity",
-              "Assets/Scenes/SelectNivel.unity"
+              "Assets/Scenes/SelectNivel.unity",
+              "Assets/Scenes/tutorial.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -428,7 +440,8 @@
             "scenes": [
               "Assets/Scenes/Inicio.unity",
               "Assets/Scenes/Level.unity",
-              "Assets/Scenes/SelectNivel.unity"
+              "Assets/Scenes/SelectNivel.unity",
+              "Assets/Scenes/tutorial.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1799,7 +1812,8 @@
             "scenes": [
               "Assets/Scenes/Inicio.unity",
               "Assets/Scenes/Level.unity",
-              "Assets/Scenes/SelectNivel.unity"
+              "Assets/Scenes/SelectNivel.unity",
+              "Assets/Scenes/tutorial.unity"
             ],
             "dependencyType": 0,
             "icon": null

@@ -30,6 +30,7 @@ public class GamePiece : MonoBehaviour
     private readonly float[] m_trailTimes = new float[3];
     private int m_trailIndex;
     private float m_nextTrailTime;
+    private const float ClearDuration = .28f;
 
     private void Awake()
     {
@@ -50,14 +51,19 @@ public class GamePiece : MonoBehaviour
         float angle = -m_moveDirection.x * motion * 9f;
         if (m_clearing)
         {
-            float t = Mathf.Clamp01((Time.time - m_clearTime) / .2f);
-            scale = (1f + Mathf.Sin(t * Mathf.PI) * .25f) * (1f - t * t);
+            float t = Mathf.Clamp01((Time.time - m_clearTime) / ClearDuration);
+            if (t < .25f)
+                scale = Mathf.Lerp(1f, .82f, Mathf.SmoothStep(0, 1, t / .25f));
+            else if (t < .5f)
+                scale = Mathf.Lerp(.82f, 1.22f, Mathf.SmoothStep(0, 1, (t - .25f) / .25f));
+            else
+                scale = Mathf.Lerp(1.22f, 0f, Mathf.SmoothStep(0, 1, (t - .5f) / .5f));
             bounce = stretch = 0f;
-            angle = t * 22f;
+            angle = Mathf.SmoothStep(0, 35f, t) * ((xIndex + yIndex) % 2 == 0 ? 1f : -1f);
             if (m_renderer != null)
             {
                 Color color = Color.Lerp(m_baseColor, Color.white, Mathf.Sin(t * Mathf.PI));
-                color.a = m_baseColor.a * (1f - t);
+                color.a = m_baseColor.a * (1f - Mathf.SmoothStep(0, 1, Mathf.InverseLerp(.45f, 1f, t)));
                 m_renderer.color = color;
             }
         }
@@ -80,7 +86,13 @@ public class GamePiece : MonoBehaviour
         m_clearTime = Time.time;
         foreach (Collider2D hitbox in GetComponents<Collider2D>()) hitbox.enabled = false;
         foreach (SpriteRenderer ghost in m_trail) if (ghost != null) ghost.enabled = false;
-        Destroy(gameObject, .2f);
+        if (m_board != null && m_renderer != null)
+        {
+            BoardVisualEffects effects = m_board.GetComponent<BoardVisualEffects>();
+            if (effects != null)
+                effects.PlayClearBurst(transform.position, matchValue, m_renderer.sortingLayerID);
+        }
+        Destroy(gameObject, ClearDuration);
     }
 
     private void UpdateTrail()

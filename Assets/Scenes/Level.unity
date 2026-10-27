@@ -592,6 +592,8 @@ GameObject:
   - component: {fileID: 1046001669}
   - component: {fileID: 1046001668}
   - component: {fileID: 1046001670}
+  - component: {fileID: 1046001671}
+  - component: {fileID: 1046001672}
   m_Layer: 5
   m_Name: panelInferior_0
   m_TagString: Untagged
@@ -705,6 +707,33 @@ MonoBehaviour:
   characterScale: 1.18
   leftIndex: 0
   rightIndex: 0
+--- !u!114 &1046001671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046001665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fc9e0c8daa443728784b4d7f7d5f51d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::LevelCountdown
+  board: {fileID: 347929876}
+  gameManager: {fileID: 1937401201}
+--- !u!114 &1046001672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046001665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bdd96aa87bd4a63a0c318759b376aef, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::LevelStatsDisplay
+  board: {fileID: 347929876}
 --- !u!1 &1046001765
 GameObject:
   m_ObjectHideFlags: 0

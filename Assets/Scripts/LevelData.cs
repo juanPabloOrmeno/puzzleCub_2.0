@@ -43,6 +43,18 @@ public static class LevelDatabase
     public const string ResourcePath = "Levels/levels";
 
     private static LevelCollection s_collection;
+#if UNITY_EDITOR
+    private static string s_sourceJson;
+#endif
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+    private static void ResetCache()
+    {
+        s_collection = null;
+#if UNITY_EDITOR
+        s_sourceJson = null;
+#endif
+    }
 
     public static int SelectedLevel
     {
@@ -165,10 +177,12 @@ public static class LevelDatabase
 
     private static LevelCollection LoadCollection()
     {
+#if !UNITY_EDITOR
         if (s_collection != null)
         {
             return s_collection;
         }
+#endif
 
         TextAsset json = Resources.Load<TextAsset>(ResourcePath);
         if (json == null)
@@ -177,8 +191,16 @@ public static class LevelDatabase
             return null;
         }
 
+        string source = json.text;
+#if UNITY_EDITOR
+        // Reimporting the JSON must invalidate editor data even with domain reload disabled.
+        if (s_collection != null && s_sourceJson == source) return s_collection;
+#endif
         // JsonUtility necesita una clase contenedora para deserializar listas desde JSON.
-        s_collection = JsonUtility.FromJson<LevelCollection>(json.text);
+        s_collection = JsonUtility.FromJson<LevelCollection>(source);
+#if UNITY_EDITOR
+        s_sourceJson = source;
+#endif
         return s_collection;
     }
 }

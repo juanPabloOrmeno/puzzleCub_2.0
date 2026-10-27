@@ -48,6 +48,20 @@ public class Board : MonoBehaviour
 
     /// <summary>Raised after a move and its resulting matches and falls have resolved.</summary>
     public event Action MoveResolved;
+    public event Action StatsChanged;
+    public int MovesMade { get; private set; }
+
+    public int RemainingPieces
+    {
+        get
+        {
+            if (m_allGamePieces == null) return 0;
+            int count = 0;
+            foreach (GamePiece piece in m_allGamePieces)
+                if (piece != null) count++;
+            return count;
+        }
+    }
 
     /// <summary>Optional standalone practice data, assigned before Start.</summary>
     public LevelData PracticeLevel { get; set; }
@@ -114,6 +128,7 @@ public class Board : MonoBehaviour
 
     private void InitializeBoardArrays()
     {
+        MovesMade = 0;
         m_allTiles = new Tile[width, height];
         m_allGamePieces = new GamePiece[width, height];
     }
@@ -125,6 +140,7 @@ public class Board : MonoBehaviour
         SetupGamePieces();
         if (GetComponent<BoardVisualEffects>() == null)
             gameObject.AddComponent<BoardVisualEffects>();
+        StatsChanged?.Invoke();
     }
 
     public void ClickTile(Tile tile)
@@ -494,6 +510,8 @@ public class Board : MonoBehaviour
         }
 
         m_playerInputEnabled = false;
+        MovesMade++;
+        StatsChanged?.Invoke();
         clickedPiece.Move(targetTile.xIndex, targetTile.yIndex, swapTime);
         m_allGamePieces[clickedTile.xIndex, clickedTile.yIndex] = null;
         m_allGamePieces[targetTile.xIndex, targetTile.yIndex] = clickedPiece;
@@ -567,6 +585,7 @@ public class Board : MonoBehaviour
         }
 
         m_allGamePieces[x, y] = null;
+        StatsChanged?.Invoke();
         if (m_particleManager != null)
         {
             m_particleManager.ClearPieceFXAt(x, y, -1);

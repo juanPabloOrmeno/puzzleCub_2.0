@@ -122,9 +122,12 @@ Los textos del tutorial se basan en estos puntos del código fuente:
 | Victoria al no quedar piezas | `Board.CheckWinCondition`, `GameManager.FinishGame` |
 | Progreso de niveles | `LevelDatabase.CompleteLevel` |
 
-`LEVEL_MECHANICS_CONTEXT.md` describe un contador antiguo. El `GameManager`
-actual no implementa esa cuenta atrás, aunque el JSON conserva `time`; por eso
-la guía no enseña una derrota por tiempo. El enum actual de tiles solo diferencia
+Los niveles normales muestran una cuenta atrás `MM:SS` en el escudo del panel
+inferior, mediante `LevelCountdown`, usando `time` del JSON del nivel cargado.
+Se detiene al terminar la partida, durante una pausa o con la guía modal abierta.
+Al llegar a cero se bloquea el tablero y se ofrece reintentar o volver a niveles.
+Las tres lecciones de práctica no tienen límite de tiempo.
+El enum actual de tiles solo diferencia
 `Normal` y `Obstacle`; no se promete movimiento autónomo de obstáculos.
 
 ## Verificación

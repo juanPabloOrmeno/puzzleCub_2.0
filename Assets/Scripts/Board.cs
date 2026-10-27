@@ -123,6 +123,8 @@ public class Board : MonoBehaviour
         SetupTiles();
         SetupCamera();
         SetupGamePieces();
+        if (GetComponent<BoardVisualEffects>() == null)
+            gameObject.AddComponent<BoardVisualEffects>();
     }
 
     public void ClickTile(Tile tile)
@@ -136,6 +138,7 @@ public class Board : MonoBehaviour
         {
             HighlightAvailableMoves(tile);
             m_clickedTile = tile;
+            GetGamePieceAt(tile.xIndex, tile.yIndex).SetSelected(true);
         }
     }
 
@@ -179,6 +182,11 @@ public class Board : MonoBehaviour
     /// <summary>Clears the current selection without moving a piece.</summary>
     public void CancelSelection()
     {
+        if (m_clickedTile != null)
+        {
+            GamePiece selected = GetGamePieceAt(m_clickedTile.xIndex, m_clickedTile.yIndex);
+            if (selected != null) selected.SetSelected(false);
+        }
         ResetTileColors();
         m_clickedTile = null;
         m_targetTile = null;
@@ -565,7 +573,7 @@ public class Board : MonoBehaviour
         }
 
         pieceToClear.ScorePoints();
-        Destroy(pieceToClear.gameObject);
+        pieceToClear.ClearAnimated();
     }
 
     private void ClearPieceAt(List<GamePiece> gamePieces)

@@ -18,6 +18,7 @@ public class Tile : MonoBehaviour
     private Color m_defaultColor = Color.white;
     private Vector3 m_defaultScale = Vector3.one;
     private SpriteRenderer m_spriteRenderer;
+    private bool m_highlighted;
 
     private void Awake()
     {
@@ -48,12 +49,22 @@ public class Tile : MonoBehaviour
 
     public void tileColor()
     {
+        m_highlighted = true;
         ApplyVisualStyle(new Color32(255, 211, 64, 255), m_defaultScale);
     }
 
     public void tileColorN()
     {
+        m_highlighted = false;
         ApplyVisualStyle(m_defaultColor, m_defaultScale);
+    }
+
+    private void Update()
+    {
+        if (!m_highlighted) return;
+        float pulse = .5f + .5f * Mathf.Sin(Time.time * 5f - xIndex * .4f);
+        Color color = Color.Lerp(new Color(1f, .62f, .14f), new Color(1f, .9f, .42f), pulse);
+        ApplyVisualStyle(color, m_defaultScale * (1f + .025f * pulse));
     }
 
     private void ApplyVisualStyle(Color color, Vector3 scale)

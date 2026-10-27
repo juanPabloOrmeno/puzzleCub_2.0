@@ -16,6 +16,112 @@ public class GamePiece : MonoBehaviour
 
     private Board m_board;
     private bool m_isMoving;
+    private Vector3 m_visualScale;
+    private float m_appearanceTime;
+    private float m_landingTime = -10f;
+    private bool m_selected;
+    private bool m_clearing;
+    private float m_clearTime;
+    private float m_movePhase;
+    private Vector3 m_moveDirection;
+    private SpriteRenderer m_renderer;
+    private Color m_baseColor;
+    private readonly SpriteRenderer[] m_trail = new SpriteRenderer[3];
+    private readonly float[] m_trailTimes = new float[3];
+    private int m_trailIndex;
+    private float m_nextTrailTime;
+
+    private void Awake()
+    {
+        m_visualScale = transform.localScale;
+        m_renderer = GetComponent<SpriteRenderer>();
+        if (m_renderer != null) m_baseColor = m_renderer.color;
+    }
+
+    private void Update()
+    {
+        float enter = Mathf.Clamp01((Time.time - m_appearanceTime) / .35f);
+        float scale = Mathf.SmoothStep(.65f, 1f, enter) + Mathf.Sin(enter * Mathf.PI) * .12f;
+        float landing = (Time.time - m_landingTime) / .32f;
+        float bounce = landing >= 0f && landing <= 1f ? Mathf.Sin(landing * Mathf.PI * 2f) * (1f - landing) * .18f : 0f;
+        if (m_selected && !m_isMoving) scale *= 1.06f + Mathf.Sin(Time.time * 7f) * .025f;
+        float motion = m_isMoving ? Mathf.Sin(m_movePhase * Mathf.PI) : 0f;
+        float stretch = motion * (Mathf.Abs(m_moveDirection.x) > .5f ? .12f : -.15f);
+        float angle = -m_moveDirection.x * motion * 9f;
+        if (m_clearing)
+        {
+            float t = Mathf.Clamp01((Time.time - m_clearTime) / .2f);
+            scale = (1f + Mathf.Sin(t * Mathf.PI) * .25f) * (1f - t * t);
+            bounce = stretch = 0f;
+            angle = t * 22f;
+            if (m_renderer != null)
+            {
+                Color color = Color.Lerp(m_baseColor, Color.white, Mathf.Sin(t * Mathf.PI));
+                color.a = m_baseColor.a * (1f - t);
+                m_renderer.color = color;
+            }
+        }
+        transform.localScale = Vector3.Scale(m_visualScale, new Vector3(scale * (1f + bounce + stretch), scale * (1f - bounce - stretch), 1f));
+        transform.localRotation = Quaternion.Euler(0, 0, angle);
+        UpdateTrail();
+    }
+
+    public void SetSelected(bool selected)
+    {
+        m_selected = selected;
+    }
+
+    public void ClearAnimated()
+    {
+        if (m_clearing) return;
+        StopAllCoroutines();
+        m_isMoving = m_selected = false;
+        m_clearing = true;
+        m_clearTime = Time.time;
+        foreach (Collider2D hitbox in GetComponents<Collider2D>()) hitbox.enabled = false;
+        foreach (SpriteRenderer ghost in m_trail) if (ghost != null) ghost.enabled = false;
+        Destroy(gameObject, .2f);
+    }
+
+    private void UpdateTrail()
+    {
+        if (m_renderer == null || m_clearing) return;
+        if (m_isMoving && Time.time >= m_nextTrailTime)
+        {
+            int index = m_trailIndex++ % m_trail.Length;
+            if (m_trail[index] == null)
+            {
+                GameObject ghost = new GameObject("Piece Afterimage", typeof(SpriteRenderer));
+                ghost.transform.SetParent(m_board.transform, false);
+                m_trail[index] = ghost.GetComponent<SpriteRenderer>();
+                m_trail[index].sprite = m_renderer.sprite;
+                m_trail[index].sharedMaterial = m_renderer.sharedMaterial;
+                m_trail[index].sortingLayerID = m_renderer.sortingLayerID;
+                m_trail[index].sortingOrder = m_renderer.sortingOrder - 1;
+            }
+            Transform trailTransform = m_trail[index].transform;
+            trailTransform.SetPositionAndRotation(transform.position, transform.rotation);
+            trailTransform.localScale = transform.localScale;
+            m_trailTimes[index] = Time.time;
+            m_trail[index].enabled = true;
+            m_nextTrailTime = Time.time + .04f;
+        }
+        for (int i = 0; i < m_trail.Length; i++)
+        {
+            if (m_trail[i] == null || !m_trail[i].enabled) continue;
+            float fade = Mathf.Clamp01((Time.time - m_trailTimes[i]) / .14f);
+            Color color = m_baseColor;
+            color.a = .2f * (1f - fade);
+            m_trail[i].color = color;
+            if (fade >= 1f) m_trail[i].enabled = false;
+        }
+    }
+
+    private void OnDestroy()
+    {
+        foreach (SpriteRenderer ghost in m_trail)
+            if (ghost != null) Destroy(ghost.gameObject);
+    }
 
     public bool IsMoving
     {
@@ -61,8 +167,13 @@ public class GamePiece : MonoBehaviour
     {
         StopAllCoroutines();
         m_isMoving = false;
+        m_selected = m_clearing = false;
+        m_landingTime = -10f;
+        if (m_renderer != null) m_renderer.color = m_baseColor;
+        foreach (SpriteRenderer ghost in m_trail) if (ghost != null) ghost.enabled = false;
         transform.position = new Vector3(x, y, 0f);
         SetCoord(x, y);
+        m_appearanceTime = Time.time + Mathf.Min((x + y) * .025f, .25f);
     }
 
     public void ScorePoints()
@@ -90,6 +201,9 @@ public class GamePiece : MonoBehaviour
         }
 
         Vector3 startPosition = transform.position;
+        m_moveDirection = (destination - startPosition).normalized;
+        m_movePhase = 0;
+        m_selected = false;
         float elapsedTime = 0f;
         m_isMoving = true;
 
@@ -97,6 +211,7 @@ public class GamePiece : MonoBehaviour
         {
             elapsedTime += Time.deltaTime;
             float t = Mathf.Clamp01(elapsedTime / timeToMove);
+            m_movePhase = t;
 
             // Permite cambiar la curva de movimiento desde el Inspector sin tocar la lógica del tablero.
             transform.position = Vector3.Lerp(startPosition, destination, ApplyInterpolation(t));
@@ -105,6 +220,7 @@ public class GamePiece : MonoBehaviour
 
         transform.position = destination;
         m_isMoving = false;
+        m_landingTime = Time.time;
     }
 
     private float ApplyInterpolation(float t)

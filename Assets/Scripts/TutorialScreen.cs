@@ -16,7 +16,7 @@ public class TutorialScreen : MonoBehaviour
     {
         "Arrastra la roja izquierda junto a la otra roja.",
         "Acerca la roja izquierda a la derecha.\nLa verde caerá y se unirá a su pareja.",
-        "Desliza la roja de arriba dos casillas a la izquierda.\nCaerá junto a su pareja."
+        "Desliza la roja de arriba una casilla a la izquierda.\nCaerá junto a su pareja."
     };
     private Board m_board;
     private Camera m_camera;
@@ -31,6 +31,8 @@ public class TutorialScreen : MonoBehaviour
     private Text m_nextLabel;
     private int m_lesson;
     private bool m_completed;
+    private SoundManager m_soundManager;
+    private readonly Image[] m_progress = new Image[3];
 
     private void Start()
     {
@@ -48,6 +50,9 @@ public class TutorialScreen : MonoBehaviour
         m_camera.orthographic = true;
         m_camera.clearFlags = CameraClearFlags.SolidColor;
         m_camera.backgroundColor = m_backgroundCamera.backgroundColor;
+        if (FindAnyObjectByType<AudioListener>() == null)
+            cameraObject.AddComponent<AudioListener>();
+        m_soundManager = SoundManager.Instance;
         BuildScreen();
         BeginLesson();
     }
@@ -96,9 +101,10 @@ public class TutorialScreen : MonoBehaviour
             m_lesson == 1 ? "Las piezas caen al quedar un hueco." : "Los bloques oscuros cortan el paso.";
         m_status.color = new Color(0.65f, 0.73f, 0.86f);
         m_nextButton.gameObject.SetActive(false);
+        UpdateProgress();
 
         LevelData data = new LevelData { width = 5, height = 3, borderSize = 0.5f };
-        AddPiece(data, "Red", m_lesson == 1 ? 1 : 0, 0);
+        AddPiece(data, "Red", m_lesson == 0 ? 0 : 1, 0);
         if (m_lesson == 0) AddPiece(data, "Red", 4, 0);
         if (m_lesson == 1)
         {
@@ -139,6 +145,22 @@ public class TutorialScreen : MonoBehaviour
         m_status.color = new Color(0.4f, 0.9f, 0.7f);
         m_nextLabel.text = m_lesson == 2 ? "JUGAR" : "SIGUIENTE";
         m_nextButton.gameObject.SetActive(true);
+        UpdateProgress();
+        m_soundManager.PlaySoundWinner();
+    }
+
+    private void UpdateProgress()
+    {
+        for (int i = 0; i < m_progress.Length; i++)
+            m_progress[i].color = i < m_lesson || (i == m_lesson && m_completed)
+                ? new Color(.4f, .9f, .7f)
+                : i == m_lesson ? new Color(1f, .82f, .28f) : new Color(.16f, .2f, .3f);
+    }
+
+    private void PlayButtonSound()
+    {
+        if (m_soundManager.pieceSound != null && m_soundManager.pieceSound.Length > 0)
+            m_soundManager.PlayClipAtPoint(m_soundManager.pieceSound[0], Vector3.zero, m_soundManager.fxVolume * .2f);
     }
 
     private void BuildScreen()
@@ -159,6 +181,17 @@ public class TutorialScreen : MonoBehaviour
         m_nextButton.anchorMin = new Vector2(.18f, .12f);
         m_nextButton.anchorMax = new Vector2(.82f, .19f);
         m_nextButton.GetComponent<Image>().color = new Color(.12f, .48f, .48f);
+        for (int i = 0; i < m_progress.Length; i++)
+        {
+            GameObject segment = new GameObject("Lesson Progress " + (i + 1), typeof(RectTransform), typeof(Image));
+            RectTransform rect = segment.GetComponent<RectTransform>();
+            rect.SetParent(m_safeRoot, false);
+            rect.anchorMin = new Vector2(.35f + i * .105f, .912f);
+            rect.anchorMax = new Vector2(.44f + i * .105f, .916f);
+            rect.offsetMin = rect.offsetMax = Vector2.zero;
+            m_progress[i] = segment.GetComponent<Image>();
+            m_progress[i].raycastTarget = false;
+        }
     }
 
     private Text CreateText(string name, string value, Vector2 min, Vector2 max, int size)
@@ -205,11 +238,13 @@ public class TutorialScreen : MonoBehaviour
         }
         if (RectTransformUtility.RectangleContainsScreenPoint(m_retryButton, position))
         {
+            PlayButtonSound();
             BeginLesson();
             return true;
         }
         if (m_completed && RectTransformUtility.RectangleContainsScreenPoint(m_nextButton, position))
         {
+            PlayButtonSound();
             if (m_lesson == 2) ReturnToLevelSelect();
             else { m_lesson++; BeginLesson(); }
             return true;

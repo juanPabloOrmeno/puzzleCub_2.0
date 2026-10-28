@@ -1,0 +1,2353 @@
+fileFormatVersion: 2
+guid: e82f5aa8266a0952b8225ee3d72989fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3970353628623276728
+    second: casillaVaciaAzulOscura_0
+  - first:
+      213: 7200675899218510891
+    second: casillaVaciaAzulOscura_1
+  - first:
+      213: -5474324242175007752
+    second: casillaVaciaAzulOscura_2
+  - first:
+      213: -5548549405762458588
+    second: casillaVaciaAzulOscura_3
+  - first:
+      213: -6064989764075002853
+    second: casillaVaciaAzulOscura_4
+  - first:
+      213: 865948114244279882
+    second: casillaVaciaAzulOscura_5
+  - first:
+      213: 8533284765738171021
+    second: casillaVaciaAzulOscura_6
+  - first:
+      213: -5683353441553087685
+    second: casillaVaciaAzulOscura_7
+  - first:
+      213: -8510085182823666862
+    second: casillaVaciaAzulOscura_8
+  - first:
+      213: 61811780352408688
+    second: casillaVaciaAzulOscura_9
+  - first:
+      213: 1394857660105976516
+    second: casillaVaciaAzulOscura_10
+  - first:
+      213: 6653746412922365507
+    second: casillaVaciaAzulOscura_11
+  - first:
+      213: 8693163772274431202
+    second: casillaVaciaAzulOscura_12
+  - first:
+      213: 4576617610018133971
+    second: casillaVaciaAzulOscura_13
+  - first:
+      213: -1358799103380743653
+    second: casillaVaciaAzulOscura_14
+  - first:
+      213: -198416533464960891
+    second: casillaVaciaAzulOscura_15
+  - first:
+      213: -241451249590890957
+    second: casillaVaciaAzulOscura_16
+  - first:
+      213: 8190235309482923989
+    second: casillaVaciaAzulOscura_17
+  - first:
+      213: -5543100941778628500
+    second: casillaVaciaAzulOscura_18
+  - first:
+      213: -5651098777936608637
+    second: casillaVaciaAzulOscura_19
+  - first:
+      213: -3876225229767694440
+    second: casillaVaciaAzulOscura_20
+  - first:
+      213: -9167379652298844570
+    second: casillaVaciaAzulOscura_21
+  - first:
+      213: 7195376729927316676
+    second: casillaVaciaAzulOscura_22
+  - first:
+      213: 1511075062832361199
+    second: casillaVaciaAzulOscura_23
+  - first:
+      213: -8421615782635185416
+    second: casillaVaciaAzulOscura_24
+  - first:
+      213: 3665996047346448984
+    second: casillaVaciaAzulOscura_25
+  - first:
+      213: 7136165418755719083
+    second: casillaVaciaAzulOscura_26
+  - first:
+      213: -2364116387617122566
+    second: casillaVaciaAzulOscura_27
+  - first:
+      213: 1133058566173619846
+    second: casillaVaciaAzulOscura_28
+  - first:
+      213: -3636340911676906389
+    second: casillaVaciaAzulOscura_29
+  - first:
+      213: 286714736392910340
+    second: casillaVaciaAzulOscura_30
+  - first:
+      213: -7137174286816622287
+    second: casillaVaciaAzulOscura_31
+  - first:
+      213: -3705981131960584808
+    second: casillaVaciaAzulOscura_32
+  - first:
+      213: -5266213580959538177
+    second: casillaVaciaAzulOscura_33
+  - first:
+      213: 2206309109348303974
+    second: casillaVaciaAzulOscura_34
+  - first:
+      213: -2741024046315103715
+    second: casillaVaciaAzulOscura_35
+  - first:
+      213: 4801723619300897296
+    second: casillaVaciaAzulOscura_36
+  - first:
+      213: 1340870311072851691
+    second: casillaVaciaAzulOscura_37
+  - first:
+      213: 7867928456534551932
+    second: casillaVaciaAzulOscura_38
+  - first:
+      213: -6101525859355027352
+    second: casillaVaciaAzulOscura_39
+  - first:
+      213: 4564338341513902719
+    second: casillaVaciaAzulOscura_40
+  - first:
+      213: -3650157158264125352
+    second: casillaVaciaAzulOscura_41
+  - first:
+      213: -7335299349829193590
+    second: casillaVaciaAzulOscura_42
+  - first:
+      213: -7145694749190889738
+    second: casillaVaciaAzulOscura_43
+  - first:
+      213: -1385809206033285063
+    second: casillaVaciaAzulOscura_44
+  - first:
+      213: -2817770805640293395
+    second: casillaVaciaAzulOscura_45
+  - first:
+      213: 1476417425982751835
+    second: casillaVaciaAzulOscura_46
+  - first:
+      213: 1803159468933772113
+    second: casillaVaciaAzulOscura_47
+  - first:
+      213: 7251537873125901134
+    second: casillaVaciaAzulOscura_48
+  - first:
+      213: -6450181784279982681
+    second: casillaVaciaAzulOscura_49
+  - first:
+      213: -632094990882357660
+    second: casillaVaciaAzulOscura_50
+  - first:
+      213: 7879246055844439614
+    second: casillaVaciaAzulOscura_51
+  - first:
+      213: 5023216813452914119
+    second: casillaVaciaAzulOscura_52
+  - first:
+      213: 7291573604265763321
+    second: casillaVaciaAzulOscura_53
+  - first:
+      213: 2644262706800961756
+    second: casillaVaciaAzulOscura_54
+  - first:
+      213: 1568430496741241701
+    second: casillaVaciaAzulOscura_55
+  - first:
+      213: 1878089032128727148
+    second: casillaVaciaAzulOscura_56
+  - first:
+      213: 6900317146036460530
+    second: casillaVaciaAzulOscura_57
+  - first:
+      213: -8268507251278199930
+    second: casillaVaciaAzulOscura_58
+  - first:
+      213: 3413484694689501132
+    second: casillaVaciaAzulOscura_59
+  - first:
+      213: 9222199881910840687
+    second: casillaVaciaAzulOscura_60
+  - first:
+      213: 4846509825772477671
+    second: casillaVaciaAzulOscura_61
+  - first:
+      213: -1060444055716100196
+    second: casillaVaciaAzulOscura_62
+  - first:
+      213: 3687326097254577324
+    second: casillaVaciaAzulOscura_63
+  - first:
+      213: 9051609072004466322
+    second: casillaVaciaAzulOscura_64
+  - first:
+      213: -2507266107626471707
+    second: casillaVaciaAzulOscura_65
+  - first:
+      213: 7791545946291335071
+    second: casillaVaciaAzulOscura_66
+  - first:
+      213: 2976095213411821185
+    second: casillaVaciaAzulOscura_67
+  - first:
+      213: -4752897813816616915
+    second: casillaVaciaAzulOscura_68
+  - first:
+      213: -5748595659143798972
+    second: casillaVaciaAzulOscura_69
+  - first:
+      213: -5111506694535894967
+    second: casillaVaciaAzulOscura_70
+  - first:
+      213: 2688129027307630565
+    second: casillaVaciaAzulOscura_71
+  - first:
+      213: -5905902450867413286
+    second: casillaVaciaAzulOscura_72
+  - first:
+      213: 82323957598124923
+    second: casillaVaciaAzulOscura_73
+  - first:
+      213: -4378059008212242079
+    second: casillaVaciaAzulOscura_74
+  - first:
+      213: -5676080421055680773
+    second: casillaVaciaAzulOscura_75
+  - first:
+      213: -2901371797172761239
+    second: casillaVaciaAzulOscura_76
+  - first:
+      213: 3526961544554092085
+    second: casillaVaciaAzulOscura_77
+  - first:
+      213: 9130351335081160000
+    second: casillaVaciaAzulOscura_78
+  - first:
+      213: -861814511112063236
+    second: casillaVaciaAzulOscura_79
+  - first:
+      213: -9204343570557827725
+    second: casillaVaciaAzulOscura_80
+  - first:
+      213: 267753633581786618
+    second: casillaVaciaAzulOscura_81
+  - first:
+      213: -1601242646905809832
+    second: casillaVaciaAzulOscura_82
+  - first:
+      213: 5523152760876203067
+    second: casillaVaciaAzulOscura_83
+  - first:
+      213: -3523066116518803761
+    second: casillaVaciaAzulOscura_84
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1158
+        width: 107
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845f93d196876e8c0800000000000000
+      internalID: -3970353628623276728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1243
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24c2ab5490fde360800000000000000
+      internalID: 7200675899218510891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_2
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1237
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f369df1b1b4704b0800000000000000
+      internalID: -5474324242175007752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_3
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1229
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ce2d286b79ff2b0800000000000000
+      internalID: -5548549405762458588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_4
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 1232
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14ede971f3d4dba0800000000000000
+      internalID: -6064989764075002853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_5
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1235
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e137fc837740c00800000000000000
+      internalID: 865948114244279882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_6
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1144
+        width: 41
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a731d78415c6670800000000000000
+      internalID: 8533284765738171021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_7
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1213
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b330c37182ca021b0800000000000000
+      internalID: -5683353441553087685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_8
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1185
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25bea755d9a16e980800000000000000
+      internalID: -8510085182823666862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_9
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 1192
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cf6da9c799bd000800000000000000
+      internalID: 61811780352408688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_10
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1207
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca69dec6a78b5310800000000000000
+      internalID: 1394857660105976516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1118
+        width: 66
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34664c70c1bd65c50800000000000000
+      internalID: 6653746412922365507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_12
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 1219
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e456bc746254a870800000000000000
+      internalID: 8693163772274431202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_13
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1132
+        width: 152
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d79de5e779638f30800000000000000
+      internalID: 4576617610018133971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_14
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1205
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a1fd92a63942de0800000000000000
+      internalID: -1358799103380743653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_15
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1123
+        width: 104
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580b14dc6351f3df0800000000000000
+      internalID: -198416533464960891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_16
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1226
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e8f852e5136acf0800000000000000
+      internalID: -241451249590890957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_17
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1194
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d75798ce9f89a170800000000000000
+      internalID: 8190235309482923989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_18
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1211
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60d623ef03f213b0800000000000000
+      internalID: -5543100941778628500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_19
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1179
+        width: 57
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382c17e2a934391b0800000000000000
+      internalID: -5651098777936608637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_20
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1196
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8972a4ec0b1e43ac0800000000000000
+      internalID: -3876225229767694440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_21
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1213
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666559fe6cce6c080800000000000000
+      internalID: -9167379652298844570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_22
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1164
+        width: 196
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4fd6c530d1bd360800000000000000
+      internalID: 7195376729927316676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_23
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 1140
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feee21d73ca68f410800000000000000
+      internalID: 1511075062832361199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_24
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1175
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fad439b019602b80800000000000000
+      internalID: -8421615782635185416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_25
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 1175
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a32165bfb30e230800000000000000
+      internalID: 3665996047346448984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_26
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1120
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf7c5ba3a0c80360800000000000000
+      internalID: 7136165418755719083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_27
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1118
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6d66ccba8f03fd0800000000000000
+      internalID: -2364116387617122566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_28
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1138
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686fd7243ce69bf00800000000000000
+      internalID: 1133058566173619846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_29
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1156
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64274df43f198dc0800000000000000
+      internalID: -3636340911676906389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_30
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1173
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 406b19e988d9af300800000000000000
+      internalID: 286714736392910340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_31
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 1146
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1394e3eecc9a3fc90800000000000000
+      internalID: -7137174286816622287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_32
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1152
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895703dabc5b19cc0800000000000000
+      internalID: -3705981131960584808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_33
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1163
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3a19356a6aae6b0800000000000000
+      internalID: -5266213580959538177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_34
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1162
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6640a6702726e9e10800000000000000
+      internalID: 2206309109348303974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1237
+        height: 1119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a9596072de5f9d0800000000000000
+      internalID: -2741024046315103715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 875
+        width: 75
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012780ee03623a240800000000000000
+      internalID: 4801723619300897296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_37
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 1060
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be66d55917abb9210800000000000000
+      internalID: 1340870311072851691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_38
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 1082
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7dede1ce3f703d60800000000000000
+      internalID: 7867928456534551932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_39
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 1060
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8689845ee86035ba0800000000000000
+      internalID: -6101525859355027352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_40
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 921
+        width: 73
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ab1a8e989c75f30800000000000000
+      internalID: 4564338341513902719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_41
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 851
+        width: 5
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85841576769085dc0800000000000000
+      internalID: -3650157158264125352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_42
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 876
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80f64cfa18c33a90800000000000000
+      internalID: -7335299349829193590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_43
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 811
+        width: 50
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe5a113c7465dc90800000000000000
+      internalID: -7145694749190889738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_44
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 859
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9308be39edd94cce0800000000000000
+      internalID: -1385809206033285063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 673
+        width: 45
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de31857a16445e8d0800000000000000
+      internalID: -2817770805640293395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_46
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 495
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5406e793d94d7410800000000000000
+      internalID: 1476417425982751835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_47
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 471
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153fd23cbfb160910800000000000000
+      internalID: 1803159468933772113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_48
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 420
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4306fa7643a2a460800000000000000
+      internalID: 7251537873125901134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_49
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 405
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7addb4b77d95c76a0800000000000000
+      internalID: -6450181784279982681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_50
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 355
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e372c64f85a37f0800000000000000
+      internalID: -632094990882357660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_51
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 316
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e366180ba84b85d60800000000000000
+      internalID: 7879246055844439614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_52
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 278
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd61a3e31d06b540800000000000000
+      internalID: 5023216813452914119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_53
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 262
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f120e78f8fd03560800000000000000
+      internalID: 7291573604265763321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_54
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 99
+        width: 22
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd82fa30cee42b420800000000000000
+      internalID: 2644262706800961756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_55
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 119
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563b6251a3f24c510800000000000000
+      internalID: 1568430496741241701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_56
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 95
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6807903600501a10800000000000000
+      internalID: 1878089032128727148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_57
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 132
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb5a0782e9d2cf50800000000000000
+      internalID: 6900317146036460530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_58
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 124
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68342d0a67c504d80800000000000000
+      internalID: -8268507251278199930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_59
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 105
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf43319e322f5f20800000000000000
+      internalID: 3413484694689501132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_60
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 114
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6de1f86ee5dbff70800000000000000
+      internalID: 9222199881910840687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_61
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 109
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecdb953203424340800000000000000
+      internalID: 4846509825772477671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_62
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 115
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c970ed2ffbb8841f0800000000000000
+      internalID: -1060444055716100196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_63
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4f2e59c830c2330800000000000000
+      internalID: 3687326097254577324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_64
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 103
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29687865e76cd9d70800000000000000
+      internalID: 9051609072004466322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_65
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 99
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee3c8952c6643dd0800000000000000
+      internalID: -2507266107626471707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_66
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 94
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f64dbb1c1212c60800000000000000
+      internalID: 7791545946291335071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_67
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186e62d14d63d4920800000000000000
+      internalID: 2976095213411821185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_68
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 61
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28dab9ce905a0eb0800000000000000
+      internalID: -4752897813816616915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_69
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 79
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f916394b2e830b0800000000000000
+      internalID: -5748595659143798972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_70
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 12
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94828254eb74019b0800000000000000
+      internalID: -5111506694535894967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_71
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 33
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef6617ab172e4520800000000000000
+      internalID: 2688129027307630565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_72
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 63
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ade50f103050a0ea0800000000000000
+      internalID: -5905902450867413286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_73
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 65
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bf3290439742100800000000000000
+      internalID: 82323957598124923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_74
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 37
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1617fc927820e33c0800000000000000
+      internalID: -4378059008212242079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_75
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 39
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe2d622ee28a31b0800000000000000
+      internalID: -5676080421055680773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_76
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 25
+        width: 49
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d4e2cf8b14cb7d0800000000000000
+      internalID: -2901371797172761239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_77
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 30
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5361c9f86d842f030800000000000000
+      internalID: 3526961544554092085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_78
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 21
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04da6022a2685be70800000000000000
+      internalID: 9130351335081160000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_79
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 21
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf673eaa4483a04f0800000000000000
+      internalID: -861814511112063236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_80
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 29
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375004e0a4a934080800000000000000
+      internalID: -9204343570557827725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_81
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 9
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af566f8d28047b300800000000000000
+      internalID: 267753633581786618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_82
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 15
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85419ffdb4e37c9e0800000000000000
+      internalID: -1601242646905809832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_83
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c7e305c2e26ac40800000000000000
+      internalID: 5523152760876203067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: casillaVaciaAzulOscura_84
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 15
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc68ea4780e8b1fc0800000000000000
+      internalID: -3523066116518803761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      casillaVaciaAzulOscura_0: -3970353628623276728
+      casillaVaciaAzulOscura_1: 7200675899218510891
+      casillaVaciaAzulOscura_10: 1394857660105976516
+      casillaVaciaAzulOscura_11: 6653746412922365507
+      casillaVaciaAzulOscura_12: 8693163772274431202
+      casillaVaciaAzulOscura_13: 4576617610018133971
+      casillaVaciaAzulOscura_14: -1358799103380743653
+      casillaVaciaAzulOscura_15: -198416533464960891
+      casillaVaciaAzulOscura_16: -241451249590890957
+      casillaVaciaAzulOscura_17: 8190235309482923989
+      casillaVaciaAzulOscura_18: -5543100941778628500
+      casillaVaciaAzulOscura_19: -5651098777936608637
+      casillaVaciaAzulOscura_2: -5474324242175007752
+      casillaVaciaAzulOscura_20: -3876225229767694440
+      casillaVaciaAzulOscura_21: -9167379652298844570
+      casillaVaciaAzulOscura_22: 7195376729927316676
+      casillaVaciaAzulOscura_23: 1511075062832361199
+      casillaVaciaAzulOscura_24: -8421615782635185416
+      casillaVaciaAzulOscura_25: 3665996047346448984
+      casillaVaciaAzulOscura_26: 7136165418755719083
+      casillaVaciaAzulOscura_27: -2364116387617122566
+      casillaVaciaAzulOscura_28: 1133058566173619846
+      casillaVaciaAzulOscura_29: -3636340911676906389
+      casillaVaciaAzulOscura_3: -5548549405762458588
+      casillaVaciaAzulOscura_30: 286714736392910340
+      casillaVaciaAzulOscura_31: -7137174286816622287
+      casillaVaciaAzulOscura_32: -3705981131960584808
+      casillaVaciaAzulOscura_33: -5266213580959538177
+      casillaVaciaAzulOscura_34: 2206309109348303974
+      casillaVaciaAzulOscura_35: -2741024046315103715
+      casillaVaciaAzulOscura_36: 4801723619300897296
+      casillaVaciaAzulOscura_37: 1340870311072851691
+      casillaVaciaAzulOscura_38: 7867928456534551932
+      casillaVaciaAzulOscura_39: -6101525859355027352
+      casillaVaciaAzulOscura_4: -6064989764075002853
+      casillaVaciaAzulOscura_40: 4564338341513902719
+      casillaVaciaAzulOscura_41: -3650157158264125352
+      casillaVaciaAzulOscura_42: -7335299349829193590
+      casillaVaciaAzulOscura_43: -7145694749190889738
+      casillaVaciaAzulOscura_44: -1385809206033285063
+      casillaVaciaAzulOscura_45: -2817770805640293395
+      casillaVaciaAzulOscura_46: 1476417425982751835
+      casillaVaciaAzulOscura_47: 1803159468933772113
+      casillaVaciaAzulOscura_48: 7251537873125901134
+      casillaVaciaAzulOscura_49: -6450181784279982681
+      casillaVaciaAzulOscura_5: 865948114244279882
+      casillaVaciaAzulOscura_50: -632094990882357660
+      casillaVaciaAzulOscura_51: 7879246055844439614
+      casillaVaciaAzulOscura_52: 5023216813452914119
+      casillaVaciaAzulOscura_53: 7291573604265763321
+      casillaVaciaAzulOscura_54: 2644262706800961756
+      casillaVaciaAzulOscura_55: 1568430496741241701
+      casillaVaciaAzulOscura_56: 1878089032128727148
+      casillaVaciaAzulOscura_57: 6900317146036460530
+      casillaVaciaAzulOscura_58: -8268507251278199930
+      casillaVaciaAzulOscura_59: 3413484694689501132
+      casillaVaciaAzulOscura_6: 8533284765738171021
+      casillaVaciaAzulOscura_60: 9222199881910840687
+      casillaVaciaAzulOscura_61: 4846509825772477671
+      casillaVaciaAzulOscura_62: -1060444055716100196
+      casillaVaciaAzulOscura_63: 3687326097254577324
+      casillaVaciaAzulOscura_64: 9051609072004466322
+      casillaVaciaAzulOscura_65: -2507266107626471707
+      casillaVaciaAzulOscura_66: 7791545946291335071
+      casillaVaciaAzulOscura_67: 2976095213411821185
+      casillaVaciaAzulOscura_68: -4752897813816616915
+      casillaVaciaAzulOscura_69: -5748595659143798972
+      casillaVaciaAzulOscura_7: -5683353441553087685
+      casillaVaciaAzulOscura_70: -5111506694535894967
+      casillaVaciaAzulOscura_71: 2688129027307630565
+      casillaVaciaAzulOscura_72: -5905902450867413286
+      casillaVaciaAzulOscura_73: 82323957598124923
+      casillaVaciaAzulOscura_74: -4378059008212242079
+      casillaVaciaAzulOscura_75: -5676080421055680773
+      casillaVaciaAzulOscura_76: -2901371797172761239
+      casillaVaciaAzulOscura_77: 3526961544554092085
+      casillaVaciaAzulOscura_78: 9130351335081160000
+      casillaVaciaAzulOscura_79: -861814511112063236
+      casillaVaciaAzulOscura_8: -8510085182823666862
+      casillaVaciaAzulOscura_80: -9204343570557827725
+      casillaVaciaAzulOscura_81: 267753633581786618
+      casillaVaciaAzulOscura_82: -1601242646905809832
+      casillaVaciaAzulOscura_83: 5523152760876203067
+      casillaVaciaAzulOscura_84: -3523066116518803761
+      casillaVaciaAzulOscura_9: 61811780352408688
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

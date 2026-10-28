@@ -154,7 +154,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 397.06424, y: 608.44037}
+  m_SizeDelta: {x: 1160, y: 2300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3547930
 MonoBehaviour:
@@ -280,7 +280,6 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_UseReflectionProbes: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -351,6 +350,8 @@ GameObject:
   m_Component:
   - component: {fileID: 347929875}
   - component: {fileID: 347929876}
+  - component: {fileID: 347929878}
+  - component: {fileID: 347929877}
   m_Layer: 0
   m_Name: Board
   m_TagString: Untagged
@@ -389,7 +390,7 @@ MonoBehaviour:
   height: 0
   tilePrefab: {fileID: 0}
   startingTiles: []
-  tileNormalPrefab: {fileID: 8361008679811013736, guid: 9dd7e512e796e4e9390f74c116547b1d, type: 3}
+  tileNormalPrefab: {fileID: 1760192446473530103, guid: 3c0a61e1b6f4e878da164a01d2e24607, type: 3}
   tileObtaclePrefab: {fileID: 8361008679811013736, guid: f273b9409ecae4ad68b51efe19cc0438, type: 3}
   tileObtacleMovilPrefab: {fileID: 8361008679811013736, guid: 7c87afbe962074cc5b97f5fc9daf5efb, type: 3}
   piezasComienzo: []
@@ -416,6 +417,36 @@ MonoBehaviour:
   Level: 400
   m_playerInputEnabled: 1
   m_particleManager: {fileID: 0}
+--- !u!114 &347929877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347929874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad648401ecf4cb5ad18bcb8d8df4f9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BoardCameraSetup
+  topScreenPadding: 0.19
+  bottomScreenPadding: 0.18
+  horizontalScreenPadding: 0.035
+--- !u!114 &347929878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347929874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9a17c5fb23c4c559bb50a264ac55789, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelBoardFrame
+  frameSprite: {fileID: 21300000, guid: 8903a7acdb74541338f3bbc1276d6f00, type: 3}
+  plaqueSprite: {fileID: 21300000, guid: 28664c1a0994c63aa9cc79547189408d, type: 3}
+  labelFont: {fileID: 12800000, guid: f6e393a8c65181a25b1e1b9dc69bbd75, type: 3}
 --- !u!1 &434852627
 GameObject:
   m_ObjectHideFlags: 0
@@ -466,11 +497,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CanvasParallax
   mountainLayer: {fileID: 3547929}
   randomBackgrounds:
-  - {fileID: -5990481838232061151, guid: aebe04e90143c4e05815056f52e0482b, type: 3}
   - {fileID: -7841535987243693378, guid: 3eb72e94cfbd142a2986135e91d57883, type: 3}
-  - {fileID: -5892804080813010510, guid: c7f745ee6063a47ec9f136139152619d, type: 3}
-  - {fileID: -86247922081128073, guid: e797c4933a6ce40d1a4cc844f16bed02, type: 3}
-  - {fileID: 9166149561146019943, guid: f6923d38cae6e4b9388c3483fa04d049, type: 3}
   strength: 20
   smooth: 5
   autoSpeed: 0.2
@@ -645,10 +672,10 @@ MonoBehaviour:
   targetCamera: {fileID: 1383252637}
   board: {fileID: 347929876}
   panelEdge: 0
-  cameraWidth: 0.92
-  maxCameraHeight: 0.15
+  cameraWidth: 0.96
+  maxCameraHeight: 0.16
   boardGap: 0.15
-  bottomMargin: 0.03
+  bottomMargin: 0.015
   anchoredOffset: {x: 0, y: 0}
   zPosition: -1
 --- !u!114 &1046001669
@@ -671,7 +698,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -7604969100151102344, guid: b19000637884e49e8b4d0476a2c52877, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 408d31b147c00700e9c62f5c45771037, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -701,8 +728,8 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 5e5d91cca38c8e3b1949954abf3c00be, type: 3}
   leftAnchorX: 0.29
   rightAnchorX: 0.71
-  baselineY: 0.22
-  heightRatio: 0.62
+  baselineY: 0.34
+  heightRatio: 0.52
   maxWidthRatio: 0.28
   characterScale: 1.18
   leftIndex: 0
@@ -717,10 +744,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9fc9e0c8daa443728784b4d7f7d5f51d, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelCountdown
   board: {fileID: 347929876}
   gameManager: {fileID: 1937401201}
+  labelFont: {fileID: 12800000, guid: f6e393a8c65181a25b1e1b9dc69bbd75, type: 3}
+  circularClock: 1
 --- !u!114 &1046001672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -731,9 +760,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bdd96aa87bd4a63a0c318759b376aef, type: 3}
-  m_Name:
+  m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelStatsDisplay
   board: {fileID: 347929876}
+  labelFont: {fileID: 12800000, guid: f6e393a8c65181a25b1e1b9dc69bbd75, type: 3}
+  showLevelLabel: 0
+  counterVerticalRange: {x: 0.215, y: 0.345}
 --- !u!1 &1046001765
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,10 +910,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1046001667}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.29, y: 0.22}
-  m_AnchorMax: {x: 0.29, y: 0.22}
+  m_AnchorMin: {x: 0.29, y: 0.34}
+  m_AnchorMax: {x: 0.29, y: 0.34}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 112.84849, y: 151.58752}
+  m_SizeDelta: {x: 94.64711, y: 127.13791}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &1046001802
 CanvasRenderer:
@@ -953,10 +985,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1046001667}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.71, y: 0.22}
-  m_AnchorMax: {x: 0.71, y: 0.22}
+  m_AnchorMin: {x: 0.71, y: 0.34}
+  m_AnchorMax: {x: 0.71, y: 0.34}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 145.38622, y: 151.58752}
+  m_SizeDelta: {x: 121.93681, y: 127.13791}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &1046001812
 CanvasRenderer:

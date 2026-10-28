@@ -8,6 +8,8 @@ public class LevelCountdown : MonoBehaviour
 {
     [SerializeField] private Board board;
     [SerializeField] private GameManager gameManager;
+    [SerializeField] private Font labelFont;
+    [SerializeField] private bool circularClock;
     private Text m_label;
     private RectTransform m_textRoot;
     private PuzzleTutorial m_tutorial;
@@ -29,9 +31,10 @@ public class LevelCountdown : MonoBehaviour
         m_tutorial = board.GetComponent<PuzzleTutorial>();
         RemainingSeconds = Mathf.Max(0, level.time);
         m_textRoot = BottomPanelTextLayout.Create(transform, "Level Timer");
-        m_label = CreateLabel("Countdown", new Vector2(.452f, .47f), new Vector2(.548f, .62f), 36);
+        m_label = CreateLabel("Countdown", circularClock ? new Vector2(.427f, .43f) : new Vector2(.452f, .47f),
+            circularClock ? new Vector2(.573f, .60f) : new Vector2(.548f, .62f), 36);
         m_label.fontStyle = FontStyle.Bold;
-        Text caption = CreateLabel("Timer Caption", new Vector2(.46f, .64f), new Vector2(.54f, .7f), 12);
+        Text caption = CreateLabel("Timer Caption", new Vector2(.44f, .64f), new Vector2(.56f, .73f), circularClock ? 14 : 12);
         caption.text = "TIEMPO";
         caption.color = new Color(.85f, .71f, .44f);
         m_ready = true;
@@ -48,7 +51,7 @@ public class LevelCountdown : MonoBehaviour
         rect.anchorMax = max;
         rect.offsetMin = rect.offsetMax = Vector2.zero;
         Text text = go.GetComponent<Text>();
-        text.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+        text.font = labelFont != null ? labelFont : Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
         text.fontSize = size;
         text.resizeTextForBestFit = true;
         text.resizeTextMinSize = 6;

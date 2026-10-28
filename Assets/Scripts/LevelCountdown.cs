@@ -18,6 +18,8 @@ public class LevelCountdown : MonoBehaviour
     private int m_displayedSeconds = -1;
 
     public float RemainingSeconds { get; private set; }
+    public float TotalSeconds { get; private set; }
+    public bool IsReady => m_ready;
 
     private IEnumerator Start()
     {
@@ -29,7 +31,8 @@ public class LevelCountdown : MonoBehaviour
         LevelData level = LevelDatabase.GetLevelData(board.Level);
         if (level == null) yield break;
         m_tutorial = board.GetComponent<PuzzleTutorial>();
-        RemainingSeconds = Mathf.Max(0, level.time);
+        TotalSeconds = Mathf.Max(0, level.time);
+        RemainingSeconds = TotalSeconds;
         m_textRoot = BottomPanelTextLayout.Create(transform, "Level Timer");
         m_label = CreateLabel("Countdown", circularClock ? new Vector2(.427f, .43f) : new Vector2(.452f, .47f),
             circularClock ? new Vector2(.573f, .60f) : new Vector2(.548f, .62f), 36);

@@ -1,0 +1,1729 @@
+fileFormatVersion: 2
+guid: 146830020b0053ac8814eb016462404b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3100335209232351803
+    second: confiado_0
+  - first:
+      213: 7887701659402518153
+    second: confiado_1
+  - first:
+      213: -4527149272364827835
+    second: confiado_2
+  - first:
+      213: -1671840740769049836
+    second: confiado_3
+  - first:
+      213: -3823377730699589413
+    second: confiado_4
+  - first:
+      213: -7527814138405435287
+    second: confiado_5
+  - first:
+      213: -3476309433505879041
+    second: confiado_6
+  - first:
+      213: 5283390352496470580
+    second: confiado_7
+  - first:
+      213: -257116613027807498
+    second: confiado_8
+  - first:
+      213: -5007293297648984946
+    second: confiado_9
+  - first:
+      213: -5615837940567764122
+    second: confiado_10
+  - first:
+      213: -5248126519533071800
+    second: confiado_11
+  - first:
+      213: 8441914026046909766
+    second: confiado_12
+  - first:
+      213: -2422777782648875362
+    second: confiado_13
+  - first:
+      213: 1753789421743009344
+    second: confiado_14
+  - first:
+      213: -7465511793986988020
+    second: confiado_15
+  - first:
+      213: 8500212373638995561
+    second: confiado_16
+  - first:
+      213: -1327109407276956701
+    second: confiado_17
+  - first:
+      213: 6870018188057647556
+    second: confiado_18
+  - first:
+      213: -5548437871500395583
+    second: confiado_19
+  - first:
+      213: -5136756465124547683
+    second: confiado_20
+  - first:
+      213: 5881867939732416360
+    second: confiado_21
+  - first:
+      213: -7106578741570800221
+    second: confiado_22
+  - first:
+      213: 3422359343961691799
+    second: confiado_23
+  - first:
+      213: 5470941531432627910
+    second: confiado_24
+  - first:
+      213: -2228847254120577622
+    second: confiado_25
+  - first:
+      213: -2444323268982716023
+    second: confiado_26
+  - first:
+      213: -6228091599777594248
+    second: confiado_27
+  - first:
+      213: 1552336931985521526
+    second: confiado_28
+  - first:
+      213: 3022385092023502386
+    second: confiado_29
+  - first:
+      213: 3345567125796908605
+    second: confiado_30
+  - first:
+      213: 2891567938533327601
+    second: confiado_31
+  - first:
+      213: 208694649685893691
+    second: confiado_32
+  - first:
+      213: 164718307406433754
+    second: confiado_33
+  - first:
+      213: 1239413421367751312
+    second: confiado_34
+  - first:
+      213: -3478871314139088242
+    second: confiado_35
+  - first:
+      213: 4761935332167658606
+    second: confiado_36
+  - first:
+      213: -5572218782642913503
+    second: confiado_37
+  - first:
+      213: 5166722342998481935
+    second: confiado_38
+  - first:
+      213: 5982635407366433107
+    second: confiado_39
+  - first:
+      213: -6694979648304026123
+    second: confiado_40
+  - first:
+      213: -6667187100556335332
+    second: confiado_41
+  - first:
+      213: -4584425154176828471
+    second: confiado_42
+  - first:
+      213: 1273257655705014760
+    second: confiado_43
+  - first:
+      213: 3718838894909589210
+    second: confiado_44
+  - first:
+      213: 5534045342520663822
+    second: confiado_45
+  - first:
+      213: -8737504220493155260
+    second: confiado_46
+  - first:
+      213: -2980121918391909489
+    second: confiado_47
+  - first:
+      213: 7923836240599208503
+    second: confiado_48
+  - first:
+      213: -5635826643657626911
+    second: confiado_49
+  - first:
+      213: -896536926697401343
+    second: confiado_50
+  - first:
+      213: 6244173891929408691
+    second: confiado_51
+  - first:
+      213: 8745902047666867567
+    second: confiado_52
+  - first:
+      213: 1875030784689269110
+    second: confiado_53
+  - first:
+      213: -2559659519869662992
+    second: confiado_54
+  - first:
+      213: -5622700924382339553
+    second: confiado_55
+  - first:
+      213: 7516139752026561821
+    second: confiado_56
+  - first:
+      213: 3200708017776160463
+    second: confiado_57
+  - first:
+      213: -333316339592172259
+    second: confiado_58
+  - first:
+      213: 4068180816874421430
+    second: confiado_59
+  - first:
+      213: 6126788129943487359
+    second: confiado_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: confiado_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 447
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b324eee427a960b20800000000000000
+      internalID: 3100335209232351803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 828
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e32fe4edeb67d60800000000000000
+      internalID: 7887701659402518153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_2
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 854
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54bb68ff8b55c21c0800000000000000
+      internalID: -4527149272364827835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 394
+        width: 449
+        height: 493
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4135f6d34bd6cc8e0800000000000000
+      internalID: -1671840740769049836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_4
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 781
+        width: 50
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd803870632a0fac0800000000000000
+      internalID: -3823377730699589413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_5
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 438
+        width: 502
+        height: 441
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9684e29dce4d78790800000000000000
+      internalID: -7527814138405435287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_6
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 844
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbea8e0dfaa1cfc0800000000000000
+      internalID: -3476309433505879041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_7
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 446
+        width: 384
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a2742788f525940800000000000000
+      internalID: 5283390352496470580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_8
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 843
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe30ae7dc98e6cf0800000000000000
+      internalID: -257116613027807498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_9
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 825
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c107b8645828ab0800000000000000
+      internalID: -5007293297648984946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_10
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 775
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6631c44a5298012b0800000000000000
+      internalID: -5615837940567764122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_11
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 731
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8429cea7cb8ea27b0800000000000000
+      internalID: -5248126519533071800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_12
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 747
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64de9ea5414b72570800000000000000
+      internalID: 8441914026046909766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_13
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 733
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96518f6170906ed0800000000000000
+      internalID: -2422777782648875362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_14
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 717
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e64d5ef26b65810800000000000000
+      internalID: 1753789421743009344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_15
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 711
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c089aecc39c256890800000000000000
+      internalID: -7465511793986988020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_16
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 684
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ed1262e12d6f570800000000000000
+      internalID: 8500212373638995561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_17
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 662
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e38d218609259de0800000000000000
+      internalID: -1327109407276956701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_18
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 612
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c916a3a425375f50800000000000000
+      internalID: 6870018188057647556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_19
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 569
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbf4ea172dfff2b0800000000000000
+      internalID: -5548437871500395583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_20
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 562
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d936f8ee53396b8b0800000000000000
+      internalID: -5136756465124547683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_21
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 553
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867628b4ab790a150800000000000000
+      internalID: 5881867939732416360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_22
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 559
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5745c694c506d90800000000000000
+      internalID: -7106578741570800221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_23
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 551
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796539ed0b9ae7f20800000000000000
+      internalID: 3422359343961691799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_24
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 539
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce29f72650bceb40800000000000000
+      internalID: 5470941531432627910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_25
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 519
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5c9873b3b8111e0800000000000000
+      internalID: -2228847254120577622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_26
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 503
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989401cffe4041ed0800000000000000
+      internalID: -2444323268982716023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_27
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 497
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87489a610bf5199a0800000000000000
+      internalID: -6228091599777594248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_28
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 499
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b77ba07320b8510800000000000000
+      internalID: 1552336931985521526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 5
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2364f785a3ba1f920800000000000000
+      internalID: 3022385092023502386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_30
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 444
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e69594397dd6e20800000000000000
+      internalID: 3345567125796908605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_31
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 450
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2003c48b9e02820800000000000000
+      internalID: 2891567938533327601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_32
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 450
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b326d0d9dae65e200800000000000000
+      internalID: 208694649685893691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 471
+        height: 439
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: addc6f88d62394200800000000000000
+      internalID: 164718307406433754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_34
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 420
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092f976a0f7433110800000000000000
+      internalID: 1239413421367751312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_35
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 376
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a717db8f098bfc0800000000000000
+      internalID: -3478871314139088242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_36
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 360
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c2c3d64fac51240800000000000000
+      internalID: 4761935332167658606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_37
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 14
+        width: 439
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f3fc14a808ba2b0800000000000000
+      internalID: -5572218782642913503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_38
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 346
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0c9f73b892e3b740800000000000000
+      internalID: 5166722342998481935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_39
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 0
+        width: 429
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35920c4a437960350800000000000000
+      internalID: 5982635407366433107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_40
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 378
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fd6e5c3b77a613a0800000000000000
+      internalID: -6694979648304026123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_41
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 324
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17e54408a46973a0800000000000000
+      internalID: -6667187100556335332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_42
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 291
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbbce19c99d060c0800000000000000
+      internalID: -4584425154176828471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_43
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 330
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e118d387158ba110800000000000000
+      internalID: 1273257655705014760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_44
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 316
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad60efb8548fb9330800000000000000
+      internalID: 3718838894909589210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_45
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 265
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f59db1be0eccc40800000000000000
+      internalID: 5534045342520663822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_46
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 196
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444770a64362eb680800000000000000
+      internalID: -8737504220493155260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_47
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 207
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8305e297ea74a6d0800000000000000
+      internalID: -2980121918391909489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_48
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 209
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732584b141f17fd60800000000000000
+      internalID: 7923836240599208503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_49
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 84
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eaea19078589c1b0800000000000000
+      internalID: -5635826643657626911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_50
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 106
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1045e2c4a6cde83f0800000000000000
+      internalID: -896536926697401343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_51
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 98
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b488385213c7a650800000000000000
+      internalID: 6244173891929408691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_52
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 98
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d8b87139faf5970800000000000000
+      internalID: 8745902047666867567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_53
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 88
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67963587092750a10800000000000000
+      internalID: 1875030784689269110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_54
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 63
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8c8347a334a7cd0800000000000000
+      internalID: -2559659519869662992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_55
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 77
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e1ee3bc4728f1b0800000000000000
+      internalID: -5622700924382339553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_56
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 63
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d5cb14841be4860800000000000000
+      internalID: 7516139752026561821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_57
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 67
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fceea4debf23b6c20800000000000000
+      internalID: 3200708017776160463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_58
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 47
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d66cc1e82df5bf0800000000000000
+      internalID: -333316339592172259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_59
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 57
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcbbd716e4157830800000000000000
+      internalID: 4068180816874421430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: confiado_60
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 42
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f738c53d759b60550800000000000000
+      internalID: 6126788129943487359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      confiado_0: 3100335209232351803
+      confiado_1: 7887701659402518153
+      confiado_10: -5615837940567764122
+      confiado_11: -5248126519533071800
+      confiado_12: 8441914026046909766
+      confiado_13: -2422777782648875362
+      confiado_14: 1753789421743009344
+      confiado_15: -7465511793986988020
+      confiado_16: 8500212373638995561
+      confiado_17: -1327109407276956701
+      confiado_18: 6870018188057647556
+      confiado_19: -5548437871500395583
+      confiado_2: -4527149272364827835
+      confiado_20: -5136756465124547683
+      confiado_21: 5881867939732416360
+      confiado_22: -7106578741570800221
+      confiado_23: 3422359343961691799
+      confiado_24: 5470941531432627910
+      confiado_25: -2228847254120577622
+      confiado_26: -2444323268982716023
+      confiado_27: -6228091599777594248
+      confiado_28: 1552336931985521526
+      confiado_29: 3022385092023502386
+      confiado_3: -1671840740769049836
+      confiado_30: 3345567125796908605
+      confiado_31: 2891567938533327601
+      confiado_32: 208694649685893691
+      confiado_33: 164718307406433754
+      confiado_34: 1239413421367751312
+      confiado_35: -3478871314139088242
+      confiado_36: 4761935332167658606
+      confiado_37: -5572218782642913503
+      confiado_38: 5166722342998481935
+      confiado_39: 5982635407366433107
+      confiado_4: -3823377730699589413
+      confiado_40: -6694979648304026123
+      confiado_41: -6667187100556335332
+      confiado_42: -4584425154176828471
+      confiado_43: 1273257655705014760
+      confiado_44: 3718838894909589210
+      confiado_45: 5534045342520663822
+      confiado_46: -8737504220493155260
+      confiado_47: -2980121918391909489
+      confiado_48: 7923836240599208503
+      confiado_49: -5635826643657626911
+      confiado_5: -7527814138405435287
+      confiado_50: -896536926697401343
+      confiado_51: 6244173891929408691
+      confiado_52: 8745902047666867567
+      confiado_53: 1875030784689269110
+      confiado_54: -2559659519869662992
+      confiado_55: -5622700924382339553
+      confiado_56: 7516139752026561821
+      confiado_57: 3200708017776160463
+      confiado_58: -333316339592172259
+      confiado_59: 4068180816874421430
+      confiado_6: -3476309433505879041
+      confiado_60: 6126788129943487359
+      confiado_7: 5283390352496470580
+      confiado_8: -257116613027807498
+      confiado_9: -5007293297648984946
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

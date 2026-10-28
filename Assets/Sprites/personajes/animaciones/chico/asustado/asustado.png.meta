@@ -1,0 +1,1079 @@
+fileFormatVersion: 2
+guid: 0736fb66ece95f8f18d565f1c5e954e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5526356859575310953
+    second: asustado_0
+  - first:
+      213: -4077448358039525017
+    second: asustado_1
+  - first:
+      213: -3933542363069492102
+    second: asustado_2
+  - first:
+      213: -3732319208362806831
+    second: asustado_3
+  - first:
+      213: -4034946124990946732
+    second: asustado_4
+  - first:
+      213: 5445547894845288026
+    second: asustado_5
+  - first:
+      213: 1254981807662625195
+    second: asustado_6
+  - first:
+      213: 2133584475977210629
+    second: asustado_7
+  - first:
+      213: -2222742203089992212
+    second: asustado_8
+  - first:
+      213: -5030780886100407458
+    second: asustado_9
+  - first:
+      213: 3288692542743263139
+    second: asustado_10
+  - first:
+      213: -4663635383294679294
+    second: asustado_11
+  - first:
+      213: -4595588147855644954
+    second: asustado_12
+  - first:
+      213: -841196546106041344
+    second: asustado_13
+  - first:
+      213: 5133847036069190095
+    second: asustado_14
+  - first:
+      213: 4920166695294605810
+    second: asustado_15
+  - first:
+      213: -305114186981229657
+    second: asustado_16
+  - first:
+      213: 8922103110495650489
+    second: asustado_17
+  - first:
+      213: -3376701811337431821
+    second: asustado_18
+  - first:
+      213: 4097104343795233857
+    second: asustado_19
+  - first:
+      213: -2099422955446231528
+    second: asustado_20
+  - first:
+      213: 6640658920076318064
+    second: asustado_21
+  - first:
+      213: 8797991347446767962
+    second: asustado_22
+  - first:
+      213: 7824280980037604104
+    second: asustado_23
+  - first:
+      213: -6568527581782944296
+    second: asustado_24
+  - first:
+      213: 3503823228890308017
+    second: asustado_25
+  - first:
+      213: -9153596781218006326
+    second: asustado_26
+  - first:
+      213: 5667125254837512157
+    second: asustado_27
+  - first:
+      213: 1396719080913442265
+    second: asustado_28
+  - first:
+      213: 1458787208237898126
+    second: asustado_29
+  - first:
+      213: -1767614168027108779
+    second: asustado_30
+  - first:
+      213: 8950969327332644323
+    second: asustado_31
+  - first:
+      213: 6549142407310697266
+    second: asustado_32
+  - first:
+      213: -6280273957394153972
+    second: asustado_33
+  - first:
+      213: 1958555344547467490
+    second: asustado_34
+  - first:
+      213: 1404355599914948927
+    second: asustado_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: asustado_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 424
+        width: 487
+        height: 463
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a970da84091bc40800000000000000
+      internalID: 5526356859575310953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_1
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 442
+        width: 406
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769ed05525ef967c0800000000000000
+      internalID: -4077448358039525017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_2
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 668
+        width: 51
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74da44cf004969c0800000000000000
+      internalID: -3933542363069492102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_3
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 448
+        width: 425
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1fa256473243cc0800000000000000
+      internalID: -3732319208362806831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_4
+      rect:
+        serializedVersion: 2
+        x: 1343
+        y: 426
+        width: 418
+        height: 461
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452631c90edf008c0800000000000000
+      internalID: -4034946124990946732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_5
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 531
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e21a765f8729b40800000000000000
+      internalID: 5445547894845288026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_6
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 527
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1fe4d0e479a6110800000000000000
+      internalID: 1254981807662625195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_7
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 523
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bd8e4d6c30c9d10800000000000000
+      internalID: 2133584475977210629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_8
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 495
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce54d8d2ebb3721e0800000000000000
+      internalID: -2222742203089992212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_9
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 511
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b092530731f2ab0800000000000000
+      internalID: -5030780886100407458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_10
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 500
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a730b18178c3ad20800000000000000
+      internalID: 3288692542743263139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_11
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 486
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20727c0f350774fb0800000000000000
+      internalID: -4663635383294679294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_12
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 15
+        width: 445
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6a1119de03930c0800000000000000
+      internalID: -4595588147855644954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_13
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 14
+        width: 462
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c501bb2387354f0800000000000000
+      internalID: -841196546106041344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_14
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 15
+        width: 401
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc99814dda61f3740800000000000000
+      internalID: 5133847036069190095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_15
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 330
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f91ebc8a81f74440800000000000000
+      internalID: 4920166695294605810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_16
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 0
+        width: 398
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab3d05734404cbf0800000000000000
+      internalID: -305114186981229657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_17
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 311
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b24086f18da1db70800000000000000
+      internalID: 8922103110495650489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_18
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 289
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f470d6d79b8321d0800000000000000
+      internalID: -3376701811337431821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_19
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 247
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144ff9b71b6dbd830800000000000000
+      internalID: 4097104343795233857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_20
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 180
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e935bf1f95dd2e0800000000000000
+      internalID: -2099422955446231528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_21
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 190
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0759da5aa1c582c50800000000000000
+      internalID: 6640658920076318064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_22
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 152
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a516689448eb81a70800000000000000
+      internalID: 8797991347446767962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_23
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 118
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8039cf5b81e659c60800000000000000
+      internalID: 7824280980037604104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_24
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 100
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5d87647f6e7d4a0800000000000000
+      internalID: -6568527581782944296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_25
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 104
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdd4c1a9a410a030800000000000000
+      internalID: 3503823228890308017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_26
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 86
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca775ea934e7f080800000000000000
+      internalID: -9153596781218006326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_27
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 102
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd72c30c46ca5ae40800000000000000
+      internalID: 5667125254837512157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_28
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 69
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d51bdc9a94226310800000000000000
+      internalID: 1396719080913442265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_29
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 92
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8957e5ac37ae3410800000000000000
+      internalID: 1458787208237898126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_30
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 76
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55aebc6874c2877e0800000000000000
+      internalID: -1767614168027108779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_31
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 82
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5541fcd2b383c70800000000000000
+      internalID: 8950969327332644323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_32
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 67
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2336333125a33ea50800000000000000
+      internalID: 6549142407310697266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_33
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 51
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e726d2c1cf7d8a0800000000000000
+      internalID: -6280273957394153972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_34
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 35
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0d1b085bf2e2b10800000000000000
+      internalID: 1958555344547467490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: asustado_35
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 38
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f39d24f3af54d7310800000000000000
+      internalID: 1404355599914948927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      asustado_0: 5526356859575310953
+      asustado_1: -4077448358039525017
+      asustado_10: 3288692542743263139
+      asustado_11: -4663635383294679294
+      asustado_12: -4595588147855644954
+      asustado_13: -841196546106041344
+      asustado_14: 5133847036069190095
+      asustado_15: 4920166695294605810
+      asustado_16: -305114186981229657
+      asustado_17: 8922103110495650489
+      asustado_18: -3376701811337431821
+      asustado_19: 4097104343795233857
+      asustado_2: -3933542363069492102
+      asustado_20: -2099422955446231528
+      asustado_21: 6640658920076318064
+      asustado_22: 8797991347446767962
+      asustado_23: 7824280980037604104
+      asustado_24: -6568527581782944296
+      asustado_25: 3503823228890308017
+      asustado_26: -9153596781218006326
+      asustado_27: 5667125254837512157
+      asustado_28: 1396719080913442265
+      asustado_29: 1458787208237898126
+      asustado_3: -3732319208362806831
+      asustado_30: -1767614168027108779
+      asustado_31: 8950969327332644323
+      asustado_32: 6549142407310697266
+      asustado_33: -6280273957394153972
+      asustado_34: 1958555344547467490
+      asustado_35: 1404355599914948927
+      asustado_4: -4034946124990946732
+      asustado_5: 5445547894845288026
+      asustado_6: 1254981807662625195
+      asustado_7: 2133584475977210629
+      asustado_8: -2222742203089992212
+      asustado_9: -5030780886100407458
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

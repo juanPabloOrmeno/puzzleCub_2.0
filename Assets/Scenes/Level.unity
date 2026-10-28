@@ -889,6 +889,7 @@ GameObject:
   - component: {fileID: 1046001801}
   - component: {fileID: 1046001802}
   - component: {fileID: 1046001803}
+  - component: {fileID: 1046001804}
   m_Layer: 5
   m_Name: personajeIzquierda
   m_TagString: Untagged
@@ -953,6 +954,50 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1046001804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046001800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72a81f5f57b647e8b64dcd3a987f2453, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::HudSpriteAnimation
+  confidentFrames:
+  - {fileID: 21300000, guid: f2b2cd48a412d3b2ba9c7c359843f85c, type: 3}
+  - {fileID: 21300000, guid: 44aff60a278aa926b99bb7f01cfece3b, type: 3}
+  - {fileID: 21300000, guid: 22e9e8c69f270ebdfbdb7890929c1cdd, type: 3}
+  - {fileID: 21300000, guid: d3326a5cac6f90d119ed3592392d80af, type: 3}
+  - {fileID: 21300000, guid: 429b34e0081aeac529f5abbecf49a975, type: 3}
+  - {fileID: 21300000, guid: 2bd83044316888d6fb401f459274f47d, type: 3}
+  - {fileID: 21300000, guid: f6e297f8d8998e6a391a4ea79e7df37d, type: 3}
+  - {fileID: 21300000, guid: 7319371956655b379b9820c2f439ba50, type: 3}
+  scaredFrames:
+  - {fileID: 21300000, guid: 01c0ba9c9f94594eba84e8da384af523, type: 3}
+  - {fileID: 21300000, guid: 455e503ac4aa19de58c65823a2da13df, type: 3}
+  - {fileID: 21300000, guid: d98d291792fd1311e8e7fc800cad7e87, type: 3}
+  - {fileID: 21300000, guid: 173b65f952ff10005aecd43765b2a353, type: 3}
+  - {fileID: 21300000, guid: bbbdddf12b7fa2014bf2b0d0815df89e, type: 3}
+  - {fileID: 21300000, guid: 19bce781b483eaf558cca8b093ffa3c9, type: 3}
+  - {fileID: 21300000, guid: c6d86f2791f84bc5ea88101000c798a4, type: 3}
+  - {fileID: 21300000, guid: 0d502dc841f96e47e992ba9771333c87, type: 3}
+  terrifiedFrames:
+  - {fileID: 21300000, guid: 98411fb12cde404d38059f23e93c9036, type: 3}
+  - {fileID: 21300000, guid: a26cfc0fc0f46530dae77dbfaf74fe6d, type: 3}
+  - {fileID: 21300000, guid: b953f985baf3009e0b21669a1f04a150, type: 3}
+  - {fileID: 21300000, guid: 42e9884a9701d9c488877f5df47bd320, type: 3}
+  - {fileID: 21300000, guid: 29074a2e76aae16449ba1482cd6e927c, type: 3}
+  - {fileID: 21300000, guid: b4e38c60761e635be97e800954cef981, type: 3}
+  - {fileID: 21300000, guid: b73b2ef593c5ddd5b847e3a8dcc542d6, type: 3}
+  - {fileID: 21300000, guid: 9734717263fec90928f4b79e4d4a6f6a, type: 3}
+  framesPerSecond: 7
+  gameManager: {fileID: 1937401201}
+  countdown: {fileID: 1046001671}
+  scaredThreshold: 0.5
+  terrifiedThreshold: 0.2
 --- !u!1 &1046001810
 GameObject:
   m_ObjectHideFlags: 0
@@ -964,6 +1009,7 @@ GameObject:
   - component: {fileID: 1046001811}
   - component: {fileID: 1046001812}
   - component: {fileID: 1046001813}
+  - component: {fileID: 1046001814}
   m_Layer: 5
   m_Name: personajeDerecha
   m_TagString: Untagged
@@ -1324,6 +1370,50 @@ Transform:
   - {fileID: 802025944}
   m_Father: {fileID: 512769588}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1046001814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046001810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72a81f5f57b647e8b64dcd3a987f2453, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Assembly-CSharp::HudSpriteAnimation
+  confidentFrames:
+  - {fileID: 21300000, guid: 7d75efad52545ade6895feac7c80b79f, type: 3}
+  - {fileID: 21300000, guid: 0d8b311dab348561e9b0bc6a0b217d78, type: 3}
+  - {fileID: 21300000, guid: 2afee4bc2e02fdf1cbf46b1e8638bced, type: 3}
+  - {fileID: 21300000, guid: ce454426670ba748aa2c4e7dd7bc6b55, type: 3}
+  - {fileID: 21300000, guid: 316151517cdedb448a289b5b10a57b65, type: 3}
+  - {fileID: 21300000, guid: a4b7fabed2067d04d9400093e663b85d, type: 3}
+  - {fileID: 21300000, guid: eb27e654634a34ebf8f7a578cc11eeb0, type: 3}
+  - {fileID: 21300000, guid: d89632d3b0812ee9f9ea41ac026af01b, type: 3}
+  scaredFrames:
+  - {fileID: 21300000, guid: 9962cde6ddbee9e8f99e3ffd34069838, type: 3}
+  - {fileID: 21300000, guid: 5467eec0604b75572a01ca53c25efedf, type: 3}
+  - {fileID: 21300000, guid: a88fcc2815b93fa4dabbf8f15fbfbcd9, type: 3}
+  - {fileID: 21300000, guid: e684628782d79dead89e9ecc6b7bf3e0, type: 3}
+  - {fileID: 21300000, guid: 72be01440bee541249ec362a96f52115, type: 3}
+  - {fileID: 21300000, guid: fbfc892923386ac9c99ed0023231723e, type: 3}
+  - {fileID: 21300000, guid: fcdd697bc17618f19ba298050859ceb8, type: 3}
+  - {fileID: 21300000, guid: 799559a8e56783e928b5df7882e92586, type: 3}
+  terrifiedFrames:
+  - {fileID: 21300000, guid: d1cdd85934021f16eb70c8b8e978e366, type: 3}
+  - {fileID: 21300000, guid: 072d8ad9eba03b571844fee95b22f7c0, type: 3}
+  - {fileID: 21300000, guid: 81a4f97dfac449a30bccbbed8d7342b2, type: 3}
+  - {fileID: 21300000, guid: e2776c60d62bfae9487357e952945e49, type: 3}
+  - {fileID: 21300000, guid: 0932fa1a211d0724f850c857a76ce9bc, type: 3}
+  - {fileID: 21300000, guid: a3fc5f3171479c7dc93bc72cf301ceff, type: 3}
+  - {fileID: 21300000, guid: 7ec9dd24761382eddad9be9f70709166, type: 3}
+  - {fileID: 21300000, guid: 7859d88c8f621b7569dd012fc6ddf9c5, type: 3}
+  framesPerSecond: 7
+  gameManager: {fileID: 1937401201}
+  countdown: {fileID: 1046001671}
+  scaredThreshold: 0.5
+  terrifiedThreshold: 0.2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

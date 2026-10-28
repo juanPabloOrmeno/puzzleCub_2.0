@@ -1,0 +1,2327 @@
+fileFormatVersion: 2
+guid: ea67b6b4e7ee01044b413f479f1a24c0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7778869808129843661
+    second: botonReintentar_0
+  - first:
+      213: 2679274374544865116
+    second: botonReintentar_1
+  - first:
+      213: -636668383548264720
+    second: botonReintentar_2
+  - first:
+      213: -5018656889051928830
+    second: botonReintentar_3
+  - first:
+      213: 7235934827176556227
+    second: botonReintentar_4
+  - first:
+      213: 4977158862017708656
+    second: botonReintentar_5
+  - first:
+      213: -5891297157933084447
+    second: botonReintentar_6
+  - first:
+      213: 5290379701106034243
+    second: botonReintentar_7
+  - first:
+      213: 6726281421562640807
+    second: botonReintentar_8
+  - first:
+      213: -3059399786283251676
+    second: botonReintentar_9
+  - first:
+      213: -8988799669956049947
+    second: botonReintentar_10
+  - first:
+      213: -533667732769485519
+    second: botonReintentar_11
+  - first:
+      213: -8442592793181292490
+    second: botonReintentar_12
+  - first:
+      213: 2537518267132914097
+    second: botonReintentar_13
+  - first:
+      213: -7367712194592391449
+    second: botonReintentar_14
+  - first:
+      213: -6871351519971983133
+    second: botonReintentar_15
+  - first:
+      213: -5155308832486394971
+    second: botonReintentar_16
+  - first:
+      213: 1321007529651939776
+    second: botonReintentar_17
+  - first:
+      213: 1958076171997349045
+    second: botonReintentar_18
+  - first:
+      213: 5647851074193933889
+    second: botonReintentar_19
+  - first:
+      213: 5764162249148215325
+    second: botonReintentar_20
+  - first:
+      213: -2766041611289699924
+    second: botonReintentar_21
+  - first:
+      213: -6529205991311408847
+    second: botonReintentar_22
+  - first:
+      213: -6126409598557022624
+    second: botonReintentar_23
+  - first:
+      213: -4665274280626507500
+    second: botonReintentar_24
+  - first:
+      213: -3914435878005107280
+    second: botonReintentar_25
+  - first:
+      213: 2054204029737472633
+    second: botonReintentar_26
+  - first:
+      213: -7891663426242752036
+    second: botonReintentar_27
+  - first:
+      213: 7714511071546070692
+    second: botonReintentar_28
+  - first:
+      213: 2709635606193801721
+    second: botonReintentar_29
+  - first:
+      213: 1825737565867342697
+    second: botonReintentar_30
+  - first:
+      213: 2905676278522478543
+    second: botonReintentar_31
+  - first:
+      213: 5516310066707352689
+    second: botonReintentar_32
+  - first:
+      213: -4649366575293249232
+    second: botonReintentar_33
+  - first:
+      213: 208584115802414655
+    second: botonReintentar_34
+  - first:
+      213: 8395811843138630384
+    second: botonReintentar_35
+  - first:
+      213: -9082226289947163578
+    second: botonReintentar_36
+  - first:
+      213: 7451228675853534738
+    second: botonReintentar_37
+  - first:
+      213: -4370652064337427238
+    second: botonReintentar_38
+  - first:
+      213: 5537263367742369677
+    second: botonReintentar_39
+  - first:
+      213: 2790039350064544853
+    second: botonReintentar_40
+  - first:
+      213: -3534618443014345323
+    second: botonReintentar_41
+  - first:
+      213: -8958608234476179896
+    second: botonReintentar_42
+  - first:
+      213: 6999983189096663109
+    second: botonReintentar_43
+  - first:
+      213: 5120065520264311840
+    second: botonReintentar_44
+  - first:
+      213: -8798135534578633649
+    second: botonReintentar_45
+  - first:
+      213: 8441863045032634600
+    second: botonReintentar_46
+  - first:
+      213: 2030251314112458298
+    second: botonReintentar_47
+  - first:
+      213: -357536736941458473
+    second: botonReintentar_48
+  - first:
+      213: -4055707937504594970
+    second: botonReintentar_49
+  - first:
+      213: -2917857986732804205
+    second: botonReintentar_50
+  - first:
+      213: 5644770277738240312
+    second: botonReintentar_51
+  - first:
+      213: -5830381221746729267
+    second: botonReintentar_52
+  - first:
+      213: 3336729284439549978
+    second: botonReintentar_53
+  - first:
+      213: 956838729229555566
+    second: botonReintentar_54
+  - first:
+      213: 4963817644078691384
+    second: botonReintentar_55
+  - first:
+      213: 823609167555578320
+    second: botonReintentar_56
+  - first:
+      213: -3934302078969811270
+    second: botonReintentar_57
+  - first:
+      213: -5412528231489065116
+    second: botonReintentar_58
+  - first:
+      213: 6172835761364867674
+    second: botonReintentar_59
+  - first:
+      213: -4795685545786202472
+    second: botonReintentar_60
+  - first:
+      213: -3025580338403819400
+    second: botonReintentar_61
+  - first:
+      213: 5146615799168029413
+    second: botonReintentar_62
+  - first:
+      213: -8404695859575303603
+    second: botonReintentar_63
+  - first:
+      213: 8699870261782305890
+    second: botonReintentar_64
+  - first:
+      213: 2191229649367263292
+    second: botonReintentar_65
+  - first:
+      213: 3811136245951470592
+    second: botonReintentar_66
+  - first:
+      213: -2831619531270306651
+    second: botonReintentar_67
+  - first:
+      213: 933564142784963244
+    second: botonReintentar_68
+  - first:
+      213: 8027767415629302586
+    second: botonReintentar_69
+  - first:
+      213: 966668866141432097
+    second: botonReintentar_70
+  - first:
+      213: -4464465865886031249
+    second: botonReintentar_71
+  - first:
+      213: -6742784632465454416
+    second: botonReintentar_72
+  - first:
+      213: -5106353577480117516
+    second: botonReintentar_73
+  - first:
+      213: 1682448584118668214
+    second: botonReintentar_74
+  - first:
+      213: -3464766289810702208
+    second: botonReintentar_75
+  - first:
+      213: 1438633993889456427
+    second: botonReintentar_76
+  - first:
+      213: 2304787520192866179
+    second: botonReintentar_77
+  - first:
+      213: 5060834431728861812
+    second: botonReintentar_78
+  - first:
+      213: -4802580524954850709
+    second: botonReintentar_79
+  - first:
+      213: -2777838131613004197
+    second: botonReintentar_80
+  - first:
+      213: -2822885824548597116
+    second: botonReintentar_81
+  - first:
+      213: 750206733904128679
+    second: botonReintentar_82
+  - first:
+      213: 3060443703426685603
+    second: botonReintentar_83
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: botonReintentar_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 1958
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ed86caf17eb0490800000000000000
+      internalID: -7778869808129843661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_1
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 665
+        width: 133
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57bd8629d1be2520800000000000000
+      internalID: 2679274374544865116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_2
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 740
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe22e67a791a27f0800000000000000
+      internalID: -636668383548264720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_3
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 753
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2072e7e36262a5ab0800000000000000
+      internalID: -5018656889051928830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_4
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 688
+        width: 55
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c67cbf33643b6460800000000000000
+      internalID: 7235934827176556227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_5
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 706
+        width: 138
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 072c0496d9b621540800000000000000
+      internalID: 4977158862017708656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_6
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 736
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e05123c278ed3ea0800000000000000
+      internalID: -5891297157933084447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_7
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 730
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346cc5bfe443b6940800000000000000
+      internalID: 5290379701106034243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_8
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 731
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9fc87c05d885d50800000000000000
+      internalID: 6726281421562640807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_9
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 728
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4284ea09a14da85d0800000000000000
+      internalID: -3059399786283251676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_10
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 739
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e30f1b235e514380800000000000000
+      internalID: -8988799669956049947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_11
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 736
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13dcf2846080898f0800000000000000
+      internalID: -533667732769485519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_12
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 726
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638f72bd592e5da80800000000000000
+      internalID: -8442592793181292490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_13
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 714
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9a58b6b63173320800000000000000
+      internalID: 2537518267132914097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_14
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 714
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eeb10a7bc0a0c990800000000000000
+      internalID: -7367712194592391449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_15
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 682
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0ca35d23e04a0a0800000000000000
+      internalID: -6871351519971983133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_16
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 704
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3f63c4ee9a478b0800000000000000
+      internalID: -5155308832486394971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_17
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 710
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c925866959255210800000000000000
+      internalID: 1321007529651939776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_18
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 680
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b40f0377eb7c2b10800000000000000
+      internalID: 1958076171997349045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_19
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 704
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14643add0a2316e40800000000000000
+      internalID: 5647851074193933889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_20
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 714
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d103238960b6eff40800000000000000
+      internalID: 5764162249148215325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_21
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 712
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9d0254fcb0d99d0800000000000000
+      internalID: -2766041611289699924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_22
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 688
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131088e7eb99365a0800000000000000
+      internalID: -6529205991311408847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_23
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 687
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0661771edee9afaa0800000000000000
+      internalID: -6126409598557022624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_24
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 712
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411bd7b62cd914fb0800000000000000
+      internalID: -4665274280626507500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_25
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 712
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5167bfe412da9c0800000000000000
+      internalID: -3914435878005107280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_26
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 698
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9729da07eaff18c10800000000000000
+      internalID: 2054204029737472633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_27
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 676
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1dbd7fced2b7290800000000000000
+      internalID: -7891663426242752036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_28
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 682
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6525342f27f0b60800000000000000
+      internalID: 7714511071546070692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_29
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 688
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f98ee14a3f8a9520800000000000000
+      internalID: 2709635606193801721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_30
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 690
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96bfb9a94a2565910800000000000000
+      internalID: 1825737565867342697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_31
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 692
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf7c9d2e29035820800000000000000
+      internalID: 2905676278522478543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_32
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 690
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17cc00d67cedd8c40800000000000000
+      internalID: 5516310066707352689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_33
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 684
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0394211bbb12a7fb0800000000000000
+      internalID: -4649366575293249232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_34
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 682
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e1130f52a05e200800000000000000
+      internalID: 208584115802414655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_35
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 676
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2bb4f636ae38470800000000000000
+      internalID: 8395811843138630384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_36
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 86
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6444cf91f4375f180800000000000000
+      internalID: -9082226289947163578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_37
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 86
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 216447c9005186760800000000000000
+      internalID: 7451228675853534738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_38
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 80
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4075caa135853c0800000000000000
+      internalID: -4370652064337427238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_39
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 78
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f211ef1bf48dc40800000000000000
+      internalID: 5537263367742369677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_40
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 80
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c75f1b10638b620800000000000000
+      internalID: 2790039350064544853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_41
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 64
+        width: 17
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59de597d04382fec0800000000000000
+      internalID: -3534618443014345323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_42
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 90
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e68268641aca380800000000000000
+      internalID: -8958608234476179896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_43
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 96
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54800db7f9fe42160800000000000000
+      internalID: 6999983189096663109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_44
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 72
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0247412a6702e0740800000000000000
+      internalID: 5120065520264311840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_45
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 82
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44f2b7885eb6e580800000000000000
+      internalID: -8798135534578633649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_46
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 86
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8eaa966b5872570800000000000000
+      internalID: 8441863045032634600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_47
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 52
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e617e30d6ec2c10800000000000000
+      internalID: 2030251314112458298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_48
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 64
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbb3786b36c90bf0800000000000000
+      internalID: -357536736941458473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_49
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 70
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e37e407e1b37b7c0800000000000000
+      internalID: -4055707937504594970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_50
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 82
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39731cbde9fa187d0800000000000000
+      internalID: -2917857986732804205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_51
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 80
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839554b09a0465e40800000000000000
+      internalID: 5644770277738240312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_52
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 70
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce9da46b23561fa0800000000000000
+      internalID: -5830381221746729267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_53
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 64
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18a9aefa917e4e20800000000000000
+      internalID: 3336729284439549978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_54
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 72
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67501331cf574d00800000000000000
+      internalID: 956838729229555566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_55
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 76
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834702d09d503e440800000000000000
+      internalID: 4963817644078691384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_56
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 78
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9c7e99c2c0e6b00800000000000000
+      internalID: 823609167555578320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_57
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 54
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe6cef9a1d8669c0800000000000000
+      internalID: -3934302078969811270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_58
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 64
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f22511046d2e4b0800000000000000
+      internalID: -5412528231489065116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_59
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 74
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a1bfc7b615aa550800000000000000
+      internalID: 6172835761364867674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_60
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 66
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89620fc976d427db0800000000000000
+      internalID: -4795685545786202472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_61
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 76
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 870c80266baf206d0800000000000000
+      internalID: -3025580338403819400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_62
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 54
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2d2d82dc37c6740800000000000000
+      internalID: 5146615799168029413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_63
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 64
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4251dc45a58c5b80800000000000000
+      internalID: -8404695859575303603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_64
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 39
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26cd481c8e52cb870800000000000000
+      internalID: 8699870261782305890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_65
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 56
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38e6d7a1cfc86e10800000000000000
+      internalID: 2191229649367263292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_66
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 46
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c9d823930e3e430800000000000000
+      internalID: 3811136245951470592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_67
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 33
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a44393f90114b8d0800000000000000
+      internalID: -2831619531270306651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_68
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 66
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca26db144afa4fc00800000000000000
+      internalID: 933564142784963244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_69
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 64
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b4a0c7eeb586f60800000000000000
+      internalID: 8027767415629302586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_70
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 64
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1292acd463c4a6d00800000000000000
+      internalID: 966668866141432097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_71
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 64
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62a100e2f70b02c0800000000000000
+      internalID: -4464465865886031249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_72
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 48
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba0fe00a11dc62a0800000000000000
+      internalID: -6742784632465454416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_73
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 48
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f2a0c4d9769229b0800000000000000
+      internalID: -5106353577480117516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_74
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 48
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb8041c212495710800000000000000
+      internalID: 1682448584118668214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_75
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 32
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080c512aa6daaefc0800000000000000
+      internalID: -3464766289810702208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_76
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 31
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b212597cefd07f310800000000000000
+      internalID: 1438633993889456427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_77
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 50
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38769dfc9004cff10800000000000000
+      internalID: 2304787520192866179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_78
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 50
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472c34a2a12bb3640800000000000000
+      internalID: 5060834431728861812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_79
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 37
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a6bdc257ec95db0800000000000000
+      internalID: -4802580524954850709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_80
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 31
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e0ca9dfe22379d0800000000000000
+      internalID: -2777838131613004197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_81
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 31
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4829b428c4813d8d0800000000000000
+      internalID: -2822885824548597116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_82
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 15
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa267abc05496a00800000000000000
+      internalID: 750206733904128679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonReintentar_83
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 15
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa14d55551e87a20800000000000000
+      internalID: 3060443703426685603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      botonReintentar_0: -7778869808129843661
+      botonReintentar_1: 2679274374544865116
+      botonReintentar_10: -8988799669956049947
+      botonReintentar_11: -533667732769485519
+      botonReintentar_12: -8442592793181292490
+      botonReintentar_13: 2537518267132914097
+      botonReintentar_14: -7367712194592391449
+      botonReintentar_15: -6871351519971983133
+      botonReintentar_16: -5155308832486394971
+      botonReintentar_17: 1321007529651939776
+      botonReintentar_18: 1958076171997349045
+      botonReintentar_19: 5647851074193933889
+      botonReintentar_2: -636668383548264720
+      botonReintentar_20: 5764162249148215325
+      botonReintentar_21: -2766041611289699924
+      botonReintentar_22: -6529205991311408847
+      botonReintentar_23: -6126409598557022624
+      botonReintentar_24: -4665274280626507500
+      botonReintentar_25: -3914435878005107280
+      botonReintentar_26: 2054204029737472633
+      botonReintentar_27: -7891663426242752036
+      botonReintentar_28: 7714511071546070692
+      botonReintentar_29: 2709635606193801721
+      botonReintentar_3: -5018656889051928830
+      botonReintentar_30: 1825737565867342697
+      botonReintentar_31: 2905676278522478543
+      botonReintentar_32: 5516310066707352689
+      botonReintentar_33: -4649366575293249232
+      botonReintentar_34: 208584115802414655
+      botonReintentar_35: 8395811843138630384
+      botonReintentar_36: -9082226289947163578
+      botonReintentar_37: 7451228675853534738
+      botonReintentar_38: -4370652064337427238
+      botonReintentar_39: 5537263367742369677
+      botonReintentar_4: 7235934827176556227
+      botonReintentar_40: 2790039350064544853
+      botonReintentar_41: -3534618443014345323
+      botonReintentar_42: -8958608234476179896
+      botonReintentar_43: 6999983189096663109
+      botonReintentar_44: 5120065520264311840
+      botonReintentar_45: -8798135534578633649
+      botonReintentar_46: 8441863045032634600
+      botonReintentar_47: 2030251314112458298
+      botonReintentar_48: -357536736941458473
+      botonReintentar_49: -4055707937504594970
+      botonReintentar_5: 4977158862017708656
+      botonReintentar_50: -2917857986732804205
+      botonReintentar_51: 5644770277738240312
+      botonReintentar_52: -5830381221746729267
+      botonReintentar_53: 3336729284439549978
+      botonReintentar_54: 956838729229555566
+      botonReintentar_55: 4963817644078691384
+      botonReintentar_56: 823609167555578320
+      botonReintentar_57: -3934302078969811270
+      botonReintentar_58: -5412528231489065116
+      botonReintentar_59: 6172835761364867674
+      botonReintentar_6: -5891297157933084447
+      botonReintentar_60: -4795685545786202472
+      botonReintentar_61: -3025580338403819400
+      botonReintentar_62: 5146615799168029413
+      botonReintentar_63: -8404695859575303603
+      botonReintentar_64: 8699870261782305890
+      botonReintentar_65: 2191229649367263292
+      botonReintentar_66: 3811136245951470592
+      botonReintentar_67: -2831619531270306651
+      botonReintentar_68: 933564142784963244
+      botonReintentar_69: 8027767415629302586
+      botonReintentar_7: 5290379701106034243
+      botonReintentar_70: 966668866141432097
+      botonReintentar_71: -4464465865886031249
+      botonReintentar_72: -6742784632465454416
+      botonReintentar_73: -5106353577480117516
+      botonReintentar_74: 1682448584118668214
+      botonReintentar_75: -3464766289810702208
+      botonReintentar_76: 1438633993889456427
+      botonReintentar_77: 2304787520192866179
+      botonReintentar_78: 5060834431728861812
+      botonReintentar_79: -4802580524954850709
+      botonReintentar_8: 6726281421562640807
+      botonReintentar_80: -2777838131613004197
+      botonReintentar_81: -2822885824548597116
+      botonReintentar_82: 750206733904128679
+      botonReintentar_83: 3060443703426685603
+      botonReintentar_9: -3059399786283251676
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

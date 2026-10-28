@@ -1,0 +1,1131 @@
+fileFormatVersion: 2
+guid: 4d81168dc510a7bddad48b6f1aa7c1b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1087845332640073612
+    second: botonNiveles_0
+  - first:
+      213: -7919657778201605795
+    second: botonNiveles_1
+  - first:
+      213: 953278858607373525
+    second: botonNiveles_2
+  - first:
+      213: -5573695687760350524
+    second: botonNiveles_3
+  - first:
+      213: 5844261562105125812
+    second: botonNiveles_4
+  - first:
+      213: 331686817613307322
+    second: botonNiveles_5
+  - first:
+      213: -905682307726500513
+    second: botonNiveles_6
+  - first:
+      213: -4003931254524820475
+    second: botonNiveles_7
+  - first:
+      213: 8932837896716835034
+    second: botonNiveles_8
+  - first:
+      213: -4424667416272698170
+    second: botonNiveles_9
+  - first:
+      213: 1955213028718094623
+    second: botonNiveles_10
+  - first:
+      213: -3504850598699541424
+    second: botonNiveles_11
+  - first:
+      213: -1910275814293522156
+    second: botonNiveles_12
+  - first:
+      213: 8682580277749190756
+    second: botonNiveles_13
+  - first:
+      213: -2357339165765494474
+    second: botonNiveles_14
+  - first:
+      213: -5170655990769232108
+    second: botonNiveles_15
+  - first:
+      213: -5794422013254335931
+    second: botonNiveles_16
+  - first:
+      213: -6788683341943064707
+    second: botonNiveles_17
+  - first:
+      213: 3875667069820076283
+    second: botonNiveles_18
+  - first:
+      213: 2042367634693089996
+    second: botonNiveles_19
+  - first:
+      213: -3973852941722524247
+    second: botonNiveles_20
+  - first:
+      213: 8406275807691945454
+    second: botonNiveles_21
+  - first:
+      213: -4175855049376375567
+    second: botonNiveles_22
+  - first:
+      213: -1039628316555459173
+    second: botonNiveles_23
+  - first:
+      213: -5822033318540585426
+    second: botonNiveles_24
+  - first:
+      213: 6549436959042382091
+    second: botonNiveles_25
+  - first:
+      213: -2742379205183116439
+    second: botonNiveles_26
+  - first:
+      213: -2527074705541554240
+    second: botonNiveles_27
+  - first:
+      213: -7637124561793657021
+    second: botonNiveles_28
+  - first:
+      213: -6207624865521180339
+    second: botonNiveles_29
+  - first:
+      213: -6867325751469734204
+    second: botonNiveles_30
+  - first:
+      213: -6706302605857912152
+    second: botonNiveles_31
+  - first:
+      213: 2233687526433206061
+    second: botonNiveles_32
+  - first:
+      213: -5351035903990972190
+    second: botonNiveles_33
+  - first:
+      213: 2962210776615676067
+    second: botonNiveles_34
+  - first:
+      213: -8870248018549594989
+    second: botonNiveles_35
+  - first:
+      213: -3661602928007919948
+    second: botonNiveles_36
+  - first:
+      213: -8838396982378153340
+    second: botonNiveles_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: botonNiveles_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 21
+        width: 1888
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87049ef09dc81f00800000000000000
+      internalID: 1087845332640073612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_1
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 710
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5942abf539b71290800000000000000
+      internalID: -7919657778201605795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_2
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 741
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dcae2b321aba3d00800000000000000
+      internalID: 953278858607373525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_3
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 758
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2faec7d4146a2b0800000000000000
+      internalID: -5573695687760350524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_4
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 739
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbdebf2decfa1150800000000000000
+      internalID: 5844261562105125812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_5
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 735
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd558c37636a9400800000000000000
+      internalID: 331686817613307322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_6
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 739
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d1b985dbe5e63f0800000000000000
+      internalID: -905682307726500513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_7
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 722
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504c6fcdcbd2f68c0800000000000000
+      internalID: -4003931254524820475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_8
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 713
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad854f52db0d7fb70800000000000000
+      internalID: 8932837896716835034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_9
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 716
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c402d38d6c6892c0800000000000000
+      internalID: -4424667416272698170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_10
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 719
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1925f4f3ef422b10800000000000000
+      internalID: 1955213028718094623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_11
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 724
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05cd2b133f44c5fc0800000000000000
+      internalID: -3504850598699541424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_12
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 717
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 419b30a94465d75e0800000000000000
+      internalID: -1910275814293522156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_13
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 716
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4609d05a2c8be7870800000000000000
+      internalID: 8682580277749190756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_14
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 716
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6399e69b48c094fd0800000000000000
+      internalID: -2357339165765494474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_15
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 725
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417547e85c32e38b0800000000000000
+      internalID: -5170655990769232108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_16
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 724
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542854d01e3169fa0800000000000000
+      internalID: -5794422013254335931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_17
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 710
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d773fdee770c9c1a0800000000000000
+      internalID: -6788683341943064707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_18
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 698
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf00e447aa229c530800000000000000
+      internalID: 3875667069820076283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_19
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 698
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccae2a6fa82f75c10800000000000000
+      internalID: 2042367634693089996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_20
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 712
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5ecfacdc90ad8c0800000000000000
+      internalID: -3973852941722524247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 681
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee530790f4719a470800000000000000
+      internalID: 8406275807691945454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_22
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 690
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc566c05f16c06c0800000000000000
+      internalID: -4175855049376375567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_23
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 699
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b954645ed8f7291f0800000000000000
+      internalID: -1039628316555459173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_24
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 700
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2656e11b8bf33fa0800000000000000
+      internalID: -5822033318540585426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_25
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 672
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09298eb63644ea50800000000000000
+      internalID: 6549436959042382091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_26
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 662
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b64a384ac11f9d0800000000000000
+      internalID: -2742379205183116439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_27
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 198
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf125fb1f60eecd0800000000000000
+      internalID: -2527074705541554240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_28
+      rect:
+        serializedVersion: 2
+        x: 1985
+        y: 200
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347d0ec9cab730690800000000000000
+      internalID: -7637124561793657021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_29
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 120
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d416abff2161ad9a0800000000000000
+      internalID: -6207624865521180339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_30
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 128
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c601ca1d9b52b0a0800000000000000
+      internalID: -6867325751469734204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_31
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 114
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa009dbf4d6ee2a0800000000000000
+      internalID: -6706302605857912152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_32
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 88
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fa54088f6affe10800000000000000
+      internalID: 2233687526433206061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_33
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 94
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0c142423d4db5b0800000000000000
+      internalID: -5351035903990972190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_34
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 89
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8e202c103eb1920800000000000000
+      internalID: 2962210776615676067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_35
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 54
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3942db87c6c86e480800000000000000
+      internalID: -8870248018549594989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_36
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 49
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6ce87798f5f2dc0800000000000000
+      internalID: -3661602928007919948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: botonNiveles_37
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 55
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a3779b5c4b75580800000000000000
+      internalID: -8838396982378153340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      botonNiveles_0: 1087845332640073612
+      botonNiveles_1: -7919657778201605795
+      botonNiveles_10: 1955213028718094623
+      botonNiveles_11: -3504850598699541424
+      botonNiveles_12: -1910275814293522156
+      botonNiveles_13: 8682580277749190756
+      botonNiveles_14: -2357339165765494474
+      botonNiveles_15: -5170655990769232108
+      botonNiveles_16: -5794422013254335931
+      botonNiveles_17: -6788683341943064707
+      botonNiveles_18: 3875667069820076283
+      botonNiveles_19: 2042367634693089996
+      botonNiveles_2: 953278858607373525
+      botonNiveles_20: -3973852941722524247
+      botonNiveles_21: 8406275807691945454
+      botonNiveles_22: -4175855049376375567
+      botonNiveles_23: -1039628316555459173
+      botonNiveles_24: -5822033318540585426
+      botonNiveles_25: 6549436959042382091
+      botonNiveles_26: -2742379205183116439
+      botonNiveles_27: -2527074705541554240
+      botonNiveles_28: -7637124561793657021
+      botonNiveles_29: -6207624865521180339
+      botonNiveles_3: -5573695687760350524
+      botonNiveles_30: -6867325751469734204
+      botonNiveles_31: -6706302605857912152
+      botonNiveles_32: 2233687526433206061
+      botonNiveles_33: -5351035903990972190
+      botonNiveles_34: 2962210776615676067
+      botonNiveles_35: -8870248018549594989
+      botonNiveles_36: -3661602928007919948
+      botonNiveles_37: -8838396982378153340
+      botonNiveles_4: 5844261562105125812
+      botonNiveles_5: 331686817613307322
+      botonNiveles_6: -905682307726500513
+      botonNiveles_7: -4003931254524820475
+      botonNiveles_8: 8932837896716835034
+      botonNiveles_9: -4424667416272698170
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

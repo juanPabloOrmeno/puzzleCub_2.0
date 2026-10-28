@@ -22,6 +22,7 @@ public class GameManager : Singleton<GameManager>
     public SoundManager sonido;
 
     public GameObject winScreenPrefab;
+    public GameObject timeoutScreenPrefab;
 
 
     public bool m_pause = false;
@@ -121,6 +122,12 @@ public class GameManager : Singleton<GameManager>
     private void ShowTimeoutScreen()
     {
         EnsureEventSystem();
+        if (timeoutScreenPrefab != null)
+        {
+            m_winScreen = Instantiate(timeoutScreenPrefab);
+            m_winScreen.GetComponent<TimeoutScreenView>().Initialize(this);
+            return;
+        }
         m_winScreen = new GameObject("Timeout Screen", typeof(RectTransform), typeof(Canvas),
             typeof(CanvasScaler), typeof(GraphicRaycaster));
         Canvas canvas = m_winScreen.GetComponent<Canvas>();

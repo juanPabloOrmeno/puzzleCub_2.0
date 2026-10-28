@@ -9,11 +9,13 @@ public class LevelStatsDisplay : MonoBehaviour
     private Text m_level;
     private Text m_pieces;
     private Text m_moves;
+    private RectTransform m_textRoot;
 
     private void Start()
     {
         if (board == null) board = FindAnyObjectByType<Board>();
         if (board == null || board.PracticeLevel != null) return;
+        m_textRoot = BottomPanelTextLayout.Create(transform, "Level Statistics");
         m_level = CreateLabel("Level Number", new Vector2(.34f, 1.02f), new Vector2(.66f, 1.17f), 24);
         m_pieces = CreateLabel("Pieces Remaining", new Vector2(.12f, .075f), new Vector2(.405f, .19f), 23);
         m_moves = CreateLabel("Moves Made", new Vector2(.595f, .075f), new Vector2(.88f, .19f), 23);
@@ -26,7 +28,7 @@ public class LevelStatsDisplay : MonoBehaviour
         GameObject go = new GameObject(name, typeof(RectTransform), typeof(Text), typeof(Outline));
         go.layer = gameObject.layer;
         RectTransform rect = go.GetComponent<RectTransform>();
-        rect.SetParent(transform, false);
+        rect.SetParent(m_textRoot, false);
         rect.anchorMin = min;
         rect.anchorMax = max;
         rect.offsetMin = rect.offsetMax = Vector2.zero;

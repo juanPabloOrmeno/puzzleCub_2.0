@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: 483cd4a35dc1a67a1b1a2c8f7c23f15d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 863168157950625900
+    second: marcoDoradoDelTablero_0
+  - first:
+      213: -5545145155058426938
+    second: marcoDoradoDelTablero_1
+  - first:
+      213: -3696521105457928355
+    second: marcoDoradoDelTablero_2
+  - first:
+      213: -2776938640494218430
+    second: marcoDoradoDelTablero_3
+  - first:
+      213: 5656271091407347785
+    second: marcoDoradoDelTablero_4
+  - first:
+      213: -5369452833241155179
+    second: marcoDoradoDelTablero_5
+  - first:
+      213: 4679354099721475202
+    second: marcoDoradoDelTablero_6
+  - first:
+      213: -4713387199965543530
+    second: marcoDoradoDelTablero_7
+  - first:
+      213: 7205035233190484439
+    second: marcoDoradoDelTablero_8
+  - first:
+      213: 1073611581868262306
+    second: marcoDoradoDelTablero_9
+  - first:
+      213: 7635508801153343111
+    second: marcoDoradoDelTablero_10
+  - first:
+      213: 2518269984251781011
+    second: marcoDoradoDelTablero_11
+  - first:
+      213: 5143123206669542183
+    second: marcoDoradoDelTablero_12
+  - first:
+      213: 2785495954813078780
+    second: marcoDoradoDelTablero_13
+  - first:
+      213: 7141965381635728430
+    second: marcoDoradoDelTablero_14
+  - first:
+      213: 7144484571383858402
+    second: marcoDoradoDelTablero_15
+  - first:
+      213: 6772196833400969912
+    second: marcoDoradoDelTablero_16
+  - first:
+      213: 5774348401868065867
+    second: marcoDoradoDelTablero_17
+  - first:
+      213: 5757644716407259688
+    second: marcoDoradoDelTablero_18
+  - first:
+      213: 3265977968109444406
+    second: marcoDoradoDelTablero_19
+  - first:
+      213: -330316915517446791
+    second: marcoDoradoDelTablero_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1606
+        height: 954
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68431ccdd69afb00800000000000000
+      internalID: 863168157950625900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_1
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 924
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb93c46cdfab03b0800000000000000
+      internalID: -5545145155058426938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_2
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 922
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57227cb3a153bcc0800000000000000
+      internalID: -3696521105457928355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_3
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 913
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2433942f4055679d0800000000000000
+      internalID: -2776938640494218430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_4
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 912
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94065a4e69c1f7e40800000000000000
+      internalID: 5656271091407347785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_5
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 930
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5993274c81fdb75b0800000000000000
+      internalID: -5369452833241155179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_6
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 929
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2849a2ce2c760f040800000000000000
+      internalID: 4679354099721475202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_7
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 922
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6934e21705fa69eb0800000000000000
+      internalID: -4713387199965543530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_8
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 919
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d91e74ee5d6df360800000000000000
+      internalID: 7205035233190484439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_9
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 918
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3c004ab0c36ee00800000000000000
+      internalID: 1073611581868262306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_10
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 922
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e1d1cccc6c6f960800000000000000
+      internalID: 7635508801153343111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 913
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f1bd35531b2f220800000000000000
+      internalID: 2518269984251781011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_12
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 913
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7232b999e4b006740800000000000000
+      internalID: 5143123206669542183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_13
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 914
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfccbed00d118a620800000000000000
+      internalID: 2785495954813078780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_14
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 904
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24e882ccab5d1360800000000000000
+      internalID: 7141965381635728430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_15
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 881
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e408945dde462360800000000000000
+      internalID: 7144484571383858402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_16
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 892
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bad3eba32dabfd50800000000000000
+      internalID: 6772196833400969912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cc0b6174b922050800000000000000
+      internalID: 5774348401868065867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 34
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8220c504d5347ef40800000000000000
+      internalID: 5757644716407259688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_19
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 43
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d5a6978a5135d20800000000000000
+      internalID: 3265977968109444406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: marcoDoradoDelTablero_20
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 21
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975a743f38a7a6bf0800000000000000
+      internalID: -330316915517446791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      marcoDoradoDelTablero_0: 863168157950625900
+      marcoDoradoDelTablero_1: -5545145155058426938
+      marcoDoradoDelTablero_10: 7635508801153343111
+      marcoDoradoDelTablero_11: 2518269984251781011
+      marcoDoradoDelTablero_12: 5143123206669542183
+      marcoDoradoDelTablero_13: 2785495954813078780
+      marcoDoradoDelTablero_14: 7141965381635728430
+      marcoDoradoDelTablero_15: 7144484571383858402
+      marcoDoradoDelTablero_16: 6772196833400969912
+      marcoDoradoDelTablero_17: 5774348401868065867
+      marcoDoradoDelTablero_18: 5757644716407259688
+      marcoDoradoDelTablero_19: 3265977968109444406
+      marcoDoradoDelTablero_2: -3696521105457928355
+      marcoDoradoDelTablero_20: -330316915517446791
+      marcoDoradoDelTablero_3: -2776938640494218430
+      marcoDoradoDelTablero_4: 5656271091407347785
+      marcoDoradoDelTablero_5: -5369452833241155179
+      marcoDoradoDelTablero_6: 4679354099721475202
+      marcoDoradoDelTablero_7: -4713387199965543530
+      marcoDoradoDelTablero_8: 7205035233190484439
+      marcoDoradoDelTablero_9: 1073611581868262306
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

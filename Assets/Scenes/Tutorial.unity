@@ -196,9 +196,9 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 600, y: 1000}
+  m_ReferenceResolution: {x: 600, y: 1200}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0.5
+  m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -236,6 +236,18 @@ MonoBehaviour:
   returnSceneName: SelectNivel
   normalTilePrefab: {fileID: 8361008679811013736, guid: 9dd7e512e796e4e9390f74c116547b1d, type: 3}
   obstacleTilePrefab: {fileID: 8361008679811013736, guid: f273b9409ecae4ad68b51efe19cc0438, type: 3}
+  backgroundSprite: {fileID: -7841535987243693378, guid: 3eb72e94cfbd142a2986135e91d57883, type: 3}
+  titlePanelSprite: {fileID: 21300000, guid: a1e7a06bbb947e83ba4dcb00daa3bd44, type: 3}
+  instructionPanelSprite: {fileID: 21300000, guid: 28664c1a0994c63aa9cc79547189408d, type: 3}
+  activeStepSprite: {fileID: 21300000, guid: 1fa3cd8bcb6ced505b4d9d8a1dd28b6b, type: 3}
+  inactiveStepSprite: {fileID: 21300000, guid: 5428aefe22252fc15b158ea7c5d294d0, type: 3}
+  handSprite: {fileID: 21300000, guid: f671177e9f1976de794dc6bd65d5309f, type: 3}
+  boardFrameSprite: {fileID: 21300000, guid: 677e6a692044f974a88eaeafce3f0e91, type: 3}
+  topPanelSprite: {fileID: -6349962056405510127, guid: 0b781ed3a9a814a5eb6624779cbba1ad, type: 3}
+  bottomPanelSprite: {fileID: -7604969100151102344, guid: b19000637884e49e8b4d0476a2c52877, type: 3}
+  girlSprite: {fileID: 21300000, guid: 1905fa6fdc9476e05a12a337ae26bfa7, type: 3}
+  boySprite: {fileID: 21300000, guid: 5e5d91cca38c8e3b1949954abf3c00be, type: 3}
+  tutorialFont: {fileID: 12800000, guid: f6e393a8c65181a25b1e1b9dc69bbd75, type: 3}
 --- !u!1 &706964291
 GameObject:
   m_ObjectHideFlags: 0

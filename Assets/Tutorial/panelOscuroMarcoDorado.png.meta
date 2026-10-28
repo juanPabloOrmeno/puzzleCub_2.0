@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: d497027b9dc9dc0a39546b5aa53be36b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5767857713139647960
+    second: panelOscuroMarcoDorado_0
+  - first:
+      213: 3630722593789033675
+    second: panelOscuroMarcoDorado_1
+  - first:
+      213: -404969688291752815
+    second: panelOscuroMarcoDorado_2
+  - first:
+      213: 5885322631416062318
+    second: panelOscuroMarcoDorado_3
+  - first:
+      213: 5967959578196819605
+    second: panelOscuroMarcoDorado_4
+  - first:
+      213: 5623577801664807317
+    second: panelOscuroMarcoDorado_5
+  - first:
+      213: -9012697600514061661
+    second: panelOscuroMarcoDorado_6
+  - first:
+      213: 2809249784918892003
+    second: panelOscuroMarcoDorado_7
+  - first:
+      213: -4506679108635101943
+    second: panelOscuroMarcoDorado_8
+  - first:
+      213: 2356515926294200057
+    second: panelOscuroMarcoDorado_9
+  - first:
+      213: -6588895384464819986
+    second: panelOscuroMarcoDorado_10
+  - first:
+      213: -374496911320155598
+    second: panelOscuroMarcoDorado_11
+  - first:
+      213: -7315614114015528843
+    second: panelOscuroMarcoDorado_12
+  - first:
+      213: 884775274581224925
+    second: panelOscuroMarcoDorado_13
+  - first:
+      213: 4582471216328664189
+    second: panelOscuroMarcoDorado_14
+  - first:
+      213: 1887891598114407031
+    second: panelOscuroMarcoDorado_15
+  - first:
+      213: 1350441441835870768
+    second: panelOscuroMarcoDorado_16
+  - first:
+      213: 5773579156507324378
+    second: panelOscuroMarcoDorado_17
+  - first:
+      213: 6766322026990148109
+    second: panelOscuroMarcoDorado_18
+  - first:
+      213: 2260421835177255057
+    second: panelOscuroMarcoDorado_19
+  - first:
+      213: 5469119819704507360
+    second: panelOscuroMarcoDorado_20
+  - first:
+      213: -620721468193969257
+    second: panelOscuroMarcoDorado_21
+  - first:
+      213: -8275726451777339495
+    second: panelOscuroMarcoDorado_22
+  - first:
+      213: 7382620028698274506
+    second: panelOscuroMarcoDorado_23
+  - first:
+      213: 8566320010912519209
+    second: panelOscuroMarcoDorado_24
+  - first:
+      213: -3864765252766490799
+    second: panelOscuroMarcoDorado_25
+  - first:
+      213: 393642095027051406
+    second: panelOscuroMarcoDorado_26
+  - first:
+      213: -7888283554496263447
+    second: panelOscuroMarcoDorado_27
+  - first:
+      213: 4000699821268819457
+    second: panelOscuroMarcoDorado_28
+  - first:
+      213: -7551301754000478508
+    second: panelOscuroMarcoDorado_29
+  - first:
+      213: 6817976918337906716
+    second: panelOscuroMarcoDorado_30
+  - first:
+      213: 8510119173024127305
+    second: panelOscuroMarcoDorado_31
+  - first:
+      213: 8592168536681593177
+    second: panelOscuroMarcoDorado_32
+  - first:
+      213: 5819649790490751393
+    second: panelOscuroMarcoDorado_33
+  - first:
+      213: 3165405591755256923
+    second: panelOscuroMarcoDorado_34
+  - first:
+      213: -134529617823229105
+    second: panelOscuroMarcoDorado_35
+  - first:
+      213: -7808353784182930177
+    second: panelOscuroMarcoDorado_36
+  - first:
+      213: 9081029952976770895
+    second: panelOscuroMarcoDorado_37
+  - first:
+      213: -7093389775930994028
+    second: panelOscuroMarcoDorado_38
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2046
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a705528f374ffa0800000000000000
+      internalID: -5767857713139647960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_1
+      rect:
+        serializedVersion: 2
+        x: 1841
+        y: 731
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccb7c076fae26230800000000000000
+      internalID: 3630722593789033675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_2
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 689
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194c190d632416af0800000000000000
+      internalID: -404969688291752815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_3
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 135
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e612f1260cddca150800000000000000
+      internalID: 5885322631416062318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_4
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 135
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ebf44ed9372d250800000000000000
+      internalID: 5967959578196819605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_5
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 103
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591c0033736fa0e40800000000000000
+      internalID: 5623577801664807317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_6
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 86
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa085d98477ce280800000000000000
+      internalID: -9012697600514061661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 55
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edde6b9bc57cf620800000000000000
+      internalID: 2809249784918892003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_8
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 54
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90571256a3f0571c0800000000000000
+      internalID: -4506679108635101943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_9
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 55
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fef056efb604b020800000000000000
+      internalID: 2356515926294200057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_10
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 49
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee873caae8a8f84a0800000000000000
+      internalID: -6588895384464819986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_11
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 57
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23af7471b058dcaf0800000000000000
+      internalID: -374496911320155598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_12
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 53
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578354c19b7b97a90800000000000000
+      internalID: -7315614114015528843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_13
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 63
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd667bac6a574c00800000000000000
+      internalID: 884775274581224925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_14
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 15
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d74e8b2da45389f30800000000000000
+      internalID: 4582471216328664189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_15
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 47
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772cd00f763233a10800000000000000
+      internalID: 1887891598114407031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_16
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 41
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ae79e165bbdb210800000000000000
+      internalID: 1350441441835870768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_17
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 48
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adfe73237afdf1050800000000000000
+      internalID: 5773579156507324378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_18
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 43
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a16a6b80ec6ed50800000000000000
+      internalID: 6766322026990148109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_19
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 47
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 190e640dea1ae5f10800000000000000
+      internalID: 2260421835177255057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_20
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 30
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb1987df7736eb40800000000000000
+      internalID: 5469119819704507360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_21
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 47
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79be6d70d11c267f0800000000000000
+      internalID: -620721468193969257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_22
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 33
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ff18783a6b62d80800000000000000
+      internalID: -8275726451777339495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_23
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 17
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acaae322dc5547660800000000000000
+      internalID: 7382620028698274506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_24
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 38
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924d2c2e9aea1e670800000000000000
+      internalID: 8566320010912519209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_25
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 21
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f9490aa789d5ac0800000000000000
+      internalID: -3864765252766490799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_26
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 19
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b5aba566f767500800000000000000
+      internalID: 393642095027051406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_27
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 27
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eac1bea6ef278290800000000000000
+      internalID: -7888283554496263447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_28
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 14
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e52b37a47558730800000000000000
+      internalID: 4000699821268819457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_29
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 25
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de64013013643790800000000000000
+      internalID: -7551301754000478508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_30
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 13
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18e75052e15e9e50800000000000000
+      internalID: 6817976918337906716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_31
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 13
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9491850ac440a1670800000000000000
+      internalID: 8510119173024127305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_32
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 25
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959b137c2c38d3770800000000000000
+      internalID: 8592168536681593177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_33
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 13
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1b06f86ac83c050800000000000000
+      internalID: 5819649790490751393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_34
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 25
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b547b9a5d97cdeb20800000000000000
+      internalID: 3165405591755256923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_35
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 17
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b90ed760e022ef0800000000000000
+      internalID: -134529617823229105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_36
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 7
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4033d8a9723a390800000000000000
+      internalID: -7808353784182930177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_37
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 19
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47dcddf0ac460e70800000000000000
+      internalID: 9081029952976770895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: panelOscuroMarcoDorado_38
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 10
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492de38c4973f8d90800000000000000
+      internalID: -7093389775930994028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      panelOscuroMarcoDorado_0: -5767857713139647960
+      panelOscuroMarcoDorado_1: 3630722593789033675
+      panelOscuroMarcoDorado_10: -6588895384464819986
+      panelOscuroMarcoDorado_11: -374496911320155598
+      panelOscuroMarcoDorado_12: -7315614114015528843
+      panelOscuroMarcoDorado_13: 884775274581224925
+      panelOscuroMarcoDorado_14: 4582471216328664189
+      panelOscuroMarcoDorado_15: 1887891598114407031
+      panelOscuroMarcoDorado_16: 1350441441835870768
+      panelOscuroMarcoDorado_17: 5773579156507324378
+      panelOscuroMarcoDorado_18: 6766322026990148109
+      panelOscuroMarcoDorado_19: 2260421835177255057
+      panelOscuroMarcoDorado_2: -404969688291752815
+      panelOscuroMarcoDorado_20: 5469119819704507360
+      panelOscuroMarcoDorado_21: -620721468193969257
+      panelOscuroMarcoDorado_22: -8275726451777339495
+      panelOscuroMarcoDorado_23: 7382620028698274506
+      panelOscuroMarcoDorado_24: 8566320010912519209
+      panelOscuroMarcoDorado_25: -3864765252766490799
+      panelOscuroMarcoDorado_26: 393642095027051406
+      panelOscuroMarcoDorado_27: -7888283554496263447
+      panelOscuroMarcoDorado_28: 4000699821268819457
+      panelOscuroMarcoDorado_29: -7551301754000478508
+      panelOscuroMarcoDorado_3: 5885322631416062318
+      panelOscuroMarcoDorado_30: 6817976918337906716
+      panelOscuroMarcoDorado_31: 8510119173024127305
+      panelOscuroMarcoDorado_32: 8592168536681593177
+      panelOscuroMarcoDorado_33: 5819649790490751393
+      panelOscuroMarcoDorado_34: 3165405591755256923
+      panelOscuroMarcoDorado_35: -134529617823229105
+      panelOscuroMarcoDorado_36: -7808353784182930177
+      panelOscuroMarcoDorado_37: 9081029952976770895
+      panelOscuroMarcoDorado_38: -7093389775930994028
+      panelOscuroMarcoDorado_4: 5967959578196819605
+      panelOscuroMarcoDorado_5: 5623577801664807317
+      panelOscuroMarcoDorado_6: -9012697600514061661
+      panelOscuroMarcoDorado_7: 2809249784918892003
+      panelOscuroMarcoDorado_8: -4506679108635101943
+      panelOscuroMarcoDorado_9: 2356515926294200057
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

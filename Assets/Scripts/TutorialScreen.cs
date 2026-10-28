@@ -10,13 +10,26 @@ public class TutorialScreen : MonoBehaviour
     [SerializeField] private string returnSceneName = "SelectNivel";
     [SerializeField] private GameObject normalTilePrefab;
     [SerializeField] private GameObject obstacleTilePrefab;
+    [Header("Tutorial artwork")]
+    [SerializeField] private Sprite backgroundSprite;
+    [SerializeField] private Sprite titlePanelSprite;
+    [SerializeField] private Sprite instructionPanelSprite;
+    [SerializeField] private Sprite activeStepSprite;
+    [SerializeField] private Sprite inactiveStepSprite;
+    [SerializeField] private Sprite handSprite;
+    [SerializeField] private Sprite boardFrameSprite;
+    [SerializeField] private Sprite topPanelSprite;
+    [SerializeField] private Sprite bottomPanelSprite;
+    [SerializeField] private Sprite girlSprite;
+    [SerializeField] private Sprite boySprite;
+    [SerializeField] private Font tutorialFont;
 
     private readonly string[] m_titles = { "DESLIZA Y COMBINA", "LA GRAVEDAD AYUDA", "LOS OBSTÁCULOS" };
     private readonly string[] m_instructions =
     {
-        "Arrastra la roja izquierda junto a la otra roja.",
-        "Acerca la roja izquierda a la derecha.\nLa verde caerá y se unirá a su pareja.",
-        "Desliza la roja de arriba una casilla a la izquierda.\nCaerá junto a su pareja."
+        "<b>Arrastra la gema roja</b>\nhasta la casilla iluminada.",
+        "<b>Junta las gemas rojas.</b>\nLa verde caerá junto a su pareja.",
+        "<b>Desliza la roja hacia la izquierda.</b>\nCaerá junto a su pareja."
     };
     private Board m_board;
     private Camera m_camera;
@@ -25,6 +38,14 @@ public class TutorialScreen : MonoBehaviour
     private RectTransform m_returnButton;
     private RectTransform m_retryButton;
     private RectTransform m_nextButton;
+    private RectTransform m_skipButton;
+    private RectTransform m_boardFrame;
+    private RectTransform m_hand;
+    private TutorialMoveGuide m_guide;
+    private Text m_pieces;
+    private Text m_moves;
+    private Text m_step;
+    private SpriteRenderer m_backdrop;
     private Text m_title;
     private Text m_description;
     private Text m_status;
@@ -41,14 +62,24 @@ public class TutorialScreen : MonoBehaviour
         GameObject backgroundObject = new GameObject("Tutorial Background", typeof(Camera));
         m_backgroundCamera = backgroundObject.GetComponent<Camera>();
         m_backgroundCamera.depth = -100;
-        m_backgroundCamera.cullingMask = 0;
+        m_backgroundCamera.cullingMask = 1 << 30;
+        m_backgroundCamera.orthographic = true;
+        m_backgroundCamera.orthographicSize = 5;
+        m_backgroundCamera.transform.position = new Vector3(0, 0, -20);
         m_backgroundCamera.clearFlags = CameraClearFlags.SolidColor;
         m_backgroundCamera.backgroundColor = new Color(0.035f, 0.045f, 0.09f);
+        GameObject backdrop = new GameObject("Sunset Ruins", typeof(SpriteRenderer));
+        backdrop.layer = 30;
+        backdrop.transform.SetParent(backgroundObject.transform, false);
+        backdrop.transform.localPosition = new Vector3(0, 0, 10);
+        m_backdrop = backdrop.GetComponent<SpriteRenderer>();
+        m_backdrop.sprite = backgroundSprite;
         GameObject cameraObject = new GameObject("Tutorial Camera", typeof(Camera));
         cameraObject.tag = "MainCamera";
         m_camera = cameraObject.GetComponent<Camera>();
         m_camera.orthographic = true;
-        m_camera.clearFlags = CameraClearFlags.SolidColor;
+        m_camera.clearFlags = CameraClearFlags.Depth;
+        m_camera.cullingMask &= ~(1 << 30);
         m_camera.backgroundColor = m_backgroundCamera.backgroundColor;
         if (FindAnyObjectByType<AudioListener>() == null)
             cameraObject.AddComponent<AudioListener>();
@@ -80,10 +111,37 @@ public class TutorialScreen : MonoBehaviour
         Rect safe = Screen.safeArea;
         m_safeRoot.anchorMin = new Vector2(safe.xMin / Screen.width, safe.yMin / Screen.height);
         m_safeRoot.anchorMax = new Vector2(safe.xMax / Screen.width, safe.yMax / Screen.height);
-        m_camera.rect = new Rect(safe.x / Screen.width, (safe.y + safe.height * 0.29f) / Screen.height,
-            safe.width / Screen.width, safe.height * 0.43f / Screen.height);
-        m_camera.orthographicSize = Mathf.Max(2f, 3f / m_camera.aspect);
+        float boardWidth = Mathf.Min(safe.width * .9f, safe.height * .285f * 5f / 3f);
+        float boardHeight = boardWidth * 3f / 5f;
+        Rect boardRect = new Rect(safe.center.x - boardWidth * .5f,
+            safe.y + safe.height * .46f - boardHeight * .5f, boardWidth, boardHeight);
+        m_camera.rect = new Rect(boardRect.x / Screen.width, boardRect.y / Screen.height,
+            boardRect.width / Screen.width, boardRect.height / Screen.height);
+        m_camera.orthographicSize = 1.5f;
         m_camera.transform.position = new Vector3(2f, 1f, -10f);
+        Vector2 min = new Vector2((boardRect.xMin - safe.x) / safe.width, (boardRect.yMin - safe.y) / safe.height);
+        Vector2 max = new Vector2((boardRect.xMax - safe.x) / safe.width, (boardRect.yMax - safe.y) / safe.height);
+        m_guide.rectTransform.anchorMin = min;
+        m_guide.rectTransform.anchorMax = max;
+        Vector2 padding = new Vector2(boardWidth * .018f / safe.width, boardHeight * .03f / safe.height);
+        m_boardFrame.anchorMin = min - padding;
+        m_boardFrame.anchorMax = max + padding;
+        if (m_backdrop.sprite != null)
+        {
+            Vector2 size = m_backdrop.sprite.bounds.size;
+            float cover = Mathf.Max(10f * m_backgroundCamera.aspect / size.x, 10f / size.y);
+            m_backdrop.transform.localScale = Vector3.one * cover;
+        }
+        bool showGuide = m_board != null && !m_completed && m_board.MovesMade == 0;
+        m_guide.gameObject.SetActive(showGuide);
+        if (showGuide)
+        {
+            float t = Mathf.SmoothStep(0, 1, Mathf.Repeat(Time.unscaledTime * .45f, 1f));
+            Vector2 point = Vector2.Lerp(m_guide.Source, m_guide.Target, t);
+            m_hand.anchorMin = m_hand.anchorMax = new Vector2((point.x + .5f) / 5f, (point.y + .5f) / 3f);
+            float handSize = m_guide.rectTransform.rect.width * .16f;
+            m_hand.sizeDelta = new Vector2(handSize, handSize);
+        }
     }
 
     private void BeginLesson()
@@ -91,15 +149,19 @@ public class TutorialScreen : MonoBehaviour
         if (m_board != null)
         {
             m_board.MoveResolved -= OnMoveResolved;
+            m_board.StatsChanged -= RefreshStats;
             m_board.gameObject.SetActive(false);
             Destroy(m_board.gameObject);
         }
         m_completed = false;
-        m_title.text = (m_lesson + 1) + " / 3 · " + m_titles[m_lesson];
+        m_title.text = m_titles[m_lesson];
         m_description.text = m_instructions[m_lesson];
-        m_status.text = m_lesson == 0 ? "Une 2 del mismo color para eliminarlas." :
-            m_lesson == 1 ? "Las piezas caen al quedar un hueco." : "Los bloques oscuros cortan el paso.";
-        m_status.color = new Color(0.65f, 0.73f, 0.86f);
+        m_status.text = m_lesson == 0 ? "<b>Junta 2 gemas del mismo color</b>\npara eliminarlas." :
+            m_lesson == 1 ? "<b>La gravedad también combina.</b>\nLas gemas caen cuando queda un hueco." : "<b>Busca un camino alrededor del bloque.</b>\nLos obstáculos cortan el paso.";
+        m_status.color = new Color(1f, .94f, .76f);
+        m_step.text = "<size=14>PASO</size>\n" + (m_lesson + 1) + "/3";
+        m_guide.Source = m_lesson == 0 ? new Vector2(0, 0) : m_lesson == 1 ? new Vector2(1, 0) : new Vector2(3, 1);
+        m_guide.Target = m_lesson == 2 ? new Vector2(2, 1) : new Vector2(3, 0);
         m_nextButton.gameObject.SetActive(false);
         UpdateProgress();
 
@@ -125,7 +187,15 @@ public class TutorialScreen : MonoBehaviour
         m_board.tileObtaclePrefab = obstacleTilePrefab;
         m_board.PracticeLevel = data;
         m_board.MoveResolved += OnMoveResolved;
+        m_board.StatsChanged += RefreshStats;
         boardObject.SetActive(true);
+        RefreshStats();
+    }
+
+    private void RefreshStats()
+    {
+        m_pieces.text = "PIEZAS: " + m_board.RemainingPieces;
+        m_moves.text = "MOVIMIENTOS: " + m_board.MovesMade;
     }
 
     private static void AddPiece(LevelData data, string type, int x, int y)
@@ -152,9 +222,11 @@ public class TutorialScreen : MonoBehaviour
     private void UpdateProgress()
     {
         for (int i = 0; i < m_progress.Length; i++)
-            m_progress[i].color = i < m_lesson || (i == m_lesson && m_completed)
-                ? new Color(.4f, .9f, .7f)
-                : i == m_lesson ? new Color(1f, .82f, .28f) : new Color(.16f, .2f, .3f);
+        {
+            m_progress[i].sprite = i <= m_lesson ? activeStepSprite : inactiveStepSprite;
+            m_progress[i].GetComponentInChildren<Text>().color = i <= m_lesson
+                ? new Color(1f, .94f, .65f) : new Color(.5f, .5f, .5f);
+        }
     }
 
     private void PlayButtonSound()
@@ -168,30 +240,73 @@ public class TutorialScreen : MonoBehaviour
         m_safeRoot = new GameObject("Safe Area", typeof(RectTransform)).GetComponent<RectTransform>();
         m_safeRoot.SetParent(transform, false);
         m_safeRoot.offsetMin = m_safeRoot.offsetMax = Vector2.zero;
-        Text eyebrow = CreateText("Section", "APRENDE JUGANDO", new Vector2(.08f, .92f), new Vector2(.92f, .96f), 15);
+        CreateImage("Top Panel", topPanelSprite, new Vector2(.15f, .88f), new Vector2(.85f, .995f));
+        CreateImage("Title Frame", titlePanelSprite, new Vector2(.1f, .765f), new Vector2(.9f, .89f));
+        Text eyebrow = CreateText("Section", "— APRENDE JUGANDO —", new Vector2(.16f, .848f), new Vector2(.84f, .873f), 16);
         eyebrow.color = new Color(.45f, .72f, .85f);
-        m_title = CreateText("Lesson", "", new Vector2(.06f, .83f), new Vector2(.94f, .91f), 27);
+        m_title = CreateText("Lesson", "", new Vector2(.14f, .795f), new Vector2(.86f, .846f), 30);
         m_title.fontStyle = FontStyle.Bold;
-        m_description = CreateText("Instructions", "", new Vector2(.1f, .73f), new Vector2(.9f, .82f), 21);
-        m_description.color = new Color(.75f, .81f, .9f);
-        m_status = CreateText("Status", "", new Vector2(.08f, .21f), new Vector2(.92f, .28f), 18);
-        m_returnButton = CreateButton("Salir", .08f, .46f, out _);
-        m_retryButton = CreateButton("Reintentar", .54f, .92f, out _);
+        CreateImage("Instruction Frame", instructionPanelSprite, new Vector2(.075f, .615f), new Vector2(.925f, .715f));
+        m_description = CreateText("Instructions", "", new Vector2(.12f, .635f), new Vector2(.88f, .695f), 25);
+        m_boardFrame = CreateImage("Board Frame", boardFrameSprite, Vector2.zero, Vector2.one).rectTransform;
+        GameObject guide = new GameObject("Move Guide", typeof(RectTransform), typeof(TutorialMoveGuide));
+        m_guide = guide.GetComponent<TutorialMoveGuide>();
+        m_guide.rectTransform.SetParent(m_safeRoot, false);
+        m_guide.rectTransform.offsetMin = m_guide.rectTransform.offsetMax = Vector2.zero;
+        m_guide.raycastTarget = false;
+        m_hand = CreateImage("Drag Hand", handSprite, Vector2.zero, Vector2.zero).rectTransform;
+        m_hand.SetParent(m_guide.transform, false);
+        m_hand.pivot = new Vector2(.18f, .88f);
+        m_hand.GetComponent<Image>().preserveAspect = true;
+        CreateImage("Hint Frame", instructionPanelSprite, new Vector2(.1f, .205f), new Vector2(.9f, .29f));
+        m_status = CreateText("Status", "", new Vector2(.14f, .225f), new Vector2(.86f, .275f), 23);
+        CreateImage("Bottom Panel", bottomPanelSprite, new Vector2(.035f, .045f), new Vector2(.965f, .177f));
+        CreateImage("Girl", girlSprite, new Vector2(.22f, .075f), new Vector2(.37f, .165f)).preserveAspect = true;
+        CreateImage("Boy", boySprite, new Vector2(.63f, .075f), new Vector2(.78f, .165f)).preserveAspect = true;
+        m_step = CreateText("Step", "", new Vector2(.445f, .093f), new Vector2(.555f, .148f), 27);
+        m_step.fontStyle = FontStyle.Bold;
+        m_pieces = CreateText("Pieces", "", new Vector2(.15f, .055f), new Vector2(.405f, .076f), 17);
+        m_moves = CreateText("Moves", "", new Vector2(.595f, .055f), new Vector2(.85f, .076f), 17);
+        m_retryButton = CreateHitArea("Retry", new Vector2(.2f, .9f), new Vector2(.4f, .98f));
+        m_returnButton = CreateHitArea("Home", new Vector2(.6f, .9f), new Vector2(.8f, .98f));
+        m_skipButton = CreateText("Skip Tutorial", "Omitir tutorial", new Vector2(.25f, .007f), new Vector2(.75f, .04f), 17).rectTransform;
         m_nextButton = CreateButton("SIGUIENTE", .18f, .82f, out m_nextLabel);
-        m_nextButton.anchorMin = new Vector2(.18f, .12f);
-        m_nextButton.anchorMax = new Vector2(.82f, .19f);
-        m_nextButton.GetComponent<Image>().color = new Color(.12f, .48f, .48f);
+        m_nextButton.anchorMin = new Vector2(.3f, .175f);
+        m_nextButton.anchorMax = new Vector2(.7f, .21f);
         for (int i = 0; i < m_progress.Length; i++)
         {
             GameObject segment = new GameObject("Lesson Progress " + (i + 1), typeof(RectTransform), typeof(Image));
             RectTransform rect = segment.GetComponent<RectTransform>();
             rect.SetParent(m_safeRoot, false);
-            rect.anchorMin = new Vector2(.35f + i * .105f, .912f);
-            rect.anchorMax = new Vector2(.44f + i * .105f, .916f);
+            rect.anchorMin = new Vector2(.29f + i * .16f, .745f);
+            rect.anchorMax = new Vector2(.39f + i * .16f, .805f);
             rect.offsetMin = rect.offsetMax = Vector2.zero;
             m_progress[i] = segment.GetComponent<Image>();
             m_progress[i].raycastTarget = false;
+            m_progress[i].preserveAspect = true;
+            Text number = CreateText("Step " + (i + 1), (i + 1).ToString(), new Vector2(.2f, .15f), new Vector2(.8f, .85f), 28);
+            number.transform.SetParent(rect, false);
+            number.fontStyle = FontStyle.Bold;
         }
+    }
+
+    private RectTransform CreateHitArea(string name, Vector2 min, Vector2 max)
+    {
+        RectTransform rect = new GameObject(name, typeof(RectTransform)).GetComponent<RectTransform>();
+        rect.SetParent(m_safeRoot, false);
+        rect.anchorMin = min;
+        rect.anchorMax = max;
+        rect.offsetMin = rect.offsetMax = Vector2.zero;
+        return rect;
+    }
+
+    private Image CreateImage(string name, Sprite sprite, Vector2 min, Vector2 max)
+    {
+        RectTransform rect = CreateHitArea(name, min, max);
+        Image image = rect.gameObject.AddComponent<Image>();
+        image.sprite = sprite;
+        image.raycastTarget = false;
+        return image;
     }
 
     private Text CreateText(string name, string value, Vector2 min, Vector2 max, int size)
@@ -203,14 +318,17 @@ public class TutorialScreen : MonoBehaviour
         rect.anchorMax = max;
         rect.offsetMin = rect.offsetMax = Vector2.zero;
         Text text = go.GetComponent<Text>();
-        text.font = Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+        text.font = tutorialFont != null ? tutorialFont : Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
         text.text = value;
         text.fontSize = size;
         text.resizeTextForBestFit = true;
-        text.resizeTextMinSize = 12;
+        text.resizeTextMinSize = 6;
         text.resizeTextMaxSize = size;
         text.alignment = TextAnchor.MiddleCenter;
-        text.color = Color.white;
+        text.color = new Color(1f, .94f, .76f);
+        Outline outline = go.AddComponent<Outline>();
+        outline.effectColor = new Color(0, 0, 0, .85f);
+        outline.effectDistance = new Vector2(.5f, -.5f);
         text.raycastTarget = false;
         return text;
     }
@@ -223,7 +341,8 @@ public class TutorialScreen : MonoBehaviour
         rect.anchorMin = new Vector2(left, 0.025f);
         rect.anchorMax = new Vector2(right, 0.1f);
         rect.offsetMin = rect.offsetMax = Vector2.zero;
-        go.GetComponent<Image>().color = new Color(.09f, .12f, .2f);
+        go.GetComponent<Image>().sprite = instructionPanelSprite;
+        go.GetComponent<Image>().raycastTarget = false;
         text = CreateText(label + " Label", label, Vector2.zero, Vector2.one, 18);
         text.transform.SetParent(rect, false);
         return rect;
@@ -231,7 +350,8 @@ public class TutorialScreen : MonoBehaviour
 
     private bool HandleButton(Vector2 position)
     {
-        if (RectTransformUtility.RectangleContainsScreenPoint(m_returnButton, position))
+        if (RectTransformUtility.RectangleContainsScreenPoint(m_returnButton, position) ||
+            RectTransformUtility.RectangleContainsScreenPoint(m_skipButton, position))
         {
             ReturnToLevelSelect();
             return true;
@@ -259,7 +379,11 @@ public class TutorialScreen : MonoBehaviour
 
     private void OnDestroy()
     {
-        if (m_board != null) m_board.MoveResolved -= OnMoveResolved;
+        if (m_board != null)
+        {
+            m_board.MoveResolved -= OnMoveResolved;
+            m_board.StatsChanged -= RefreshStats;
+        }
         if (m_camera != null) Destroy(m_camera.gameObject);
         if (m_backgroundCamera != null) Destroy(m_backgroundCamera.gameObject);
     }

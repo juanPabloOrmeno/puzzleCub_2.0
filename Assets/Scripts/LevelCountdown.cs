@@ -9,6 +9,7 @@ public class LevelCountdown : MonoBehaviour
     [SerializeField] private Board board;
     [SerializeField] private GameManager gameManager;
     private Text m_label;
+    private RectTransform m_textRoot;
     private PuzzleTutorial m_tutorial;
     private bool m_ready;
     private bool m_applicationPaused;
@@ -27,6 +28,7 @@ public class LevelCountdown : MonoBehaviour
         if (level == null) yield break;
         m_tutorial = board.GetComponent<PuzzleTutorial>();
         RemainingSeconds = Mathf.Max(0, level.time);
+        m_textRoot = BottomPanelTextLayout.Create(transform, "Level Timer");
         m_label = CreateLabel("Countdown", new Vector2(.452f, .47f), new Vector2(.548f, .62f), 36);
         m_label.fontStyle = FontStyle.Bold;
         Text caption = CreateLabel("Timer Caption", new Vector2(.46f, .64f), new Vector2(.54f, .7f), 12);
@@ -41,7 +43,7 @@ public class LevelCountdown : MonoBehaviour
         GameObject go = new GameObject(name, typeof(RectTransform), typeof(Text), typeof(Outline));
         go.layer = gameObject.layer;
         RectTransform rect = go.GetComponent<RectTransform>();
-        rect.SetParent(transform, false);
+        rect.SetParent(m_textRoot, false);
         rect.anchorMin = min;
         rect.anchorMax = max;
         rect.offsetMin = rect.offsetMax = Vector2.zero;

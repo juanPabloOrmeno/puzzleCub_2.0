@@ -7,7 +7,8 @@ using UnityEngine.UI;
 [RequireComponent(typeof(RectTransform))]
 public class LevelSelectChestGrid : MonoBehaviour
 {
-    private const int LayoutVersion = 14;
+    private const int LayoutVersion = 15;
+    private const int IntroEntry = 0;
 
     [SerializeField] private Sprite chestSprite;
     [SerializeField] private Sprite currentLevelSprite;
@@ -106,6 +107,7 @@ public class LevelSelectChestGrid : MonoBehaviour
         {
             return;
         }
+        m_levels.Insert(0, IntroEntry);
 
         int highestCompletedLevel = LevelDatabase.HighestCompletedLevel;
         m_selectedIndex = m_levels.FindIndex(level => level > highestCompletedLevel);
@@ -144,6 +146,9 @@ public class LevelSelectChestGrid : MonoBehaviour
         m_instructionText.rectTransform.anchoredPosition = levelPanelPosition + new Vector2(0f, -levelPanelSize.y * 0.12f);
         m_instructionText.rectTransform.sizeDelta = new Vector2(levelPanelSize.x * 0.65f, levelPanelSize.y * 0.32f);
         m_instructionText.fontSize = Mathf.RoundToInt(chestSize * 0.2f);
+        m_instructionText.resizeTextForBestFit = true;
+        m_instructionText.resizeTextMinSize = 12;
+        m_instructionText.resizeTextMaxSize = m_instructionText.fontSize;
         m_instructionText.color = new Color(1f, 0.86f, 0.24f);
         m_instructionText.transform.SetAsLastSibling();
 
@@ -269,7 +274,12 @@ public class LevelSelectChestGrid : MonoBehaviour
     {
         int level = m_levels[m_selectedIndex];
         int highestCompletedLevel = LevelDatabase.HighestCompletedLevel;
-        if (level <= highestCompletedLevel && completedChestTexture != null)
+        bool isIntro = level == IntroEntry;
+        if (isIntro)
+        {
+            m_chestImage.texture = currentLevelChestTexture != null ? currentLevelChestTexture : chestTexture;
+        }
+        else if (level <= highestCompletedLevel && completedChestTexture != null)
         {
             m_chestImage.texture = completedChestTexture;
         }
@@ -281,9 +291,9 @@ public class LevelSelectChestGrid : MonoBehaviour
         {
             m_chestImage.texture = lockedChestTexture != null ? lockedChestTexture : chestTexture;
         }
-        bool isUnlocked = level <= highestCompletedLevel + 1;
+        bool isUnlocked = isIntro || level <= highestCompletedLevel + 1;
         m_chestImage.color = isUnlocked ? Color.white : new Color(0.55f, 0.55f, 0.68f, 0.85f);
-        m_instructionText.text = level.ToString("00");
+        m_instructionText.text = isIntro ? "INTRO" : level.ToString("00");
         m_previousArrowImage.color = m_selectedIndex > 0 ? arrowColor : disabledArrowColor;
         m_nextArrowImage.color = m_selectedIndex < m_levels.Count - 1 ? arrowColor : disabledArrowColor;
     }
@@ -365,6 +375,11 @@ public class LevelSelectChestGrid : MonoBehaviour
     private void PlaySelectedLevel()
     {
         int level = m_levels[m_selectedIndex];
+        if (level == IntroEntry)
+        {
+            SceneManager.LoadScene("Historia");
+            return;
+        }
         if (level > LevelDatabase.HighestCompletedLevel + 1)
         {
             return;

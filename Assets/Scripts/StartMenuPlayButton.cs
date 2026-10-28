@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(RectTransform))]
 public class StartMenuPlayButton : MonoBehaviour
@@ -14,12 +15,14 @@ public class StartMenuPlayButton : MonoBehaviour
     private RectTransform m_rectTransform;
     private RectTransform m_canvasRect;
     private Canvas m_canvas;
+    private Image m_image;
 
     private void Awake()
     {
         m_rectTransform = GetComponent<RectTransform>();
         m_canvas = GetComponentInParent<Canvas>();
         m_canvasRect = m_canvas != null ? m_canvas.transform as RectTransform : null;
+        m_image = GetComponent<Image>();
         FitToCanvas();
     }
 
@@ -61,17 +64,22 @@ public class StartMenuPlayButton : MonoBehaviour
         }
 
         Rect canvasRect = m_canvasRect.rect;
-        float width = canvasRect.width * widthRatio;
-        float height = width * 0.42f;
-        float maxHeight = canvasRect.height * maxHeightRatio;
+        if (Screen.width <= 0 || Screen.height <= 0) return;
+        Rect safe = Screen.safeArea;
+        float aspect = m_image != null && m_image.sprite != null
+            ? m_image.sprite.rect.height / m_image.sprite.rect.width : .42f;
+        float width = canvasRect.width * safe.width / Screen.width * widthRatio;
+        float height = width * aspect;
+        float maxHeight = canvasRect.height * safe.height / Screen.height * maxHeightRatio;
         if (height > maxHeight)
         {
             height = maxHeight;
-            width = height / 0.42f;
+            width = height / aspect;
         }
 
-        m_rectTransform.anchorMin = new Vector2(0.5f, bottomAnchorRatio);
-        m_rectTransform.anchorMax = new Vector2(0.5f, bottomAnchorRatio);
+        Vector2 anchor = new Vector2(safe.center.x / Screen.width,
+            (safe.y + safe.height * bottomAnchorRatio) / Screen.height);
+        m_rectTransform.anchorMin = m_rectTransform.anchorMax = anchor;
         m_rectTransform.pivot = new Vector2(0.5f, 0.5f);
         m_rectTransform.anchoredPosition = anchoredOffset;
         m_rectTransform.sizeDelta = new Vector2(width, height);

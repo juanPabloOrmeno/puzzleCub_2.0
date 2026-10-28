@@ -49,6 +49,9 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 2e177b8ad7b944019bde66a70231ad22, type: 3}
   - {fileID: 2800000, guid: 3e4946a5152341048ff38bab99172133, type: 3}
   gameplaySceneName: Level
+  introMusic: {fileID: 8300000, guid: ab471d012221ae84d84cab6439692aa2, type: 3}
+  musicVolume: 0.35
+  musicFadeInSeconds: 1.2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

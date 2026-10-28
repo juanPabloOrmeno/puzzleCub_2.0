@@ -8,6 +8,10 @@ public class StoryScreen : MonoBehaviour
 {
     [SerializeField] private Texture2D[] pages;
     [SerializeField] private string gameplaySceneName = "Level";
+    [SerializeField] private AudioClip introMusic;
+    [SerializeField, Range(0f, 1f)] private float musicVolume = .35f;
+    [SerializeField, Min(.01f)] private float musicFadeInSeconds = 1.2f;
+    private AudioSource m_music;
     private RawImage m_page;
     private RectTransform m_canvasRect;
     private int m_pageIndex;
@@ -25,6 +29,16 @@ public class StoryScreen : MonoBehaviour
         camera.cullingMask = 0;
         if (FindAnyObjectByType<AudioListener>() == null)
             cameraObject.AddComponent<AudioListener>();
+        if (introMusic != null)
+        {
+            m_music = gameObject.AddComponent<AudioSource>();
+            m_music.playOnAwake = false;
+            m_music.clip = introMusic;
+            m_music.loop = true;
+            m_music.spatialBlend = 0f;
+            m_music.volume = 0f;
+            m_music.Play();
+        }
 
         var canvasObject = new GameObject("Story Canvas", typeof(RectTransform), typeof(Canvas));
         canvasObject.transform.SetParent(transform, false);
@@ -45,6 +59,9 @@ public class StoryScreen : MonoBehaviour
 
     private void Update()
     {
+        if (m_music != null)
+            m_music.volume = Mathf.MoveTowards(m_music.volume, musicVolume,
+                Time.unscaledDeltaTime / Mathf.Max(.01f, musicFadeInSeconds) * musicVolume);
         // Ignore the click that opened this scene, and consume only one input source per frame.
         if (m_loading || Time.frameCount <= m_firstInputFrame) return;
         if (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
@@ -92,6 +109,7 @@ public class StoryScreen : MonoBehaviour
     {
         if (m_loading) return;
         m_loading = true;
+        if (m_music != null) m_music.Stop();
         LevelDatabase.SelectLevel(1);
         SceneManager.LoadScene(gameplaySceneName);
     }
